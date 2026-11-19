@@ -7,6 +7,11 @@ from tool_catalogue import ROOT, cli_options, read_yaml, records, write_file
 
 START = "<!-- oomp-tools:start -->"
 END = "<!-- oomp-tools:end -->"
+HOLDER_PROJECT = "https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5"
+
+
+def holder_readme(identifier):
+    return f"{HOLDER_PROJECT}/blob/main/parts/{identifier}/README.md#assembly"
 
 
 def update_page(path, lines):
@@ -96,10 +101,14 @@ def part_page(**kwargs):
     example = next((holder for holder in part["holders"] if "mixed_tools" not in holder["id"]), part["holders"][0])
     identifier = (guide or example)["id"]
     picture = f"../../source_file/tool_references/holders/{identifier}.jpg"
-    lines.extend(["", f"![Source holder CAD preview]({picture})", "",
-                  f'Holder preview from [OOBB part holder v5](../../HOLDERS.md#{identifier}).'])
+    preview = f"![Source holder CAD preview]({picture})"
+    destination = f"../../HOLDERS.md#{identifier}"
     if guide:
-        lines.extend(["", f"[Illustrated loading booklet (PDF)](../../source_file/tool_references/holders/{identifier}.pdf)"])
+        destination = holder_readme(identifier)
+        preview = f"[{preview}]({destination})"
+    lines.extend(["", preview, "", f'Holder preview from [OOBB part holder v5]({destination}).'])
+    if guide:
+        lines.extend(["", f"[Holder README and assembly instructions]({holder_readme(identifier)}) · [Print booklet (PDF)](../../source_file/tool_references/holders/{identifier}.pdf)"])
     update_page(folder / "README.md", lines)
 
 
@@ -151,9 +160,11 @@ def indexes(**kwargs):
         label = identifier.removeprefix("oobb_part_holder_tool_").replace("_", " ")
         links = [f'[{part["title"]}](parts/{part["oomp_id"]}/README.md) × {quantity}'
                  for part, quantity in holders[identifier]]
-        lines.append(f'| <a id="{identifier}"></a>[{label}](source_file/tool_references/holders/{identifier}.jpg) · [holder files](../oomlout_oobb_part_holder_tool_version_5/parts/{identifier}/README.md) | {"<br>".join(links)} |')
         if (root / "source_file/tool_references/holders" / (identifier + ".pdf")).is_file():
-            lines[-1] = lines[-1].replace(" · [holder files]", f" · [Loading booklet](source_file/tool_references/holders/{identifier}.pdf) · [holder files]")
+            entry = f'[{label}]({holder_readme(identifier)}) · [Print booklet (PDF)](source_file/tool_references/holders/{identifier}.pdf)'
+        else:
+            entry = f'[{label}](source_file/tool_references/holders/{identifier}.jpg) · [holder files](../oomlout_oobb_part_holder_tool_version_5/parts/{identifier}/README.md)'
+        lines.append(f'| <a id="{identifier}"></a>{entry} | {"<br>".join(links)} |')
     update_page(root / "HOLDERS.md", lines)
     lines = ["# OOMP tool catalogue", "",
              "Workshop tools and stationery used by OOBB part holder v5. Each part page includes a dimension drawing, editable OpenSCAD, exchange models and the layouts that use it.",
@@ -177,9 +188,9 @@ def indexes(**kwargs):
     guides = [(part, holder["id"]) for part in rendered_tools for holder in part["holders"]
               if holder["layout"] == "1_place" and (root / "source_file/tool_references/holders" / (holder["id"]+".pdf")).is_file()]
     if guides:
-        lines.extend(["", "## Tools in their holders", "", "The illustrated booklets show the photographed tools in their single-place OOBB holders.", ""])
+        lines.extend(["", "## Tools in their holders", "", "The illustrated booklets show how the two printed halves meet on the wall and how each tool drops into the top opening.", ""])
         for part, identifier in guides:
-            lines.append(f'- [{part["title"]} · loading booklet](source_file/tool_references/holders/{identifier}.pdf)')
+            lines.append(f'- [{part["title"]} holder README]({holder_readme(identifier)}) · [Print booklet (PDF)](source_file/tool_references/holders/{identifier}.pdf)')
     lines.extend(["", "## Catalogue", "",
              f"{published} tool records cover {len(holders)} holder layouts. Browse by [OOMP taxonomy](navigation_oomp/README.md) or [holder layout](HOLDERS.md).",
              "", "| Tool | Geometry |", "| --- | --- |"])

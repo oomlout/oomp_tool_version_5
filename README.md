@@ -19,12 +19,12 @@ Workshop tools and stationery used by OOBB part holder v5. Each part page includ
 
 ## Tools in their holders
 
-The illustrated booklets show the photographed tools in their single-place OOBB holders.
+The illustrated booklets show how the two printed halves meet on the wall and how each tool drops into the top opening.
 
-- [Black Exacto-style craft knife, 17 mm · loading booklet](source_file/tool_references/holders/oobb_part_holder_tool_knife_exacto_17mm_1_place_3x5x29d5.pdf)
-- [Blue needle-nose pliers, 130 mm · loading booklet](source_file/tool_references/holders/oobb_part_holder_tool_pliers_needle_nose_130mm_1_place_5x5x12.pdf)
-- [Red side cutters, 110 mm · loading booklet](source_file/tool_references/holders/oobb_part_holder_tool_side_cutters_generic_110mm_1_place_5x5x13.pdf)
-- [Red wire strippers, 120 mm · loading booklet](source_file/tool_references/holders/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13.pdf)
+- [Black Exacto-style craft knife, 17 mm holder README](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_knife_exacto_17mm_1_place_3x5x29d5/README.md#assembly) · [Print booklet (PDF)](source_file/tool_references/holders/oobb_part_holder_tool_knife_exacto_17mm_1_place_3x5x29d5.pdf)
+- [Blue needle-nose pliers, 130 mm holder README](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_pliers_needle_nose_130mm_1_place_5x5x12/README.md#assembly) · [Print booklet (PDF)](source_file/tool_references/holders/oobb_part_holder_tool_pliers_needle_nose_130mm_1_place_5x5x12.pdf)
+- [Red side cutters, 110 mm holder README](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_side_cutters_generic_110mm_1_place_5x5x13/README.md#assembly) · [Print booklet (PDF)](source_file/tool_references/holders/oobb_part_holder_tool_side_cutters_generic_110mm_1_place_5x5x13.pdf)
+- [Red wire strippers, 120 mm holder README](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13/README.md#assembly) · [Print booklet (PDF)](source_file/tool_references/holders/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13.pdf)
 
 ## Catalogue
 

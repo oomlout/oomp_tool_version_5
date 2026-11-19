@@ -34,9 +34,9 @@
 | [mixed tools basic stand bench 7x10x66](../../HOLDERS.md#oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66) | 1 |
 | [wire strippers generic 120mm 1 place 5x5x13](../../HOLDERS.md#oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13) | 1 |
 
-![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13.jpg)
+[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13/README.md#assembly)
 
-Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13).
+Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13/README.md#assembly).
 
-[Illustrated loading booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13.pdf)
+[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13.pdf)
 <!-- oomp-tools:end -->
