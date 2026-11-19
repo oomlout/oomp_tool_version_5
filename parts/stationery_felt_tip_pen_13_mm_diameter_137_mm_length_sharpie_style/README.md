@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Sharpie-style felt-tip pen, 13 × 137 mm
 
+[Tool catalogue](../../README.md) / [felt tip pen](../../navigation_oomp/stationery/felt_tip_pen/README.md)
+
 `stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style`
 
 **External tool reference.** Nominal capped body from the vertical holder's tool identity. The 14 mm pocket includes clearance. Cap and barrel split are illustrative.
 
-[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Sharpie-style felt-tip pen, 13 × 137 mm](working.svg)
 

@@ -42,10 +42,9 @@ holders:
   source_id: tool_wire_strippers_generic_120_red
 key: tool_wire_strippers_generic_120_red
 manufacturer: ''
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: photo_reference
+model_note: Open-pose photo trace scaled to the candidate Anvil AV-LDWS catalogue
+  length of 130 mm. The 120 mm OOMP label is retained. Thickness is estimated.
 name: tool_wire_strippers_120_mm_length_red
 name_proper: Red wire strippers, 120 mm
 name_space: tool wire strippers 120 mm length red
@@ -55,36 +54,325 @@ oobb_details:
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 11
+  - h: 3
+    holes:
+    - - - -1.7834
+        - 35.3362
+      - - 10.1612
+        - 55.5965
+      - - 12.1105
+        - 57.3176
+      - - 14.2257
+        - 56.9651
+      - - 15.387
+        - 55.4928
+      - - 15.0345
+        - 53.3776
+      - - 2.5714
+        - 33.0758
+      - - 0.5806
+        - 31.8731
+      - - -1.5346
+        - 32.2256
+      - - -2.2811
+        - 33.7311
+    - - - -17.357
+        - 14.7856
+      - - -16.9299
+        - 15.9676
+      - - -15.4077
+        - 16.5068
+      - - -14.2879
+        - 15.5529
+      - - -14.2672
+        - 13.9893
+      - - -15.6773
+        - 13.3548
+      - - -17.0149
+        - 13.7695
+    material: black oxide
+    name: Slotted arm with pierced jaw
     points:
-    - - -17
-      - 0
-    - - -17
-      - 35
-    - - -45
-      - 80
-    - - -55
-      - 120
-    - - 55
-      - 120
-    - - 45
-      - 80
-    - - 17
-      - 35
-    - - 17
-      - 0
+    - - -13.9313
+      - 0.6594
+    - - -17.9584
+      - 2.7373
+    - - -20.8409
+      - 6.159
+    - - -21.7326
+      - 10.7833
+    - - -21.2038
+      - 13.9561
+    - - -19.1612
+      - 17.7718
+    - - 9.8916
+      - 65.4881
+    - - 12.6704
+      - 69.8844
+    - - 28.8455
+      - 63.3522
+    - - 24.2003
+      - 56.1978
+    - - 11.7787
+      - 35.3777
+    - - -2.3226
+      - 15.9884
+    - - -7.8179
+      - 12.94
+    - - -10.9907
+      - 6.947
+    - - -13.8006
+      - 6.2004
+    - - -12.8571
+      - 4.1889
     pos:
     - 0
-    - 0.0
     - 0
+    - 3
     rot:
     - 0
     - 0
     - 0
     shape: polygon
+  - h: 2.7
+    material: black oxide
+    name: Straight arm and hooked jaw
+    points:
+    - - -40.5205
+      - 63.0204
+    - - -27.622
+      - 71.3567
+    - - -23.5367
+      - 65.9443
+    - - 5.1014
+      - 14.4953
+    - - 7.0299
+      - 9.9539
+    - - 7.3617
+      - 5.8064
+    - - 5.4954
+      - 3.0484
+    - - 0.5184
+      - 0.0415
+    - - -1.7627
+      - 2.4677
+    - - -1.8871
+      - 4.023
+    - - -0.4562
+      - 5.7027
+    - - -3.6497
+      - 6.4907
+    - - -6.3456
+      - 14.1013
+    - - -12.7741
+      - 16.1958
+    - - -15.0967
+      - 19.1404
+    pos:
+    - 0
+    - 0
+    - 5.7
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - facets: 64
+    h: 1
+    material: ground steel
+    name: Pivot rim
+    pos:
+    - -6.5695
+    - 22.1183
+    - 8.2
+    r: 5.1
+    r2: 5.1
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 1
+    material: black oxide
+    name: Pivot centre
+    pos:
+    - -6.5695
+    - 22.1183
+    - 9.0
+    r: 4.15
+    r2: 4.15
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 2.3
+    material: black oxide
+    name: Adjuster head
+    pos:
+    - 7.3078
+    - 44.3071
+    - 5.6
+    r: 4.0
+    r2: 4.0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - bottom_mm: 7.7
+    depth_mm: 0.3
+    material: dark inset
+    name: Adjuster screw slot
+    paths_mm:
+    - - - 4.4004
+        - 42.8223
+      - - 10.155
+        - 45.8914
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: stroke
+    width_mm: 0.7
+  - facets: 64
+    h: 1
+    material: bright steel
+    name: Straight arm screw
+    pos:
+    - -31.7694
+    - 57.9812
+    - 8.2
+    r: 2.85
+    r2: 2.85
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 1
+    material: bright steel
+    name: Slotted arm screw
+    pos:
+    - 18.8709
+    - 57.5976
+    - 5.8
+    r: 2.85
+    r2: 2.85
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - centre_z_mm: 5.5
+    facets: 24
+    material: red vinyl
+    name: Left red grip
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: sleeve
+    stations_mm:
+    - - -33.1899
+      - 65.9547
+      - 15.6026
+    - - -35.8754
+      - 70.1747
+      - 16.6428
+    - - -40.6864
+      - 78.1378
+      - 16.6428
+    - - -46.2647
+      - 89.17
+      - 16.1227
+    - - -50.7647
+      - 99.7667
+      - 15.6026
+    - - -53.0665
+      - 108.974
+      - 15.6026
+    - - -53.9375
+      - 113.3392
+      - 13.5222
+    - - -54.684
+      - 116.1491
+      - 9.3616
+    - - -55.0469
+      - 117.4244
+      - 2.0803
+    thickness_mm: 11
+  - centre_z_mm: 5.5
+    facets: 24
+    material: red vinyl
+    name: Right red grip
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: sleeve
+    stations_mm:
+    - - 20.3639
+      - 65.0215
+      - 16.1227
+    - - 23.9929
+      - 71.8337
+      - 16.6428
+    - - 29.0736
+      - 80.0664
+      - 16.6428
+    - - 34.5067
+      - 90.4142
+      - 16.1227
+    - - 38.3846
+      - 100.6377
+      - 16.1227
+    - - 40.7901
+      - 109.6998
+      - 15.6026
+    - - 41.5366
+      - 113.4118
+      - 13.0022
+    - - 41.6009
+      - 115.8691
+      - 8.3214
+    - - 41.5346
+      - 116.6986
+      - 1.5603
+    thickness_mm: 11
   units: mm
 oobb_type: tool_reference
 oomp_id: tool_wire_strippers_120_mm_length_red
+parameters:
+  axis_px:
+  - 0.08
+  - -1
+  photo: PXL_20261119_134708286.jpg
+  recipe: stripper
+  reference_length_mm: 130
+  scale_path_px:
+  - - 285
+    - 256
+  - - 275.8
+    - 212.6
+  - - 197.5
+    - 22.5
+  trace_divisor: 8
 part_number: ''
 size: 120_mm_length
 sources:

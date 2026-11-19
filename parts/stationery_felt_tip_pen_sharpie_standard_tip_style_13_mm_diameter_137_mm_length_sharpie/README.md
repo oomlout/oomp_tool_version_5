@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Sharpie standard-tip marker, 13 × 137 mm
 
+[Tool catalogue](../../README.md) / [felt tip pen](../../navigation_oomp/stationery/felt_tip_pen/README.md)
+
 `stationery_felt_tip_pen_sharpie_standard_tip_style_13_mm_diameter_137_mm_length_sharpie`
 
 **External tool reference.** The standard-tip OOMP record matches the branded v4 profile in diameter and length. Cap and barrel split are illustrative.
 
-[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Sharpie standard-tip marker, 13 × 137 mm](working.svg)
 

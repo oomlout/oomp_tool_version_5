@@ -54,6 +54,9 @@ def run(**kwargs):
         import working_svg
         working_svg.main(**kwargs_2)
 
+    if kwargs.get("render_blender", False):
+        import working_blender
+        working_blender.main(**kwargs_2)
 
     if kwargs.get("run_action", False):
         import working_action

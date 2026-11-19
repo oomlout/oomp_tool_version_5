@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Wera 2054 Micro hex screwdriver, 2.5 × 60 mm
 
+[Tool catalogue](../../README.md) / [screw driver precision](../../navigation_oomp/tool/screw_driver_precision/README.md)
+
 `tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001`
 
 **External tool reference.** Wera specifies the shaft diameter, shaft length and handle length. The archived OOMP record supplies the 18 mm handle envelope. Grip taper, cap and tip transition are illustrative.
 
-[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Wera 2054 Micro hex screwdriver, 2.5 × 60 mm](working.svg)
 

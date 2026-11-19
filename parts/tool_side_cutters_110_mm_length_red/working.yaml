@@ -42,10 +42,9 @@ holders:
   source_id: tool_side_cutters_generic_110_mm_red
 key: tool_side_cutters_generic_110_mm_red
 manufacturer: ''
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: photo_reference
+model_note: Open-pose photo trace with a provisional 110 mm closed-length reference
+  (Rapid SA-706 RED). Grip thickness is estimated.
 name: tool_side_cutters_110_mm_length_red
 name_proper: Red side cutters, 110 mm
 name_space: tool side cutters 110 mm length red
@@ -55,36 +54,356 @@ oobb_details:
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 11
+  - h: 2.7
+    material: ground steel
+    name: Left jaw and right tang
     points:
-    - - -11.5
-      - 0
-    - - -11.5
-      - 35
-    - - -33
-      - 60
-    - - -42
-      - 110
-    - - 42
-      - 110
-    - - 33
-      - 60
-    - - 11.5
-      - 35
-    - - 11.5
-      - 0
+    - - 0.0
+      - -0.0
+    - - -3.4038
+      - 10.3518
+    - - -2.7508
+      - 16.4444
+    - - -3.4649
+      - 23.9885
+    - - -0.435
+      - 30.9502
+    - - 11.2758
+      - 45.1741
+    - - 17.2698
+      - 41.2329
+    - - 13.2722
+      - 33.36
+    - - 9.7162
+      - 24.5335
+    - - 7.5272
+      - 14.2554
+    - - 2.7734
+      - 12.5173
+    - - 0.8098
+      - 9.7552
     pos:
     - 0
-    - 0.0
     - 0
+    - 3
     rot:
     - 0
     - 0
     - 0
     shape: polygon
+  - h: 2.6
+    material: bright steel
+    name: Right jaw and left tang
+    points:
+    - - 7.957
+      - 0.3725
+    - - 5.5637
+      - 11.4933
+    - - 3.7411
+      - 13.4286
+    - - -0.4867
+      - 13.5555
+    - - -2.3093
+      - 15.4908
+    - - -4.8177
+      - 25.9098
+    - - -8.3925
+      - 32.1293
+    - - -12.0659
+      - 35.0605
+    - - -8.0402
+      - 43.8729
+    - - -2.5301
+      - 39.4761
+    - - 2.4821
+      - 34.1539
+    - - 6.5126
+      - 27.4506
+    - - 8.6781
+      - 21.2734
+    - - 10.2752
+      - 11.8221
+    - - 9.6364
+      - 6.1992
+    pos:
+    - 0
+    - 0
+    - 5.4
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - facets: 64
+    h: 1
+    material: ground steel
+    name: Pivot
+    pos:
+    - 3.4545
+    - 19.5494
+    - 7.8
+    r: 3.5
+    r2: 3.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 0.9
+    material: ground steel
+    name: Wire guard plate
+    points:
+    - - -8.3784
+      - 32.599
+    - - -1.7033
+      - 35.6899
+    - - 2.313
+      - 28.5169
+    - - -4.8318
+      - 25.4401
+    pos:
+    - 0
+    - 0
+    - 7.8
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - bottom_mm: 5.2
+    depth_mm: 1
+    material: bright steel
+    name: Folded wire guard
+    paths_mm:
+    - - - -5.5881
+        - 31.575
+      - - 0.1804
+        - 20.1178
+      - - 5.5919
+        - 12.4328
+      - - 12.3421
+        - 2.3567
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: stroke
+    width_mm: 0.8
+  - bottom_mm: 5.5
+    depth_mm: 1
+    material: bright steel
+    name: Loop spring and legs
+    paths_mm:
+    - - - -5.9169
+        - 36.2865
+      - - 0.3016
+        - 47.6661
+      - - 0.3955
+        - 47.6633
+      - - 0.4426
+        - 48.0288
+      - - 0.5601
+        - 48.3781
+      - - 0.7435
+        - 48.6977
+      - - 0.9857
+        - 48.9754
+      - - 1.2775
+        - 49.2006
+      - - 1.6075
+        - 49.3645
+      - - 1.9632
+        - 49.4608
+      - - 2.3309
+        - 49.4859
+      - - 2.6964
+        - 49.4388
+      - - 3.0456
+        - 49.3213
+      - - 3.3653
+        - 49.1379
+      - - 3.643
+        - 48.8957
+      - - 3.8682
+        - 48.604
+      - - 4.032
+        - 48.2739
+      - - 4.1284
+        - 47.9182
+      - - 4.1535
+        - 47.5506
+      - - 4.1064
+        - 47.1851
+      - - 3.9889
+        - 46.8358
+      - - 3.8055
+        - 46.5162
+      - - 3.5633
+        - 46.2384
+      - - 3.2716
+        - 46.0133
+      - - 2.9415
+        - 45.8494
+      - - 2.5858
+        - 45.7531
+      - - 2.2181
+        - 45.728
+      - - 1.8527
+        - 45.7751
+      - - 1.5034
+        - 45.8926
+      - - 1.1837
+        - 46.0759
+      - - 0.906
+        - 46.3182
+      - - 0.6809
+        - 46.6099
+      - - 0.517
+        - 46.94
+      - - 0.4206
+        - 47.2957
+      - - 0.3955
+        - 47.6633
+      - - 2.4704
+        - 49.4347
+      - - 4.0821
+        - 48.305
+      - - 10.8295
+        - 38.135
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: stroke
+    width_mm: 0.75
+  - centre_z_mm: 5.0
+    facets: 24
+    material: red vinyl
+    name: Left red grip
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: sleeve
+    stations_mm:
+    - - -11.8945
+      - 32.9396
+      - 0.9399
+    - - -11.8451
+      - 34.5837
+      - 5.1695
+    - - -12.4229
+      - 38.8325
+      - 11.7489
+    - - -13.2074
+      - 44.0279
+      - 14.5687
+    - - -16.7963
+      - 49.7776
+      - 14.0987
+    - - -21.7239
+      - 57.9183
+      - 12.6889
+    - - -26.1254
+      - 67.9239
+      - 12.2189
+    - - -29.5593
+      - 78.8409
+      - 11.7489
+    - - -31.7906
+      - 90.662
+      - 11.279
+    - - -32.8099
+      - 95.8645
+      - 10.3391
+    - - -33.2092
+      - 98.2273
+      - 7.0494
+    - - -33.406
+      - 99.5027
+      - 1.4099
+    thickness_mm: 10
+  - centre_z_mm: 5.0
+    facets: 24
+    material: red vinyl
+    name: Right red grip
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: sleeve
+    stations_mm:
+    - - 18.9557
+      - 34.741
+      - 0.9399
+    - - 18.5381
+      - 36.4932
+      - 5.6395
+    - - 18.1811
+      - 40.2653
+      - 12.2189
+    - - 18.5991
+      - 46.3649
+      - 14.5687
+    - - 21.8921
+      - 54.259
+      - 14.0987
+    - - 25.4199
+      - 62.1461
+      - 13.6288
+    - - 29.004
+      - 71.9121
+      - 13.1588
+    - - 32.1466
+      - 82.6317
+      - 12.6889
+    - - 34.89
+      - 95.7142
+      - 12.2189
+    - - 35.5006
+      - 100.3975
+      - 10.3391
+    - - 36.0338
+      - 102.4973
+      - 6.1095
+    - - 36.5289
+      - 103.3288
+      - 1.4099
+    thickness_mm: 10
   units: mm
 oobb_type: tool_reference
 oomp_id: tool_side_cutters_110_mm_length_red
+parameters:
+  axis_px:
+  - -0.03
+  - -1
+  photo: PXL_20261119_134714181.jpg
+  recipe: cutters
+  reference_length_mm: 110
+  scale_path_px:
+  - - 280.9
+    - 256.8
+  - - 287
+    - 215
+  - - 352.2
+    - 34.6
+  trace_divisor: 8
 part_number: ''
 size: 110_mm_length
 sources:

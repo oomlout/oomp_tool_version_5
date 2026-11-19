@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # OLFA DC-3 blade disposal can
 
+[Tool catalogue](../../README.md) / [knife utility blade disposal can](../../navigation_oomp/tool/knife_utility_blade_disposal_can/README.md)
+
 `tool_knife_utility_blade_disposal_can_olfa_dc_3`
 
 **External tool reference.** Round body approximation using OLFA's overall length and thickness. The sliding door and rim details are omitted.
 
-[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of OLFA DC-3 blade disposal can](working.svg)
 

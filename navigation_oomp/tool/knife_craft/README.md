@@ -3,5 +3,5 @@
 
 | Tool | Geometry |
 | --- | --- |
-| [Black Exacto-style craft knife, 17 mm](../../../parts/tool_knife_craft_17_mm_black_exacto_style/README.md) | Holder clearance profile |
+| [Black Exacto-style craft knife, 17 mm](../../../parts/tool_knife_craft_17_mm_black_exacto_style/README.md) | Photo-based tool model |
 <!-- oomp-tools:end -->

@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Large German marker
 
+[Tool catalogue](../../README.md) / [felt tip pen](../../navigation_oomp/stationery/felt_tip_pen/README.md)
+
 `stationery_felt_tip_pen_large_german_style`
 
 **Holder clearance profile.** Geometry follows the holder clearance profile. Its dimensions describe the pocket used in the source design. Physical tool dimensions and fit have yet to be measured.
 
-[Dimension drawing](working.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg)
 
 ![Orthographic drawing of Large German marker](working.svg)
 

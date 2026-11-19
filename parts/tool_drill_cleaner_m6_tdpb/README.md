@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # TDPB M6 drill cleaner
 
+[Tool catalogue](../../README.md) / [drill cleaner](../../navigation_oomp/tool/drill_cleaner/README.md)
+
 `tool_drill_cleaner_m6_tdpb`
 
 **Holder clearance profile.** Geometry follows the holder clearance profile. Its dimensions describe the pocket used in the source design. Physical tool dimensions and fit have yet to be measured.
 
-[Dimension drawing](working.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg)
 
 ![Orthographic drawing of TDPB M6 drill cleaner](working.svg)
 

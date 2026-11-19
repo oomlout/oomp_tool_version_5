@@ -1,11 +1,25 @@
 <!-- oomp-tools:start -->
 # Blue needle-nose pliers, 130 mm
 
+[Tool catalogue](../../README.md) / [pliers needle nose](../../navigation_oomp/tool/pliers_needle_nose/README.md)
+
 `tool_pliers_needle_nose_130_mm_length_blue`
 
-**Holder clearance profile.** Geometry follows the holder clearance profile. Its dimensions describe the pocket used in the source design. Physical tool dimensions and fit have yet to be measured.
+**Photo-based tool model.** Open-pose photo trace with a provisional 130 mm closed-length reference (Rapid PC-022). Jaw and grip depths are estimated.
 
-[Dimension drawing](working.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+![Blender render of Blue needle-nose pliers, 130 mm](three_d_model/render.png)
+
+## Photograph and measurements
+
+[Workshop photograph](PXL_20261119_134632442.jpg) · [Measurements and assumptions](measurements.md) · [Photo with model outline](photo_overlay.svg) · [Identification research (2026-11-19)](research_2026-11-19.md)
+
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [Blender scene](three_d_model/working.blend) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Studio render](three_d_model/render.png) · [Top render](three_d_model/render_top.png) · [Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Blue needle-nose pliers, 130 mm](working.svg)
 
@@ -23,4 +37,6 @@
 ![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_pliers_needle_nose_130mm_1_place_5x5x12.jpg)
 
 Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_pliers_needle_nose_130mm_1_place_5x5x12).
+
+[Illustrated loading booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_pliers_needle_nose_130mm_1_place_5x5x12.pdf)
 <!-- oomp-tools:end -->

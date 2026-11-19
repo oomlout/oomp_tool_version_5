@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Round black timer, 80 × 30 mm
 
+[Tool catalogue](../../README.md) / [timer](../../navigation_oomp/tool/timer/README.md)
+
 `tool_timer_80_mm_diameter_30_mm_depth_black`
 
 **External tool reference.** External body envelope from the OOMP timer record. The holder has clearance around both faces and the rim.
 
-[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Round black timer, 80 × 30 mm](working.svg)
 

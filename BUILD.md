@@ -26,6 +26,8 @@ Each stage accepts the same `--filter` option. The global indexes include every 
 
 ## Editing a tool
 
+For the four tools traced from workshop photos, run `python working.py --filter tool_side_cutters_110 --render-blender` to rebuild a single model, or `python working_blender.py` to render the four existing GLBs. Blender 5.2 was used for the two PNG views and editable scene. Each photo model also has a measurement sheet and an outline registered to the original image. [Measurements, renders and photo capture notes](parts/PHOTO_MODELS.md)
+
 Edit the multiline dictionaries in [working_tool_declarations.py](working_tool_declarations.py). Each declaration names a source profile and either specifies the OOMP identity fields or selects a legacy identity. Add dimensions under `parameters`, explain what they describe under `model_note`, and list the documents that support them under `sources`. The shape builders and their defaults live in [working_tool_geometry.py](working_tool_geometry.py).
 
 [Populate](working_oomp_populate.py) assigns tool quantities per layout. The paired glue-stick holder takes one glue stick and one craft knife. The two layered bit holders each have 15 places. The mixed stand accepts two M10 wrenches and the first five sizes of the six-key metric set. Each of these shares a tool record with the single-tool layouts. The two 13 × 137 mm marker records retain the branded and generic identities used by their source projects.

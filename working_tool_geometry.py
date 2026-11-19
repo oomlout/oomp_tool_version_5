@@ -111,6 +111,9 @@ def model_segments(**kwargs):
     kind = kwargs.get("model_kind", "holder_envelope")
     parameters = kwargs.get("parameters", {})
     profile = kwargs.get("holder_profile", [])
+    if kind == "photo_reference":
+        from working_photo_tools import photo_segments
+        return photo_segments(**parameters)
     if kind == "holder_envelope":
         return deepcopy(profile)
     if kind == "disc":

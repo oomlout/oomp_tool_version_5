@@ -26,6 +26,8 @@ def update_page(path, lines):
 def model_label(part):
     if part["model_kind"] == "holder_envelope":
         return "Holder clearance profile"
+    if part["model_kind"] == "photo_reference":
+        return "Photo-based tool model"
     return "External tool reference"
 
 
@@ -33,19 +35,40 @@ def part_page(**kwargs):
     folder = kwargs["folder"]
     part = kwargs["part"]
     title = part["title"]
-    lines = [f"# {title}", "", f'`{part["oomp_id"]}`', "", f'**{model_label(part)}.** {part["model_note"]}']
+    family = part["type"]
+    family_path = f'../../navigation_oomp/{part["classification"]}/{family}/README.md'
+    lines = [f"# {title}", "", f'[Tool catalogue](../../README.md) / [{family.replace("_", " ")}]({family_path})',
+             "", f'`{part["oomp_id"]}`', "", f'**{model_label(part)}.** {part["model_note"]}']
     if part.get("note"):
         lines.extend(["", part["note"]])
-    files = (
-        ("Dimension drawing", "working.svg"),
-        ("Holder clearance drawing", "holder_profile.svg"),
-        ("OpenSCAD", "three_d_model/working.scad"),
-        ("STL · mm", "three_d_model/working.stl"),
-        ("glTF · metres", "three_d_model/working.glb"),
-        ("OOMP record", "working.yaml"),
-    )
-    links = [f"[{label}]({filename})" for label, filename in files if (folder / filename).is_file()]
-    lines.extend(["", " · ".join(links)])
+    if (folder / "three_d_model/render.png").is_file():
+        lines.extend(["", f"![Blender render of {title}](three_d_model/render.png)"])
+    files = {
+        "Photograph and measurements": [
+            ("Workshop photograph", part.get("parameters", {}).get("photo", "")),
+            ("Measurements and assumptions", "measurements.md"),
+            ("Photo with model outline", "photo_overlay.svg"),
+            *[(f"Identification research ({note.stem.removeprefix('research_')})", note.name)
+              for note in sorted(folder.glob("research_*.md"))],
+        ],
+        "Model files": [
+            ("OpenSCAD", "three_d_model/working.scad"),
+            ("STL · mm", "three_d_model/working.stl"),
+            ("glTF · metres", "three_d_model/working.glb"),
+            ("Blender scene", "three_d_model/working.blend"),
+            ("OOMP record", "working.yaml"),
+        ],
+        "Drawings and views": [
+            ("Studio render", "three_d_model/render.png"),
+            ("Top render", "three_d_model/render_top.png"),
+            ("Dimension drawing", "working.svg"),
+            ("Holder clearance drawing", "holder_profile.svg"),
+        ],
+    }
+    for heading, entries in files.items():
+        links = [f"[{label}]({filename})" for label, filename in entries if (folder / filename).is_file()]
+        if links:
+            lines.extend(["", f"## {heading}", "", " · ".join(links)])
     if (folder / "working.svg").exists():
         lines.extend(["", f"![Orthographic drawing of {title}](working.svg)"])
     if part["sources"] or part["distributors"]:
@@ -67,11 +90,16 @@ def part_page(**kwargs):
         identifier = holder["id"]
         name = identifier.removeprefix("oobb_part_holder_tool_").replace("_", " ")
         lines.append(f'| [{name}](../../HOLDERS.md#{identifier}) | {holder["quantity"]} |')
+    guide = next((holder for holder in part["holders"] if
+                  (folder.parents[1] / "source_file/tool_references/holders" / (holder["id"] + ".pdf")).is_file()
+                  and holder["layout"] == "1_place"), None)
     example = next((holder for holder in part["holders"] if "mixed_tools" not in holder["id"]), part["holders"][0])
-    identifier = example["id"]
+    identifier = (guide or example)["id"]
     picture = f"../../source_file/tool_references/holders/{identifier}.jpg"
     lines.extend(["", f"![Source holder CAD preview]({picture})", "",
                   f'Holder preview from [OOBB part holder v5](../../HOLDERS.md#{identifier}).'])
+    if guide:
+        lines.extend(["", f"[Illustrated loading booklet (PDF)](../../source_file/tool_references/holders/{identifier}.pdf)"])
     update_page(folder / "README.md", lines)
 
 
@@ -81,12 +109,15 @@ def indexes(**kwargs):
     families = defaultdict(list)
     holders = defaultdict(list)
     published = 0
+    rendered_tools = []
     for identifier in manifest:
         folder = root / "parts" / identifier
         if not (folder / "README.md").exists():
             continue
         part = read_yaml(folder / "working.yaml")
         published += 1
+        if (folder / "three_d_model/render.png").is_file():
+            rendered_tools.append(part)
         families[(part["classification"], part["type"])].append(part)
         for holder in part["holders"]:
             holders[holder["id"]].append((part, holder["quantity"]))
@@ -121,13 +152,37 @@ def indexes(**kwargs):
         links = [f'[{part["title"]}](parts/{part["oomp_id"]}/README.md) × {quantity}'
                  for part, quantity in holders[identifier]]
         lines.append(f'| <a id="{identifier}"></a>[{label}](source_file/tool_references/holders/{identifier}.jpg) · [holder files](../oomlout_oobb_part_holder_tool_version_5/parts/{identifier}/README.md) | {"<br>".join(links)} |')
+        if (root / "source_file/tool_references/holders" / (identifier + ".pdf")).is_file():
+            lines[-1] = lines[-1].replace(" · [holder files]", f" · [Loading booklet](source_file/tool_references/holders/{identifier}.pdf) · [holder files]")
     update_page(root / "HOLDERS.md", lines)
     lines = ["# OOMP tool catalogue", "",
              "Workshop tools and stationery used by OOBB part holder v5. Each part page includes a dimension drawing, editable OpenSCAD, exchange models and the layouts that use it.",
-             "", "[Build and edit the catalogue](BUILD.md) · [Source files](source_file/tool_references/)", "",
-             "## Catalogue", "",
+             "", "[Build and edit the catalogue](BUILD.md) · [Source files](source_file/tool_references/)"]
+    if rendered_tools:
+        lines.extend(["", "## Blender renders", ""])
+        # Two tools per row keeps each preview large enough to inspect on GitHub.
+        for start in range(0, len(rendered_tools), 2):
+            headings = []
+            previews = []
+            for part in rendered_tools[start:start + 2]:
+                directory = f'parts/{part["oomp_id"]}'
+                title = part["title"]
+                page = f"{directory}/README.md"
+                headings.append(f"[{title}]({page})")
+                previews.append(f"[![{title}]({directory}/three_d_model/render.png)]({page})")
+            lines.extend(["| " + " | ".join(headings) + " |", "| " + " | ".join("---" for _ in headings) + " |",
+                          "| " + " | ".join(previews) + " |", ""])
+        if (root / "parts/PHOTO_MODELS.md").is_file():
+            lines.append("[Photographs, dimensions and modelling notes](parts/PHOTO_MODELS.md)")
+    guides = [(part, holder["id"]) for part in rendered_tools for holder in part["holders"]
+              if holder["layout"] == "1_place" and (root / "source_file/tool_references/holders" / (holder["id"]+".pdf")).is_file()]
+    if guides:
+        lines.extend(["", "## Tools in their holders", "", "The illustrated booklets show the photographed tools in their single-place OOBB holders.", ""])
+        for part, identifier in guides:
+            lines.append(f'- [{part["title"]} · loading booklet](source_file/tool_references/holders/{identifier}.pdf)')
+    lines.extend(["", "## Catalogue", "",
              f"{published} tool records cover {len(holders)} holder layouts. Browse by [OOMP taxonomy](navigation_oomp/README.md) or [holder layout](HOLDERS.md).",
-             "", "| Tool | Geometry |", "| --- | --- |"]
+             "", "| Tool | Geometry |", "| --- | --- |"])
     for group in sorted(families):
         for part in families[group]:
             lines.append(f'| [{part["title"]}](parts/{part["oomp_id"]}/README.md) | {model_label(part)} |')

@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Utility knife, 17 mm blade
 
+[Tool catalogue](../../README.md) / [knife utility](../../navigation_oomp/tool/knife_utility/README.md)
+
 `tool_knife_utility_17_mm_blade`
 
 **Holder clearance profile.** Geometry follows the holder clearance profile. Its dimensions describe the pocket used in the source design. Physical tool dimensions and fit have yet to be measured.
 
-[Dimension drawing](working.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg)
 
 ![Orthographic drawing of Utility knife, 17 mm blade](working.svg)
 

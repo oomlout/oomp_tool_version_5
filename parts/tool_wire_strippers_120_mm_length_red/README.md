@@ -1,11 +1,25 @@
 <!-- oomp-tools:start -->
 # Red wire strippers, 120 mm
 
+[Tool catalogue](../../README.md) / [wire strippers](../../navigation_oomp/tool/wire_strippers/README.md)
+
 `tool_wire_strippers_120_mm_length_red`
 
-**Holder clearance profile.** Geometry follows the holder clearance profile. Its dimensions describe the pocket used in the source design. Physical tool dimensions and fit have yet to be measured.
+**Photo-based tool model.** Open-pose photo trace scaled to the candidate Anvil AV-LDWS catalogue length of 130 mm. The 120 mm OOMP label is retained. Thickness is estimated.
 
-[Dimension drawing](working.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+![Blender render of Red wire strippers, 120 mm](three_d_model/render.png)
+
+## Photograph and measurements
+
+[Workshop photograph](PXL_20261119_134708286.jpg) · [Measurements and assumptions](measurements.md) · [Photo with model outline](photo_overlay.svg) · [Identification research (2026-11-19)](research_2026-11-19.md)
+
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [Blender scene](three_d_model/working.blend) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Studio render](three_d_model/render.png) · [Top render](three_d_model/render_top.png) · [Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Red wire strippers, 120 mm](working.svg)
 
@@ -23,4 +37,6 @@
 ![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13.jpg)
 
 Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13).
+
+[Illustrated loading booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13.pdf)
 <!-- oomp-tools:end -->

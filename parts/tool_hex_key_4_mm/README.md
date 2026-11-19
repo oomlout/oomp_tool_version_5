@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # 4 mm metric hex key
 
+[Tool catalogue](../../README.md) / [hex key](../../navigation_oomp/tool/hex_key/README.md)
+
 `tool_hex_key_4_mm`
 
 **External tool reference.** The holder specifies the hex size. Arm lengths follow the Wiha 350 short series as a representative example. The holder source leaves the key manufacturer unspecified. The elbow is simplified.
 
-[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of 4 mm metric hex key](working.svg)
 

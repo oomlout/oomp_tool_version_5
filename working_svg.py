@@ -11,8 +11,8 @@ def project(pieces, **kwargs):
     rotation = kwargs.get("rotation", [0, 0, -90])
     contours = []
     for piece in pieces:
-        contours.extend(piece.rotate(rotation).project().to_polygons())
-    points = np.concatenate(contours)
+        contours.append(piece.rotate(rotation).project().to_polygons())
+    points = np.concatenate([ring for group in contours for ring in group])
     return contours, points.min(axis=0), points.max(axis=0)
 
 
@@ -29,10 +29,16 @@ def view_panel(view, **kwargs):
         f'<text x="{x+14}" y="{y+23}" class="label">{label}</text>',
         f'<rect x="{x}" y="{y}" width="{width}" height="{height}" rx="4" class="panel"/>',
     ]
-    for contour in contours:
-        display = (contour-centre) * [scale, -scale] + origin
-        coordinates = " ".join(f"{px:.3f},{py:.3f}" for px, py in display)
-        paths.append(f'<polygon points="{coordinates}" class="object"/>')
+    for rings in contours:
+        outlines = []
+        for contour in rings:
+            display = (contour-centre) * [scale, -scale] + origin
+            outlines.append(" ".join(f"{px:.3f},{py:.3f}" for px, py in display))
+        if len(outlines) == 1:
+            paths.append(f'<polygon points="{outlines[0]}" class="object"/>')
+        elif outlines:
+            path = " ".join(f"M {outline} Z" for outline in outlines)
+            paths.append(f'<path d="{path}" fill-rule="evenodd" class="object"/>')
     left = origin[0] - extent[0] * scale / 2
     right = origin[0] + extent[0] * scale / 2
     baseline = y + height - 16
@@ -92,6 +98,9 @@ def main(**kwargs):
             write_file(folder / "working.svg", drawing(part=part))
             pocket = drawing(part=part, segments=part["holder_profile"], label="Holder clearance profile")
             write_file(folder / "holder_profile.svg", pocket)
+            if part["model_kind"] == "photo_reference":
+                from working_photo_measurements import publish
+                publish(folder=folder, part=part)
 
 
 if __name__ == "__main__":

@@ -1,11 +1,25 @@
 <!-- oomp-tools:start -->
 # Red side cutters, 110 mm
 
+[Tool catalogue](../../README.md) / [side cutters](../../navigation_oomp/tool/side_cutters/README.md)
+
 `tool_side_cutters_110_mm_length_red`
 
-**Holder clearance profile.** Geometry follows the holder clearance profile. Its dimensions describe the pocket used in the source design. Physical tool dimensions and fit have yet to be measured.
+**Photo-based tool model.** Open-pose photo trace with a provisional 110 mm closed-length reference (Rapid SA-706 RED). Grip thickness is estimated.
 
-[Dimension drawing](working.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+![Blender render of Red side cutters, 110 mm](three_d_model/render.png)
+
+## Photograph and measurements
+
+[Workshop photograph](PXL_20261119_134714181.jpg) · [Measurements and assumptions](measurements.md) · [Photo with model outline](photo_overlay.svg) · [Identification research (2026-11-19)](research_2026-11-19.md)
+
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [Blender scene](three_d_model/working.blend) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Studio render](three_d_model/render.png) · [Top render](three_d_model/render_top.png) · [Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Red side cutters, 110 mm](working.svg)
 
@@ -23,4 +37,6 @@
 ![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_side_cutters_generic_110mm_1_place_5x5x13.jpg)
 
 Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_side_cutters_generic_110mm_1_place_5x5x13).
+
+[Illustrated loading booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_side_cutters_generic_110mm_1_place_5x5x13.pdf)
 <!-- oomp-tools:end -->

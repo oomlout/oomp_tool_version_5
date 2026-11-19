@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="494" viewBox="0 0 960 494" role="img">
+<title>Black Exacto-style craft knife, 17 mm — Holder clearance profile</title>
+<desc>Orthographic drawing in millimetres. Plan and side share a scale. The end view is enlarged independently.</desc>
+<style>
+text {font-family:Arial,sans-serif;fill:#173735}
+.title {font-size:25px;font-weight:600}
+.label {font-size:14px;font-weight:600}
+.detail {font-size:17px}
+.panel {stroke:#ccdad6;fill:none}
+.object {stroke:#164f50;stroke-width:1.35;fill:#a7d4c8;fill-opacity:.84;stroke-linejoin:round}
+.dim {fill:none;stroke:#587674;stroke-width:1}
+.measure {font-size:12px;text-anchor:middle;paint-order:stroke;stroke:white;stroke-width:4}
+</style>
+<rect width="960" height="494" fill="white"/>
+<text x="26" y="39" class="title">Black Exacto-style craft knife, 17 mm</text>
+<text x="27" y="69" class="detail">Holder clearance profile · millimetres</text>
+<text x="40" y="121" class="label">Plan  ·  Y × X</text>
+<rect x="26" y="98" width="610" height="190" rx="4" class="panel"/>
+<polygon points="592.818,165.182 69.182,165.182 69.182,220.818 592.818,220.818" class="object"/>
+<path d="M69.1818 268v8 m0 -4 H592.818 m0 -4 v8" class="dim"/>
+<text x="331" y="267" class="measure">160 mm</text>
+<text x="40" y="323" class="label">Side  ·  Y × Z</text>
+<rect x="26" y="300" width="610" height="170" rx="4" class="panel"/>
+<polygon points="592.818,340.000 69.182,340.000 69.182,430.000 592.818,430.000" class="object"/>
+<path d="M69.1818 450v8 m0 -4 H592.818 m0 -4 v8" class="dim"/>
+<text x="331" y="449" class="measure">160 mm</text>
+<text x="662" y="121" class="label">End  ·  X × Z</text>
+<rect x="648" y="98" width="286" height="190" rx="4" class="panel"/>
+<polygon points="823.145,141.000 758.855,141.000 758.855,245.000 823.145,245.000" class="object"/>
+<path d="M758.855 268v8 m0 -4 H823.145 m0 -4 v8" class="dim"/>
+<text x="791" y="267" class="measure">17 mm</text>
+<text x="664" y="337" class="label">Overall model dimensions</text>
+<text x="664" y="373" class="detail">X   17 mm</text>
+<text x="664" y="404" class="detail">Y   160 mm</text>
+<text x="664" y="435" class="detail">Z   27.5 mm</text>
+</svg>

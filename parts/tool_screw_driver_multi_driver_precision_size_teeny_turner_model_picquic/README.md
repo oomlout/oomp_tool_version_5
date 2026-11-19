@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Picquic Teeny Turner precision multi-driver
 
+[Tool catalogue](../../README.md) / [screw driver multi driver](../../navigation_oomp/tool/screw_driver_multi_driver/README.md)
+
 `tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic`
 
 **External tool reference.** Four coaxial sections follow the archived OOMP drawing, read at its document scale. The handle and exposed bit use simplified round sections.
 
-[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Picquic Teeny Turner precision multi-driver](working.svg)
 

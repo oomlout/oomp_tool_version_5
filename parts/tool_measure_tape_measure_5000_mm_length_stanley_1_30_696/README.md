@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Stanley 1-30-696 tape measure, 5 m
 
+[Tool catalogue](../../README.md) / [measure tape measure](../../navigation_oomp/tool/measure_tape_measure/README.md)
+
 `tool_measure_tape_measure_5000_mm_length_stanley_1_30_696`
 
 **Holder clearance profile.** Geometry follows the holder clearance profile. Its dimensions describe the pocket used in the source design. Physical tool dimensions and fit have yet to be measured.
 
-[Dimension drawing](working.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg)
 
 ![Orthographic drawing of Stanley 1-30-696 tape measure, 5 m](working.svg)
 

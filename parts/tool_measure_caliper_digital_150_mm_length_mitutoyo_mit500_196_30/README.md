@@ -1,11 +1,19 @@
 <!-- oomp-tools:start -->
 # Mitutoyo 500-196-30 digital caliper, 150 mm
 
+[Tool catalogue](../../README.md) / [measure caliper digital](../../navigation_oomp/tool/measure_caliper_digital/README.md)
+
 `tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30`
 
 **External tool reference.** Closed caliper. Overall length, beam width and outside jaw length follow the Mitutoyo dimensional drawing. Slider, jaws and display are simplified for identification.
 
-[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg) · [OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+## Model files
+
+[OpenSCAD](three_d_model/working.scad) · [STL · mm](three_d_model/working.stl) · [glTF · metres](three_d_model/working.glb) · [OOMP record](working.yaml)
+
+## Drawings and views
+
+[Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
 ![Orthographic drawing of Mitutoyo 500-196-30 digital caliper, 150 mm](working.svg)
 
