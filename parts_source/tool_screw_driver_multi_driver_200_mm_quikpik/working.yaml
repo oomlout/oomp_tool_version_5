@@ -1,0 +1,147 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: quikpik
+distributors: []
+holder_profile:
+- h: 57
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 3.85
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+- h: 30
+  pos:
+  - 0
+  - 57
+  - 0
+  r: 5.5
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+- h: 17
+  pos:
+  - 0
+  - 87
+  - 0
+  r: 6.5
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+- h: 100
+  pos:
+  - 0
+  - 104
+  - 0
+  r: 18
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66
+  layout: bench
+  quantity: 1
+  source_id: tool_holder_basic
+- id: oobb_part_holder_tool_screwdriver_quikpik_200mm_with_knife_5x5x38
+  layout: with_knife
+  quantity: 1
+  source_id: tool_screwdriver_multi_quikpik_200_mm_knife
+key: tool_screwdriver_multi_quikpik_200_mm_knife
+manufacturer: ''
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: tool_screw_driver_multi_driver_200_mm_quikpik
+name_proper: Quikpik multi-driver, 200 mm
+name_space: tool screw driver multi driver 200 mm quikpik
+name_upper: QUIKPIK MULTI-DRIVER, 200 MM
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 57
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 3.85
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 30
+    pos:
+    - 0
+    - 57
+    - 0
+    r: 5.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 17
+    pos:
+    - 0
+    - 87
+    - 0
+    r: 6.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 0
+    - 104
+    - 0
+    r: 18
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_screw_driver_multi_driver_200_mm_quikpik
+part_number: ''
+size: 200_mm
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: screw_driver_multi_driver
+taxonomy_3: 200_mm
+taxonomy_4: ''
+taxonomy_5: quikpik
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Quikpik multi-driver, 200 mm
+type: screw_driver_multi_driver

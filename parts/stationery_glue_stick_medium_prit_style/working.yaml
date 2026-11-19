@@ -1,0 +1,86 @@
+classification: stationery
+color: ''
+description_extra: ''
+description_main: prit_style
+distributors: []
+holder_profile:
+- h: 96
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 14
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_glue_stick_prit_medium_1_place_4x5x30
+  layout: 1_place
+  quantity: 1
+  source_id: tool_tdpb_glue_stick_prit_medium
+- id: oobb_part_holder_tool_glue_stick_prit_medium_with_knife_5x5x30
+  layout: with_knife
+  quantity: 1
+  source_id: tool_tdpb_glue_stick_prit_medium_knife
+key: tool_tdpb_glue_stick_prit_medium
+manufacturer: ''
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: stationery_glue_stick_medium_prit_style
+name_proper: Medium Prit glue stick
+name_space: stationery glue stick medium prit style
+name_upper: MEDIUM PRIT GLUE STICK
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 96
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 14
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: stationery_glue_stick_medium_prit_style
+part_number: ''
+size: medium
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: stationery
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: glue_stick
+taxonomy_3: medium
+taxonomy_4: ''
+taxonomy_5: prit_style
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Medium Prit glue stick
+type: glue_stick
+id: stationery_glue_stick_medium_prit_style
+directory: parts/stationery_glue_stick_medium_prit_style
+md5: 7e0a052138d2b49f4914f31e2dc5235f
+md5_6: 7e0a05
+md5_6_alpha: 4x1j9

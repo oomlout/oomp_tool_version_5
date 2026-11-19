@@ -1,0 +1,89 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: ''
+distributors: []
+holder_profile:
+- h: 60
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 4
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_driver_bit_driver_bit_60mm_1_place_3x3x10
+  layout: 1_place
+  quantity: 1
+  source_id: tool_screwdriver_driver_bit
+- id: oobb_part_holder_tool_driver_bit_driver_bit_60mm_4_place_5x3x10
+  layout: 4_place
+  quantity: 4
+  source_id: tool_screwdriver_driver_bit_x4
+- id: oobb_part_holder_tool_driver_bit_driver_bit_60mm_6_place_7x3x10
+  layout: 6_place
+  quantity: 6
+  source_id: tool_screwdriver_driver_bit_x6
+- id: oobb_part_holder_tool_driver_bit_driver_bit_60mm_8_place_9x3x10
+  layout: 8_place
+  quantity: 8
+  source_id: tool_screwdriver_driver_bit_x8
+key: tool_screwdriver_driver_bit
+manufacturer: ''
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: tool_screwdriver_bit_60_mm_profile
+name_proper: Driver bit, 60 mm profile
+name_space: tool screwdriver bit 60 mm profile
+name_upper: DRIVER BIT, 60 MM PROFILE
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 60
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 4
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_screwdriver_bit_60_mm_profile
+part_number: ''
+size: 60_mm_profile
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: screwdriver_bit
+taxonomy_3: 60_mm_profile
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Driver bit, 60 mm profile
+type: screwdriver_bit

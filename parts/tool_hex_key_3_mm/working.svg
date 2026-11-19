@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="494" viewBox="0 0 960 494" role="img">
+<title>3 mm metric hex key — External tool reference</title>
+<desc>Orthographic drawing in millimetres. Plan and side share a scale. The end view is enlarged independently.</desc>
+<style>
+text {font-family:Arial,sans-serif;fill:#173735}
+.title {font-size:25px;font-weight:600}
+.label {font-size:14px;font-weight:600}
+.detail {font-size:17px}
+.panel {stroke:#ccdad6;fill:none}
+.object {stroke:#164f50;stroke-width:1.35;fill:#a7d4c8;fill-opacity:.84;stroke-linejoin:round}
+.dim {fill:none;stroke:#587674;stroke-width:1}
+.measure {font-size:12px;text-anchor:middle;paint-order:stroke;stroke:white;stroke-width:4}
+</style>
+<rect width="960" height="494" fill="white"/>
+<text x="26" y="39" class="title">3 mm metric hex key</text>
+<text x="27" y="69" class="detail">External tool reference · millimetres</text>
+<text x="40" y="121" class="label">Plan  ·  Y × X</text>
+<rect x="26" y="98" width="610" height="190" rx="4" class="panel"/>
+<polygon points="479.522,137.000 175.174,137.000 175.174,153.869 479.522,153.869" class="object"/>
+<polygon points="486.826,145.434 472.217,145.434 472.217,249.000 486.826,249.000" class="object"/>
+<path d="M175.174 268v8 m0 -4 H486.826 m0 -4 v8" class="dim"/>
+<text x="331" y="267" class="measure">64 mm</text>
+<text x="40" y="323" class="label">Side  ·  Y × Z</text>
+<rect x="26" y="300" width="610" height="170" rx="4" class="panel"/>
+<polygon points="479.522,377.696 175.174,377.696 175.174,392.304 479.522,392.304" class="object"/>
+<polygon points="486.826,389.217 486.826,380.783 479.522,376.566 472.217,380.783 472.217,389.217 479.522,393.434" class="object"/>
+<path d="M175.174 450v8 m0 -4 H486.826 m0 -4 v8" class="dim"/>
+<text x="331" y="449" class="measure">64 mm</text>
+<text x="662" y="121" class="label">End  ·  X × Z</text>
+<rect x="648" y="98" width="286" height="190" rx="4" class="panel"/>
+<polygon points="717.629,193.000 709.722,179.304 693.907,179.304 686.000,193.000 693.907,206.696 709.722,206.696" class="object"/>
+<polygon points="896.000,177.186 701.814,177.186 701.814,208.814 896.000,208.814" class="object"/>
+<path d="M686 268v8 m0 -4 H896 m0 -4 v8" class="dim"/>
+<text x="791" y="267" class="measure">23 mm</text>
+<text x="664" y="337" class="label">Overall model dimensions</text>
+<text x="664" y="373" class="detail">X   23 mm</text>
+<text x="664" y="404" class="detail">Y   64 mm</text>
+<text x="664" y="435" class="detail">Z   3.4641 mm</text>
+</svg>

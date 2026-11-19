@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="494" viewBox="0 0 960 494" role="img">
+<title>Mitutoyo 500-196-30 digital caliper, 150 mm — External tool reference</title>
+<desc>Orthographic drawing in millimetres. Plan and side share a scale. The end view is enlarged independently.</desc>
+<style>
+text {font-family:Arial,sans-serif;fill:#173735}
+.title {font-size:25px;font-weight:600}
+.label {font-size:14px;font-weight:600}
+.detail {font-size:17px}
+.panel {stroke:#ccdad6;fill:none}
+.object {stroke:#164f50;stroke-width:1.35;fill:#a7d4c8;fill-opacity:.84;stroke-linejoin:round}
+.dim {fill:none;stroke:#587674;stroke-width:1}
+.measure {font-size:12px;text-anchor:middle;paint-order:stroke;stroke:white;stroke-width:4}
+</style>
+<rect width="960" height="494" fill="white"/>
+<text x="26" y="39" class="title">Mitutoyo 500-196-30 digital caliper, 150 mm</text>
+<text x="27" y="69" class="detail">External tool reference · millimetres</text>
+<text x="40" y="121" class="label">Plan  ·  Y × X</text>
+<rect x="26" y="98" width="610" height="190" rx="4" class="panel"/>
+<polygon points="510.972,198.793 151.028,198.793 151.028,223.510 510.972,223.510" class="object"/>
+<polygon points="163.386,223.510 163.386,198.793 155.662,137.000 151.028,137.000 151.028,223.510 171.110,249.000" class="object"/>
+<polygon points="175.745,223.510 175.745,198.793 163.386,146.269 155.662,137.000 160.297,198.793 160.297,223.510 171.110,249.000" class="object"/>
+<polygon points="251.441,186.434 169.566,186.434 169.566,235.869 251.441,235.869" class="object"/>
+<polygon points="232.903,195.703 180.379,195.703 180.379,226.600 232.903,226.600" class="object"/>
+<path d="M151.028 268v8 m0 -4 H510.972 m0 -4 v8" class="dim"/>
+<text x="331" y="267" class="measure">233 mm</text>
+<text x="40" y="323" class="label">Side  ·  Y × Z</text>
+<rect x="26" y="300" width="610" height="170" rx="4" class="panel"/>
+<polygon points="510.972,374.186 151.028,374.186 151.028,378.821 510.972,378.821" class="object"/>
+<polygon points="171.110,374.186 151.028,374.186 151.028,378.821 171.110,378.821" class="object"/>
+<polygon points="175.745,374.186 155.662,374.186 155.662,378.821 175.745,378.821" class="object"/>
+<polygon points="251.441,374.186 169.566,374.186 169.566,394.269 251.441,394.269" class="object"/>
+<polygon points="232.903,394.269 180.379,394.269 180.379,395.814 232.903,395.814" class="object"/>
+<path d="M151.028 450v8 m0 -4 H510.972 m0 -4 v8" class="dim"/>
+<text x="331" y="449" class="measure">233 mm</text>
+<text x="662" y="121" class="label">End  ·  X × Z</text>
+<rect x="648" y="98" width="286" height="190" rx="4" class="panel"/>
+<polygon points="848.207,172.724 801.862,172.724 801.862,181.414 848.207,181.414" class="object"/>
+<polygon points="896.000,172.724 686.000,172.724 686.000,181.414 896.000,181.414" class="object"/>
+<polygon points="896.000,172.724 686.000,172.724 686.000,181.414 896.000,181.414" class="object"/>
+<polygon points="871.379,172.724 778.690,172.724 778.690,210.379 871.379,210.379" class="object"/>
+<polygon points="854.000,210.379 796.069,210.379 796.069,213.276 854.000,213.276" class="object"/>
+<path d="M686 268v8 m0 -4 H896 m0 -4 v8" class="dim"/>
+<text x="791" y="267" class="measure">72.5 mm</text>
+<text x="664" y="337" class="label">Overall model dimensions</text>
+<text x="664" y="373" class="detail">X   72.5 mm</text>
+<text x="664" y="404" class="detail">Y   233 mm</text>
+<text x="664" y="435" class="detail">Z   14 mm</text>
+</svg>

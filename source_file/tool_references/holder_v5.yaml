@@ -1,0 +1,1537 @@
+repository: oomlout_oobb_part_holder_tool_version_5
+source_manifest: parts_source/catalogue.txt
+profiles:
+  tool_knife_utility_blade_disposal_can_olfa_dc_3:
+  - h: 27.5
+    pos:
+    - 0
+    - 27.5
+    - 0
+    r: 34.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30:
+  - h: 16
+    points:
+    - - -39
+      - 0
+    - - -39
+      - 78
+    - - 39
+      - 78
+    - - 39
+      - 0
+    pos:
+    - 0
+    - -32
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_tdpb_drill_cleaner_m3:
+  - h: 100
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 1.8
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_tdpb_drill_cleaner_m6:
+  - h: 100
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 3.3
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_screwdriver_driver_bit:
+  - h: 60
+    pos:
+    - 0
+    - -10
+    - 4
+    r: 4
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  quarter_inch:
+  - h: 100
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 4
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_tdpb_glue_stick_prit_medium:
+  - h: 96
+    pos:
+    - 0
+    - -25
+    - 14
+    r: 14
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_tdpb_glue_stick_prit_medium_knife:
+  - h: 27.5
+    points:
+    - - -23.5
+      - 0
+    - - -23.5
+      - 160
+    - - -6.5
+      - 160
+    - - -6.5
+      - 0
+    pos:
+    - 0
+    - -23.75
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 96
+    pos:
+    - 11
+    - -25
+    - 14
+    r: 14
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_screwdriver_hex_key_set_small:
+  - h: 100
+    pos:
+    - -22.5
+    - -1
+    - -1
+    r: 1.55
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -13.5
+    - -5
+    - -1
+    r: 1.8
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -4.5
+    - -7
+    - -1
+    r: 1.95
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 4.5
+    - -13
+    - -1
+    r: 2.25
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 13.5
+    - -19
+    - -1
+    r: 2.75
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 22.5
+    - -25
+    - -1
+    r: 3.25
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_screwdriver_hex_key_set_small_reverse:
+  - h: 100
+    pos:
+    - -22.5
+    - -25
+    - -1
+    r: 3.25
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -13.5
+    - -19
+    - -1
+    r: 2.75
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -4.5
+    - -13
+    - -1
+    r: 2.25
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 4.5
+    - -7
+    - -1
+    r: 1.95
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 13.5
+    - -5
+    - -1
+    r: 1.8
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 22.5
+    - -1
+    - -1
+    r: 1.55
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_knife_exacto_17mm_black:
+  - h: 27.5
+    points:
+    - - -8.5
+      - 0
+    - - -8.5
+      - 160
+    - - 8.5
+      - 160
+    - - 8.5
+      - 0
+    pos:
+    - 0
+    - -23.75
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_knife_utility_17_mm_blade:
+  - h: 27.5
+    points:
+    - - -8.5
+      - 0
+    - - -8.5
+      - 160
+    - - 8.5
+      - 160
+    - - 8.5
+      - 0
+    pos:
+    - 0
+    - -16.25
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_marker_bic_clear_lid:
+  - h: 112
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 35
+    pos:
+    - 0
+    - 87
+    - -1
+    r: 6
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_marker_german_big:
+  - h: 115
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 10
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_marker_ikea_mala:
+  - h: 136.5
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 7
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_marker_patterned_thicker:
+  - h: 140
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 6
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_marker_sharpie:
+  - h: 137
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 6.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  sharpie_style_13mm:
+  - h: 137
+    pos:
+    - 0
+    - -68.5
+    - 0
+    r: 7
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  basic_bench_stand:
+  - h: 11
+    points:
+    - - -11.5
+      - -30
+    - - -11.5
+      - 5
+    - - -33
+      - 30
+    - - -42
+      - 80
+    - - 42
+      - 80
+    - - 33
+      - 30
+    - - 11.5
+      - 5
+    - - 11.5
+      - -30
+    pos:
+    - 0
+    - -47
+    - 0
+    rot:
+    - 90
+    - 0
+    - 0
+    shape: polygon
+  - h: 10
+    points:
+    - - -17
+      - -30
+    - - -17
+      - 24
+    - - -46
+      - 63
+    - - -50
+      - 95
+    - - 50
+      - 95
+    - - 46
+      - 63
+    - - 17
+      - 24
+    - - 17
+      - -30
+    pos:
+    - 0
+    - -32.5
+    - 0
+    rot:
+    - 90
+    - 0
+    - 0
+    shape: polygon
+  - h: 11
+    points:
+    - - -17
+      - -30
+    - - -17
+      - 5
+    - - -45
+      - 50
+    - - -55
+      - 90
+    - - 55
+      - 90
+    - - 45
+      - 50
+    - - 17
+      - 5
+    - - 17
+      - -30
+    pos:
+    - 0
+    - -17
+    - 0
+    rot:
+    - 90
+    - 0
+    - 0
+    shape: polygon
+  - h: 60
+    pos:
+    - -37.5
+    - 0
+    - -30
+    r: 1.75
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 98
+    pos:
+    - -37.5
+    - 0
+    - 30
+    r: 9
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 60
+    pos:
+    - -15
+    - 0
+    - -30
+    r: 1.75
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 98
+    pos:
+    - -15
+    - 0
+    - 30
+    r: 9
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 60
+    pos:
+    - 7.5
+    - 0
+    - -30
+    r: 2.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 98
+    pos:
+    - 7.5
+    - 0
+    - 30
+    r: 9
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 57
+    pos:
+    - -30
+    - 37.5
+    - -30
+    r: 3.85
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 30
+    pos:
+    - -30
+    - 37.5
+    - 27
+    r: 5.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 17
+    pos:
+    - -30
+    - 37.5
+    - 57
+    r: 6.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -30
+    - 37.5
+    - 74
+    r: 18
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 4.5
+    points:
+    - - 22
+      - -30
+    - - 22
+      - 80
+    - - 38
+      - 80
+    - - 38
+      - -30
+    pos:
+    - 0
+    - 2.25
+    - 0
+    rot:
+    - 90
+    - 0
+    - 0
+    shape: polygon
+  - h: 5.5
+    points:
+    - - 21
+      - -30
+    - - 21
+      - 90
+    - - 39
+      - 90
+    - - 39
+      - -30
+    pos:
+    - 0
+    - 17.75
+    - 0
+    rot:
+    - 90
+    - 0
+    - 0
+    shape: polygon
+  - h: 7
+    points:
+    - - 18.5
+      - -30
+    - - 18.5
+      - 110
+    - - 41.5
+      - 110
+    - - 41.5
+      - -30
+    pos:
+    - 0
+    - 33.5
+    - 0
+    rot:
+    - 90
+    - 0
+    - 0
+    shape: polygon
+  - h: 7
+    points:
+    - - 18.5
+      - -30
+    - - 18.5
+      - 110
+    - - 41.5
+      - 110
+    - - 41.5
+      - -30
+    pos:
+    - 0
+    - 48.5
+    - 0
+    rot:
+    - 90
+    - 0
+    - 0
+    shape: polygon
+  - h: 27.5
+    points:
+    - - -8.5
+      - -30
+    - - -8.5
+      - 130
+    - - 8.5
+      - 130
+    - - 8.5
+      - -30
+    pos:
+    - 0
+    - 51.25
+    - 0
+    rot:
+    - 90
+    - 0
+    - 0
+    shape: polygon
+  - h: 100
+    pos:
+    - -32.5
+    - -67.5
+    - -7
+    r: 1.55
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -27.5
+    - -67.5
+    - -12
+    r: 1.8
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -22.5
+    - -67.5
+    - -17
+    r: 1.95
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -17.5
+    - -67.5
+    - -22
+    r: 2.25
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - -12.5
+    - -67.5
+    - -27
+    r: 2.75
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - h: 137
+    pos:
+    - 30
+    - 60
+    - -30
+    r: 6.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  tool_tdpb_nozzle_changer:
+  - h: 100
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 6
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_pliers_needlenose_generic_130_mm_blue:
+  - h: 10
+    points:
+    - - -17
+      - 0
+    - - -17
+      - 54
+    - - -46
+      - 93
+    - - -50
+      - 125
+    - - 50
+      - 125
+    - - 46
+      - 93
+    - - 17
+      - 54
+    - - 17
+      - 0
+    pos:
+    - 0
+    - -25
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  picquic_teeny_turner:
+  - h: 28
+    pos:
+    - 0
+    - -14
+    - 0
+    r: 4.75
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_screwdriver_multi_quikpik_200_mm_knife:
+  - h: 27.5
+    points:
+    - - -23.5
+      - 0
+    - - -23.5
+      - 160
+    - - -6.5
+      - 160
+    - - -6.5
+      - 0
+    pos:
+    - 0
+    - -23.75
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 57
+    pos:
+    - 15
+    - -25
+    - 18
+    r: 3.85
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 30
+    pos:
+    - 15
+    - 32
+    - 18
+    r: 5.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 17
+    pos:
+    - 15
+    - 62
+    - 18
+    r: 6.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 15
+    - 79
+    - 18
+    r: 18
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_screwdriver_hex_m1d5_wera_60_mm:
+  - h: 60
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 1.75
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 98
+    pos:
+    - 0
+    - 35
+    - -1
+    r: 9
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_screwdriver_hex_m2_wera_60_mm:
+  - h: 60
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 1.75
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 98
+    pos:
+    - 0
+    - 35
+    - -1
+    r: 9
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_screwdriver_hex_m2d5_wera_60_mm:
+  - h: 60
+    pos:
+    - 0
+    - -25
+    - -1
+    r: 2.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 98
+    pos:
+    - 0
+    - 35
+    - -1
+    r: 9
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  tool_side_cutters_generic_110_mm_red:
+  - h: 11
+    points:
+    - - -11.5
+      - 0
+    - - -11.5
+      - 35
+    - - -33
+      - 60
+    - - -42
+      - 110
+    - - 42
+      - 110
+    - - 33
+      - 60
+    - - 11.5
+      - 35
+    - - 11.5
+      - 0
+    pos:
+    - 0
+    - -24.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_measure_tape_measure_5000_mm_length_stanley_1_30_696:
+  - h: 42
+    points:
+    - - -39
+      - 0
+    - - -39
+      - 74
+    - - 39
+      - 74
+    - - 39
+      - 0
+    pos:
+    - 0
+    - -9
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_timer_80_mm_diameter_30_mm_depth_black:
+  - h: 32
+    pos:
+    - 0
+    - 33
+    - 0
+    r: 41
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  tool_wire_strippers_generic_120_red:
+  - h: 11
+    points:
+    - - -17
+      - 0
+    - - -17
+      - 35
+    - - -45
+      - 80
+    - - -55
+      - 120
+    - - 55
+      - 120
+    - - 45
+      - 80
+    - - 17
+      - 35
+    - - 17
+      - 0
+    pos:
+    - 0
+    - -24.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m10:
+  - h: 7
+    points:
+    - - -11.5
+      - 0
+    - - -11.5
+      - 140
+    - - 11.5
+      - 140
+    - - 11.5
+      - 0
+    pos:
+    - 0
+    - -26.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m13:
+  - h: 8
+    points:
+    - - -14
+      - 0
+    - - -14
+      - 160
+    - - 14
+      - 160
+    - - 14
+      - 0
+    pos:
+    - 0
+    - -26
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m21:
+  - h: 10
+    points:
+    - - -22
+      - 0
+    - - -22
+      - 140
+    - - 22
+      - 140
+    - - 22
+      - 0
+    pos:
+    - 0
+    - -25
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m7:
+  - h: 4.5
+    points:
+    - - -8
+      - 0
+    - - -8
+      - 110
+    - - 8
+      - 110
+    - - 8
+      - 0
+    pos:
+    - 0
+    - -27.75
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m8:
+  - h: 5.5
+    points:
+    - - -9
+      - 0
+    - - -9
+      - 120
+    - - 9
+      - 120
+    - - 9
+      - 0
+    pos:
+    - 0
+    - -27.25
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+layouts:
+  oobb_part_holder_tool_blade_disposal_olfa_dc3_1_place_5x3x29d5:
+    profile: tool_knife_utility_blade_disposal_can_olfa_dc_3
+    title: OLFA DC-3 blade disposal can
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_knife_utility_blade_disposal_can_olfa_dc_3
+  oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18:
+    profile: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+    title: Mitutoyo 500-196-30 digital caliper, 150 mm
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+  oobb_part_holder_tool_drill_cleaner_tdpb_m3_1_place_3x5x17:
+    profile: tool_tdpb_drill_cleaner_m3
+    title: TDPB M3 drill cleaner
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_tdpb_drill_cleaner_m3
+  oobb_part_holder_tool_drill_cleaner_tdpb_m6_1_place_3x5x17:
+    profile: tool_tdpb_drill_cleaner_m6
+    title: TDPB M6 drill cleaner
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_tdpb_drill_cleaner_m6
+  oobb_part_holder_tool_driver_bit_driver_bit_60mm_1_place_3x3x10:
+    profile: tool_screwdriver_driver_bit
+    title: Driver bit, 60 mm profile
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_screwdriver_driver_bit
+  oobb_part_holder_tool_driver_bit_driver_bit_60mm_4_place_5x3x10:
+    profile: tool_screwdriver_driver_bit
+    title: Driver bit, 60 mm profile
+    layout: 4_place
+    count: 4
+    layered: false
+    source_id: tool_screwdriver_driver_bit_x4
+  oobb_part_holder_tool_driver_bit_driver_bit_60mm_6_place_7x3x10:
+    profile: tool_screwdriver_driver_bit
+    title: Driver bit, 60 mm profile
+    layout: 6_place
+    count: 6
+    layered: false
+    source_id: tool_screwdriver_driver_bit_x6
+  oobb_part_holder_tool_driver_bit_driver_bit_60mm_8_place_9x3x10:
+    profile: tool_screwdriver_driver_bit
+    title: Driver bit, 60 mm profile
+    layout: 8_place
+    count: 8
+    layered: false
+    source_id: tool_screwdriver_driver_bit_x8
+  oobb_part_holder_tool_driver_bit_quarter_inch_7_place_9x3x12:
+    profile: quarter_inch
+    title: Quarter-inch drive bit
+    layout: 7_place
+    count: 7
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_9_width_3_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_7_multiple_extra
+  oobb_part_holder_tool_driver_bit_quarter_inch_7_place_9x4x12:
+    profile: quarter_inch
+    title: Quarter-inch drive bit
+    layout: 7_place
+    count: 7
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_9_width_4_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_7_multiple_extra
+  oobb_part_holder_tool_driver_bit_quarter_inch_8_place_9x3x12:
+    profile: quarter_inch
+    title: Quarter-inch drive bit
+    layout: 8_place
+    count: 8
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_9_width_3_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_extra
+  oobb_part_holder_tool_driver_bit_quarter_inch_8_place_9x4x12:
+    profile: quarter_inch
+    title: Quarter-inch drive bit
+    layout: 8_place
+    count: 8
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_9_width_4_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_extra
+  oobb_part_holder_tool_driver_bit_quarter_inch_8_plus_7_layered_9x3x12:
+    profile: quarter_inch
+    title: Quarter-inch drive bit
+    layout: 8_plus_7_layered
+    count: 8
+    layered: true
+    source_id: oobb_part_tool_holder_vertical_9_width_3_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_layered_extra
+  oobb_part_holder_tool_driver_bit_quarter_inch_8_plus_7_layered_9x4x12:
+    profile: quarter_inch
+    title: Quarter-inch drive bit
+    layout: 8_plus_7_layered
+    count: 8
+    layered: true
+    source_id: oobb_part_tool_holder_vertical_9_width_4_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_layered_extra
+  oobb_part_holder_tool_glue_stick_prit_medium_1_place_4x5x30:
+    profile: tool_tdpb_glue_stick_prit_medium
+    title: Medium Prit glue stick
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_tdpb_glue_stick_prit_medium
+  oobb_part_holder_tool_glue_stick_prit_medium_with_knife_5x5x30:
+    profile: tool_tdpb_glue_stick_prit_medium_knife
+    title: Medium Prit glue stick and craft knife
+    layout: with_knife
+    count: 1
+    layered: false
+    source_id: tool_tdpb_glue_stick_prit_medium_knife
+  oobb_part_holder_tool_hex_key_small_metric_set_6_forward_5x5x8:
+    profile: tool_screwdriver_hex_key_set_small
+    title: Small metric hex keys, 1.5–5 mm
+    layout: 6_forward
+    count: 1
+    layered: false
+    source_id: tool_screwdriver_hex_key_set_small
+  oobb_part_holder_tool_hex_key_small_metric_set_6_reverse_5x5x8:
+    profile: tool_screwdriver_hex_key_set_small_reverse
+    title: Small metric hex keys, 1.5–5 mm
+    layout: 6_reverse
+    count: 1
+    layered: false
+    source_id: tool_screwdriver_hex_key_set_small_reverse
+  oobb_part_holder_tool_knife_exacto_17mm_1_place_3x5x29d5:
+    profile: tool_knife_exacto_17mm_black
+    title: Black Exacto craft knife, 17 mm
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_knife_exacto_17mm_black
+  oobb_part_holder_tool_knife_utility_17mm_1_place_3x5x29d5:
+    profile: tool_knife_utility_17_mm_blade
+    title: Utility knife, 17 mm blade
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_knife_utility_17_mm_blade
+  oobb_part_holder_tool_marker_bic_clear_lid_1_place_3x5x11:
+    profile: tool_marker_bic_clear_lid
+    title: BIC clear-lid marker
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_marker_bic_clear_lid
+  oobb_part_holder_tool_marker_bic_clear_lid_6_place_8x5x11:
+    profile: tool_marker_bic_clear_lid
+    title: BIC clear-lid marker
+    layout: 6_place
+    count: 6
+    layered: false
+    source_id: tool_marker_bic_clear_lid_x6
+  oobb_part_holder_tool_marker_german_big_1_place_3x5x22:
+    profile: tool_marker_german_big
+    title: Large German marker
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_marker_german_big
+  oobb_part_holder_tool_marker_german_big_4_place_8x5x22:
+    profile: tool_marker_german_big
+    title: Large German marker
+    layout: 4_place
+    count: 4
+    layered: false
+    source_id: tool_marker_german_big_x4
+  oobb_part_holder_tool_marker_ikea_mala_1_place_3x5x16:
+    profile: tool_marker_ikea_mala
+    title: IKEA MÅLA marker
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_marker_ikea_mala
+  oobb_part_holder_tool_marker_ikea_mala_5_place_8x5x16:
+    profile: tool_marker_ikea_mala
+    title: IKEA MÅLA marker
+    layout: 5_place
+    count: 5
+    layered: false
+    source_id: tool_marker_ikea_mala_x5
+  oobb_part_holder_tool_marker_patterned_thick_1_place_3x5x14:
+    profile: tool_marker_patterned_thicker
+    title: Thick patterned marker
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_marker_patterned_thicker
+  oobb_part_holder_tool_marker_patterned_thick_6_place_8x5x14:
+    profile: tool_marker_patterned_thicker
+    title: Thick patterned marker
+    layout: 6_place
+    count: 6
+    layered: false
+    source_id: tool_marker_patterned_thicker_x6
+  oobb_part_holder_tool_marker_sharpie_1_place_3x5x15:
+    profile: tool_marker_sharpie
+    title: Sharpie marker, 13 mm v4 profile
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_marker_sharpie
+  oobb_part_holder_tool_marker_sharpie_2_place_5x5x15:
+    profile: tool_marker_sharpie
+    title: Sharpie marker, 13 mm v4 profile
+    layout: 2_place
+    count: 2
+    layered: false
+    source_id: tool_marker_sharpie_x2
+  oobb_part_holder_tool_marker_sharpie_5_place_8x5x15:
+    profile: tool_marker_sharpie
+    title: Sharpie marker, 13 mm v4 profile
+    layout: 5_place
+    count: 5
+    layered: false
+    source_id: tool_marker_sharpie_x5
+  oobb_part_holder_tool_marker_sharpie_6_place_9x5x15:
+    profile: tool_marker_sharpie
+    title: Sharpie marker, 13 mm v4 profile
+    layout: 6_place
+    count: 6
+    layered: false
+    source_id: tool_marker_sharpie_x6
+  oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17:
+    profile: sharpie_style_13mm
+    title: Sharpie-style felt-tip pen, 13 × 137 mm
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_3_width_1_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_extra
+  oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x5x17:
+    profile: sharpie_style_13mm
+    title: Sharpie-style felt-tip pen, 13 × 137 mm
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_3_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_extra
+  oobb_part_holder_tool_marker_sharpie_style_13mm_2_place_4x5x17:
+    profile: sharpie_style_13mm
+    title: Sharpie-style felt-tip pen, 13 × 137 mm
+    layout: 2_place
+    count: 2
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_4_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_2_multiple_extra
+  oobb_part_holder_tool_marker_sharpie_style_13mm_3_place_5x5x17:
+    profile: sharpie_style_13mm
+    title: Sharpie-style felt-tip pen, 13 × 137 mm
+    layout: 3_place
+    count: 3
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_5_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_3_multiple_extra
+  oobb_part_holder_tool_marker_sharpie_style_13mm_4_place_7x5x17:
+    profile: sharpie_style_13mm
+    title: Sharpie-style felt-tip pen, 13 × 137 mm
+    layout: 4_place
+    count: 4
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_7_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_4_multiple_extra
+  oobb_part_holder_tool_marker_sharpie_style_13mm_5_place_8x5x17:
+    profile: sharpie_style_13mm
+    title: Sharpie-style felt-tip pen, 13 × 137 mm
+    layout: 5_place
+    count: 5
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_8_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_5_multiple_extra
+  oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66:
+    profile: basic_bench_stand
+    title: Basic mixed-tool bench stand
+    layout: bench
+    count: 1
+    layered: false
+    source_id: tool_holder_basic
+  oobb_part_holder_tool_nozzle_changer_tdpb_1_place_3x5x14:
+    profile: tool_tdpb_nozzle_changer
+    title: TDPB nozzle changer
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_tdpb_nozzle_changer
+  oobb_part_holder_tool_pliers_needle_nose_130mm_1_place_5x5x12:
+    profile: tool_pliers_needlenose_generic_130_mm_blue
+    title: Blue needle-nose pliers, 130 mm
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_pliers_needlenose_generic_130_mm_blue
+  oobb_part_holder_tool_screwdriver_picquic_teeny_turner_1_place_3x3x31:
+    profile: picquic_teeny_turner
+    title: Picquic Teeny Turner precision multi-driver
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_tool_holder_vertical_3_width_3_height_31_mm_depth_tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic_tool_extra
+  oobb_part_holder_tool_screwdriver_quikpik_200mm_with_knife_5x5x38:
+    profile: tool_screwdriver_multi_quikpik_200_mm_knife
+    title: Quikpik 200 mm multi-driver and craft knife
+    layout: with_knife
+    count: 1
+    layered: false
+    source_id: tool_screwdriver_multi_quikpik_200_mm_knife
+  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m1d5_1_place_3x5x20:
+    profile: tool_screwdriver_hex_m1d5_wera_60_mm
+    title: Wera 1.5 mm hex screwdriver, 60 mm
+    layout: m1d5_1_place
+    count: 1
+    layered: false
+    source_id: tool_screwdriver_hex_m1d5_wera_60_mm
+  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2_1_place_3x5x20:
+    profile: tool_screwdriver_hex_m2_wera_60_mm
+    title: Wera 2 mm hex screwdriver, 60 mm
+    layout: m2_1_place
+    count: 1
+    layered: false
+    source_id: tool_screwdriver_hex_m2_wera_60_mm
+  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_1_place_3x5x20:
+    profile: tool_screwdriver_hex_m2d5_wera_60_mm
+    title: Wera 2.5 mm hex screwdriver, 60 mm
+    layout: m2d5_1_place
+    count: 1
+    layered: false
+    source_id: tool_screwdriver_hex_m2d5_wera_60_mm
+  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_2_place_5x5x20:
+    profile: tool_screwdriver_hex_m2d5_wera_60_mm
+    title: Wera 2.5 mm hex screwdriver, 60 mm
+    layout: m2d5_2_place
+    count: 2
+    layered: false
+    source_id: tool_screwdriver_hex_wera_60_mm_x2
+  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_4_place_7x5x20:
+    profile: tool_screwdriver_hex_m2d5_wera_60_mm
+    title: Wera 2.5 mm hex screwdriver, 60 mm
+    layout: m2d5_4_place
+    count: 4
+    layered: false
+    source_id: tool_screwdriver_hex_wera_60_mm_x4
+  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_5_place_9x5x20:
+    profile: tool_screwdriver_hex_m2d5_wera_60_mm
+    title: Wera 2.5 mm hex screwdriver, 60 mm
+    layout: m2d5_5_place
+    count: 5
+    layered: false
+    source_id: tool_screwdriver_hex_wera_60_mm_x5
+  oobb_part_holder_tool_side_cutters_generic_110mm_1_place_5x5x13:
+    profile: tool_side_cutters_generic_110_mm_red
+    title: Red side cutters, 110 mm
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_side_cutters_generic_110_mm_red
+  oobb_part_holder_tool_tape_measure_stanley_1_30_696_1_place_7x3x44:
+    profile: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+    title: Stanley 1-30-696 tape measure, 5 m
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+  oobb_part_holder_tool_timer_round_80mm_1_place_7x3x34:
+    profile: tool_timer_80_mm_diameter_30_mm_depth_black
+    title: Black round timer, 80 mm
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_timer_80_mm_diameter_30_mm_depth_black
+  oobb_part_holder_tool_wire_strippers_generic_120mm_1_place_5x5x13:
+    profile: tool_wire_strippers_generic_120_red
+    title: Red wire strippers, 120 mm
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_wire_strippers_generic_120_red
+  oobb_part_holder_tool_wrench_m10_1_place_3x5x9:
+    profile: tool_wrench_m10
+    title: M10 wrench
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_wrench_m10
+  oobb_part_holder_tool_wrench_m10_2_place_5x5x9:
+    profile: tool_wrench_m10
+    title: M10 wrench
+    layout: 2_place
+    count: 2
+    layered: false
+    source_id: tool_wrench_m10_x2
+  oobb_part_holder_tool_wrench_m10_3_place_7x5x9:
+    profile: tool_wrench_m10
+    title: M10 wrench
+    layout: 3_place
+    count: 3
+    layered: false
+    source_id: tool_wrench_m10_x3
+  oobb_part_holder_tool_wrench_m10_4_place_9x5x9:
+    profile: tool_wrench_m10
+    title: M10 wrench
+    layout: 4_place
+    count: 4
+    layered: false
+    source_id: tool_wrench_m10_x4
+  oobb_part_holder_tool_wrench_m13_1_place_3x5x10:
+    profile: tool_wrench_m13
+    title: M13 wrench
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_wrench_m13
+  oobb_part_holder_tool_wrench_m21_1_place_5x5x12:
+    profile: tool_wrench_m21
+    title: M21 wrench
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_wrench_m21
+  oobb_part_holder_tool_wrench_m7_1_place_3x5x6d5:
+    profile: tool_wrench_m7
+    title: M7 wrench
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_wrench_m7
+  oobb_part_holder_tool_wrench_m8_1_place_3x5x7d5:
+    profile: tool_wrench_m8
+    title: M8 wrench
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: tool_wrench_m8

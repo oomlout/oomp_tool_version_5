@@ -1,0 +1,145 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: teeny_turner_model
+distributors: []
+holder_profile:
+- h: 28
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 4.75
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_screwdriver_picquic_teeny_turner_1_place_3x3x31
+  layout: 1_place
+  quantity: 1
+  source_id: oobb_part_tool_holder_vertical_3_width_3_height_31_mm_depth_tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic_tool_extra
+key: picquic_teeny_turner
+legacy_id: tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic
+manufacturer: picquic
+model_kind: stepped_body
+model_note: Four coaxial sections follow the archived OOMP drawing, read at its document
+  scale. The handle and exposed bit use simplified round sections.
+name: tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic
+name_proper: Picquic Teeny Turner precision multi-driver
+name_space: tool screw driver multi driver precision size teeny turner model picquic
+name_upper: PICQUIC TEENY TURNER PRECISION MULTI-DRIVER
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - facets: 64
+    h: 17
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 2.7
+    r2: 2.7
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 4
+    pos:
+    - 0
+    - 17
+    - 0
+    r: 3.75
+    r2: 3.75
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 7
+    pos:
+    - 0
+    - 21
+    - 0
+    r: 4.5
+    r2: 4.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 41.5
+    pos:
+    - 0
+    - 28
+    - 0
+    r: 14.0
+    r2: 14.0
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic
+parameters:
+  diameters_mm:
+  - 5.4
+  - 7.5
+  - 9
+  - 28
+  lengths_mm:
+  - 17
+  - 4
+  - 7
+  - 41.5
+part_number: ''
+size: precision_size
+sources:
+- supports: Product identification and supplied bits.
+  title: Picquic Teeny Turner
+  url: https://picquic.ca/teeny-turner/
+- supports: Original vertical holder tool selection and pocket dimensions.
+  title: OOBB vertical holder recipe
+  url: https://github.com/oomlout/oomlout_oobb_part_tool_holder_vertical/blob/93a962a09e0c275c3cfa62187182ac3203bde1b2/scad.py
+- supports: Legacy taxonomy, identity and archived sourcing fields.
+  title: Archived OOMP part
+  url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic
+- file: tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic.cdr
+  part_file: drawing.cdr
+  supports: Original CorelDRAW reference drawing.
+  title: Archived OOMP outline
+  url: https://github.com/oomlout/oomlout_oomp_version_1_messy/blob/main/parts/tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic/drawing.cdr
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: picquic
+taxonomy_15: ''
+taxonomy_2: screw_driver_multi_driver
+taxonomy_3: precision_size
+taxonomy_4: ''
+taxonomy_5: teeny_turner_model
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Picquic Teeny Turner precision multi-driver
+type: screw_driver_multi_driver
+id: tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic
+directory: parts/tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic
+md5: ad408286f641b8fe3b296cfcec1c70ec
+md5_6: ad4082
+md5_6_alpha: 6rczm

@@ -1,0 +1,8 @@
+filelock>=3.12
+manifold3d>=3.5
+numpy>=1.26
+Pillow>=10
+PyYAML>=6
+scipy>=1.11
+trimesh>=4.9
+

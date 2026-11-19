@@ -1,0 +1,205 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: ''
+distributors:
+- name: Amazon UK
+  part_number: B00IG46NL2
+  source: Archived OOMP record
+  url: https://www.amazon.co.uk/gp/product/B00IG46NL2
+holder_profile:
+- h: 16
+  points:
+  - - -39
+    - 0
+  - - -39
+    - 78
+  - - 39
+    - 78
+  - - 39
+    - 0
+  pos:
+  - 0
+  - 0
+  - 0
+  rot:
+  - 0
+  - 0
+  - 0
+  shape: polygon
+holders:
+- id: oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18
+  layout: 1_place
+  quantity: 1
+  source_id: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+key: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+legacy_id: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+manufacturer: mitutoyo
+model_kind: caliper
+model_note: Closed caliper. Overall length, beam width and outside jaw length follow
+  the Mitutoyo dimensional drawing. Slider, jaws and display are simplified for identification.
+name: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+name_proper: Mitutoyo 500-196-30 digital caliper, 150 mm
+name_space: tool measure caliper digital 150 mm length mitutoyo mit500 196 30
+name_upper: MITUTOYO 500-196-30 DIGITAL CALIPER, 150 MM
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 3
+    points:
+    - - -8.0
+      - 0
+    - - 8.0
+      - 0
+    - - 8.0
+      - 233
+    - - -8.0
+      - 233
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 3
+    points:
+    - - -48.0
+      - 0
+    - - 8.0
+      - 0
+    - - 24.5
+      - 13
+    - - 8.0
+      - 8
+    - - -8.0
+      - 8
+    - - -48.0
+      - 3
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 3
+    points:
+    - - -48.0
+      - 3
+    - - -8.0
+      - 6
+    - - 8.0
+      - 6
+    - - 24.5
+      - 13
+    - - 8.0
+      - 16
+    - - -8.0
+      - 16
+    - - -42.0
+      - 8
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 13
+    points:
+    - - -16
+      - 12
+    - - 16
+      - 12
+    - - 16
+      - 65
+    - - -16
+      - 65
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 1
+    points:
+    - - -10
+      - 19
+    - - 10
+      - 19
+    - - 10
+      - 53
+    - - -10
+      - 53
+    pos:
+    - 0
+    - 0
+    - 13
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+parameters:
+  beam_width_mm: 16
+  outside_jaw_mm: 40
+  overall_length_mm: 233
+part_number: mit500_196_30
+size: 150_mm_length
+sources:
+- file: mitutoyo_aos.pdf
+  part_file: datasheet.pdf
+  supports: Model identity, range and dimensional drawing.
+  title: Mitutoyo AOS dimensional catalogue
+  url: https://www.mitutoyo.com/webfoo/wp-content/uploads/2129-AOS-Calipers.pdf
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+- supports: Legacy taxonomy, identity and archived sourcing fields.
+  title: Archived OOMP part
+  url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+- file: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30.cdr
+  part_file: drawing.cdr
+  supports: Original CorelDRAW reference drawing.
+  title: Archived OOMP outline
+  url: https://github.com/oomlout/oomlout_oomp_version_1_messy/blob/main/parts/tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30/drawing.cdr
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: mitutoyo
+taxonomy_15: mit500_196_30
+taxonomy_2: measure_caliper_digital
+taxonomy_3: 150_mm_length
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Mitutoyo 500-196-30 digital caliper, 150 mm
+type: measure_caliper_digital
+id: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+directory: parts/tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+md5: ecf9e71ca0e8afaa9c2ebf698aae59dc
+md5_6: ecf9e7
+md5_6_alpha: 98vdz

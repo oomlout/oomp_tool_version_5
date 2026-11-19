@@ -1,0 +1,111 @@
+tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30:
+  classification: tool
+  type: measure_caliper_digital
+  size: 150_mm_length
+  color: ''
+  description_main: ''
+  description_extra: ''
+  manufacturer: mitutoyo
+  part_number: mit500_196_30
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30
+  link_buy_1: https://www.amazon.co.uk/gp/product/B00IG46NL2
+  link_distributor_amazon: https://www.amazon.co.uk/gp/product/B00IG46NL2
+  part_number_distributor_amazon: B00IG46NL2
+  drawing: tool_measure_caliper_digital_150_mm_length_mitutoyo_mit500_196_30.cdr
+tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic:
+  classification: tool
+  type: screw_driver_multi_driver
+  size: precision_size
+  color: ''
+  description_main: teeny_turner_model
+  description_extra: ''
+  manufacturer: picquic
+  part_number: ''
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic
+  drawing: tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic.cdr
+tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_1_5_mm_wera_2054_series_05118066001:
+  classification: tool
+  type: screw_driver_precision
+  size: kraftform_micro_style_18_mm_diameter_157_mm_depth
+  color: ''
+  description_main: hex_head_1_5_mm
+  description_extra: ''
+  manufacturer: wera
+  part_number: 2054_series_05118066001
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_1_5_mm_wera_2054_series_05118066001
+tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_mm_wera_2054_series_05118068001:
+  classification: tool
+  type: screw_driver_precision
+  size: kraftform_micro_style_18_mm_diameter_157_mm_depth
+  color: ''
+  description_main: hex_head_2_mm
+  description_extra: ''
+  manufacturer: wera
+  part_number: 2054_series_05118068001
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_mm_wera_2054_series_05118068001
+tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001:
+  classification: tool
+  type: screw_driver_precision
+  size: kraftform_micro_style_18_mm_diameter_157_mm_depth
+  color: ''
+  description_main: hex_head_2_5_mm
+  description_extra: ''
+  manufacturer: wera
+  part_number: 2054_series_05118070001
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
+tool_timer_80_mm_diameter_30_mm_depth_black:
+  classification: tool
+  type: timer
+  size: ''
+  color: ''
+  description_main: 80_mm_diameter_30_mm_depth_black
+  description_extra: ''
+  manufacturer: ''
+  part_number: ''
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_timer_80_mm_diameter_30_mm_depth_black
+  link_buy_1: https://www.amazon.co.uk/gp/product/B07VNWZCZH
+  link_distributor_amazon: https://www.amazon.co.uk/gp/product/B07VNWZCZH
+  part_number_distributor_amazon: B07VNWZCZH
+tool_knife_utility_blade_disposal_can_olfa_dc_3:
+  classification: tool
+  type: knife_utility_blade_disposal_can
+  size: ''
+  color: ''
+  description_main: ''
+  description_extra: ''
+  manufacturer: olfa
+  part_number: dc_3
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_knife_utility_blade_disposal_can_olfa_dc_3
+tool_measure_tape_measure_5000_mm_length_stanley_1_30_696:
+  classification: tool
+  type: measure_tape_measure
+  size: 5000_mm_length
+  color: ''
+  description_main: ''
+  description_extra: ''
+  manufacturer: stanley
+  part_number: '1_30_696'
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+  link_buy_1: https://www.amazon.co.uk/gp/product/B000Y8W54C
+  link_distributor_amazon: https://www.amazon.co.uk/gp/product/B000Y8W54C
+  part_number_distributor_amazon: B000Y8W54C
+tool_knife_utility_17_mm_blade:
+  classification: tool
+  type: knife_utility
+  size: ''
+  color: ''
+  description_main: 17_mm_blade
+  description_extra: ''
+  manufacturer: ''
+  part_number: ''
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_knife_utility_17_mm_blade
+stationery_felt_tip_pen_sharpie_standard_tip_style_13_mm_diameter_137_mm_length_sharpie:
+  classification: stationery
+  type: felt_tip_pen
+  size: ''
+  color: ''
+  description_main: sharpie_standard_tip_style_13_mm_diameter_137_mm_length
+  description_extra: ''
+  manufacturer: sharpie
+  part_number: ''
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/stationery_felt_tip_pen_sharpie_standard_tip_style_13_mm_diameter_137_mm_length_sharpie

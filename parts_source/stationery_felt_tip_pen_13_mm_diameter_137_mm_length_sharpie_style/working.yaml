@@ -1,0 +1,140 @@
+classification: stationery
+color: ''
+description_extra: ''
+description_main: sharpie_style
+distributors: []
+holder_profile:
+- h: 137
+  pos:
+  - 0
+  - 0.0
+  - 0
+  r: 7
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17
+  layout: 1_place
+  quantity: 1
+  source_id: oobb_part_tool_holder_vertical_3_width_1_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_extra
+- id: oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x5x17
+  layout: 1_place
+  quantity: 1
+  source_id: oobb_part_tool_holder_vertical_3_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_extra
+- id: oobb_part_holder_tool_marker_sharpie_style_13mm_2_place_4x5x17
+  layout: 2_place
+  quantity: 2
+  source_id: oobb_part_tool_holder_vertical_4_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_2_multiple_extra
+- id: oobb_part_holder_tool_marker_sharpie_style_13mm_3_place_5x5x17
+  layout: 3_place
+  quantity: 3
+  source_id: oobb_part_tool_holder_vertical_5_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_3_multiple_extra
+- id: oobb_part_holder_tool_marker_sharpie_style_13mm_4_place_7x5x17
+  layout: 4_place
+  quantity: 4
+  source_id: oobb_part_tool_holder_vertical_7_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_4_multiple_extra
+- id: oobb_part_holder_tool_marker_sharpie_style_13mm_5_place_8x5x17
+  layout: 5_place
+  quantity: 5
+  source_id: oobb_part_tool_holder_vertical_8_width_5_height_17_mm_depth_stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style_tool_5_multiple_extra
+key: sharpie_style_13mm
+manufacturer: ''
+model_kind: marker
+model_note: Nominal capped body from the vertical holder's tool identity. The 14 mm
+  pocket includes clearance. Cap and barrel split are illustrative.
+name: stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style
+name_proper: Sharpie-style felt-tip pen, 13 × 137 mm
+name_space: stationery felt tip pen 13 mm diameter 137 mm length sharpie style
+name_upper: SHARPIE-STYLE FELT-TIP PEN, 13 × 137 MM
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - facets: 64
+    h: 5.48
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 5.07
+    r2: 5.59
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 93.16000000000001
+    pos:
+    - 0
+    - 5.48
+    - 0
+    r: 5.59
+    r2: 5.59
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 32.879999999999995
+    pos:
+    - 0
+    - 98.64000000000001
+    - 0
+    r: 6.5
+    r2: 6.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 5.48
+    pos:
+    - 0
+    - 131.52
+    - 0
+    r: 6.5
+    r2: 5.98
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: stationery_felt_tip_pen_13_mm_diameter_137_mm_length_sharpie_style
+parameters:
+  diameter_mm: 13
+  length_mm: 137
+part_number: ''
+size: 13_mm_diameter_137_mm_length
+sources:
+- supports: Original vertical holder tool selection and pocket dimensions.
+  title: OOBB vertical holder recipe
+  url: https://github.com/oomlout/oomlout_oobb_part_tool_holder_vertical/blob/93a962a09e0c275c3cfa62187182ac3203bde1b2/scad.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: stationery
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: felt_tip_pen
+taxonomy_3: 13_mm_diameter_137_mm_length
+taxonomy_4: ''
+taxonomy_5: sharpie_style
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Sharpie-style felt-tip pen, 13 × 137 mm
+type: felt_tip_pen

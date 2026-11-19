@@ -1,0 +1,103 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: ''
+distributors: []
+holder_profile:
+- h: 100
+  pos:
+  - 0.0
+  - 0
+  - 0
+  r: 3.25
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_hex_key_small_metric_set_6_forward_5x5x8
+  layout: 6_forward
+  quantity: 1
+  source_id: tool_screwdriver_hex_key_set_small
+- id: oobb_part_holder_tool_hex_key_small_metric_set_6_reverse_5x5x8
+  layout: 6_reverse
+  quantity: 1
+  source_id: tool_screwdriver_hex_key_set_small_reverse
+key: hex_key_5
+manufacturer: ''
+model_kind: hex_key
+model_note: The holder specifies the hex size. Arm lengths follow the Wiha 350 short
+  series as a representative example. The holder source leaves the key manufacturer
+  unspecified. The elbow is simplified.
+name: tool_hex_key_5_mm
+name_proper: 5 mm metric hex key
+name_space: tool hex key 5 mm
+name_upper: 5 MM METRIC HEX KEY
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - facets: 6
+    h: 80.5
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 2.886751345948129
+    r2: 2.886751345948129
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 6
+    h: 30.113248654051873
+    pos:
+    - 0
+    - 80.5
+    - 0
+    r: 2.886751345948129
+    r2: 2.886751345948129
+    rot:
+    - 0
+    - 90
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_hex_key_5_mm
+parameters:
+  across_flats_mm: 5
+  long_arm_mm: 83
+  short_arm_mm: 33
+part_number: ''
+size: 5_mm
+sources:
+- supports: Representative arm lengths by nominal hex size.
+  title: Wiha 350 short hex key dimensions
+  url: https://digicat.wiha.com/int/en/tools/l-keys/wiha-individual-key/hexagon-socket/l-keys/01126
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: hex_key
+taxonomy_3: 5_mm
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: 5 mm metric hex key
+type: hex_key

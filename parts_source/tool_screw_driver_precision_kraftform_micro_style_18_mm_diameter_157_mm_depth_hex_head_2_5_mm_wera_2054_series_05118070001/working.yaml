@@ -1,0 +1,202 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: hex_head_2_5_mm
+distributors: []
+holder_profile:
+- h: 60
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 2.5
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+- h: 98
+  pos:
+  - 0
+  - 60
+  - 0
+  r: 9
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66
+  layout: bench
+  quantity: 1
+  source_id: tool_holder_basic
+- id: oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_1_place_3x5x20
+  layout: m2d5_1_place
+  quantity: 1
+  source_id: tool_screwdriver_hex_m2d5_wera_60_mm
+- id: oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_2_place_5x5x20
+  layout: m2d5_2_place
+  quantity: 2
+  source_id: tool_screwdriver_hex_wera_60_mm_x2
+- id: oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_4_place_7x5x20
+  layout: m2d5_4_place
+  quantity: 4
+  source_id: tool_screwdriver_hex_wera_60_mm_x4
+- id: oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_5_place_9x5x20
+  layout: m2d5_5_place
+  quantity: 5
+  source_id: tool_screwdriver_hex_wera_60_mm_x5
+key: tool_screwdriver_hex_m2d5_wera_60_mm
+legacy_id: tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
+manufacturer: wera
+model_kind: wera
+model_note: Wera specifies the shaft diameter, shaft length and handle length. The
+  archived OOMP record supplies the 18 mm handle envelope. Grip taper, cap and tip
+  transition are illustrative.
+name: tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
+name_proper: Wera 2054 Micro hex screwdriver, 2.5 × 60 mm
+name_space: tool screw driver precision kraftform micro style 18 mm diameter 157 mm
+  depth hex head 2 5 mm wera 2054 series 05118070001
+name_upper: WERA 2054 MICRO HEX SCREWDRIVER, 2.5 × 60 MM
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - facets: 6
+    h: 5
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 1.4433756729740645
+    r2: 1.4433756729740645
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 55
+    pos:
+    - 0
+    - 5
+    - 0
+    r: 2.0
+    r2: 2.0
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 15.52
+    pos:
+    - 0
+    - 60
+    - 0
+    r: 4.5
+    r2: 9.0
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 24.25
+    pos:
+    - 0
+    - 75.52
+    - 0
+    r: 9.0
+    r2: 6.0
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 37.83
+    pos:
+    - 0
+    - 99.77
+    - 0
+    r: 6.0
+    r2: 6.0
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 11.639999999999999
+    pos:
+    - 0
+    - 137.6
+    - 0
+    r: 6.0
+    r2: 9.0
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 7.76
+    pos:
+    - 0
+    - 149.23999999999998
+    - 0
+    r: 9.0
+    r2: 9.0
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
+parameters:
+  across_flats_mm: 2.5
+  handle_diameter_mm: 18
+  handle_length_mm: 97
+  shaft_diameter_mm: 4
+  shaft_length_mm: 60
+part_number: 2054_series_05118070001
+size: kraftform_micro_style_18_mm_diameter_157_mm_depth
+sources:
+- file: wera_05118070001.pdf
+  image: wera_05118070001.jpg
+  part_file: datasheet.pdf
+  part_image: image.jpg
+  supports: Article number, hex size, blade diameter and lengths.
+  title: Wera 2054 Micro datasheet
+  url: https://hybris-media.wera.de/download/pdfgenerator-datasheets/en/05118070001.pdf
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+- supports: Legacy taxonomy, identity and archived sourcing fields.
+  title: Archived OOMP part
+  url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: wera
+taxonomy_15: 2054_series_05118070001
+taxonomy_2: screw_driver_precision
+taxonomy_3: kraftform_micro_style_18_mm_diameter_157_mm_depth
+taxonomy_4: ''
+taxonomy_5: hex_head_2_5_mm
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Wera 2054 Micro hex screwdriver, 2.5 × 60 mm
+type: screw_driver_precision

@@ -1,0 +1,101 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: ''
+distributors:
+- name: Amazon UK
+  part_number: B000Y8W54C
+  source: Archived OOMP record
+  url: https://www.amazon.co.uk/gp/product/B000Y8W54C
+holder_profile:
+- h: 42
+  points:
+  - - -39
+    - 0
+  - - -39
+    - 74
+  - - 39
+    - 74
+  - - 39
+    - 0
+  pos:
+  - 0
+  - 0
+  - 0
+  rot:
+  - 0
+  - 0
+  - 0
+  shape: polygon
+holders:
+- id: oobb_part_holder_tool_tape_measure_stanley_1_30_696_1_place_7x3x44
+  layout: 1_place
+  quantity: 1
+  source_id: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+key: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+legacy_id: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+manufacturer: stanley
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+name_proper: Stanley 1-30-696 tape measure, 5 m
+name_space: tool measure tape measure 5000 mm length stanley 1 30 696
+name_upper: STANLEY 1-30-696 TAPE MEASURE, 5 M
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 42
+    points:
+    - - -39
+      - 0
+    - - -39
+      - 74
+    - - 39
+      - 74
+    - - 39
+      - 0
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+part_number: '1_30_696'
+size: 5000_mm_length
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+- supports: Legacy taxonomy, identity and archived sourcing fields.
+  title: Archived OOMP part
+  url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: stanley
+taxonomy_15: '1_30_696'
+taxonomy_2: measure_tape_measure
+taxonomy_3: 5000_mm_length
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Stanley 1-30-696 tape measure, 5 m
+type: measure_tape_measure

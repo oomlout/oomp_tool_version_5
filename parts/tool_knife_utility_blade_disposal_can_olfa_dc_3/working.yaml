@@ -1,0 +1,101 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: ''
+distributors: []
+holder_profile:
+- h: 27.5
+  pos:
+  - 0
+  - 0.0
+  - 0
+  r: 34.5
+  rot:
+  - 0
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_blade_disposal_olfa_dc3_1_place_5x3x29d5
+  layout: 1_place
+  quantity: 1
+  source_id: tool_knife_utility_blade_disposal_can_olfa_dc_3
+key: tool_knife_utility_blade_disposal_can_olfa_dc_3
+legacy_id: tool_knife_utility_blade_disposal_can_olfa_dc_3
+manufacturer: olfa
+model_kind: disc
+model_note: Round body approximation using OLFA's overall length and thickness. The
+  sliding door and rim details are omitted.
+name: tool_knife_utility_blade_disposal_can_olfa_dc_3
+name_proper: OLFA DC-3 blade disposal can
+name_space: tool knife utility blade disposal can olfa dc 3
+name_upper: OLFA DC-3 BLADE DISPOSAL CAN
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - facets: 64
+    h: 24
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 33.5
+    r2: 33.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_knife_utility_blade_disposal_can_olfa_dc_3
+parameters:
+  depth_mm: 24
+  diameter_mm: 67
+part_number: dc_3
+size: ''
+sources:
+- supports: Overall length of 67 mm and thickness of 24 mm.
+  title: OLFA Corporation DC-3 dimensions
+  url: https://www.olfa.co.jp/en/products/504.html
+- supports: Identifies the pocket disposal can and OLFA article 1056984.
+  title: OLFA DC-3 product page
+  url: https://olfa.com/products/dc-3-pocket-size-blade-disposal-can
+- file: olfa_dc3.jpg
+  part_file: image.jpg
+  supports: Manufacturer photograph of the DC-3.
+  title: OLFA product photograph
+  url: https://olfa.com/cdn/shop/products/2e875173077f4421b16fb9e034db3cad.800.jpg?v=1629300618
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+- supports: Legacy taxonomy, identity and archived sourcing fields.
+  title: Archived OOMP part
+  url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_knife_utility_blade_disposal_can_olfa_dc_3
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: olfa
+taxonomy_15: dc_3
+taxonomy_2: knife_utility_blade_disposal_can
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: OLFA DC-3 blade disposal can
+type: knife_utility_blade_disposal_can
+id: tool_knife_utility_blade_disposal_can_olfa_dc_3
+directory: parts/tool_knife_utility_blade_disposal_can_olfa_dc_3
+md5: 9f1af56706b97aca3745404231d33c7e
+md5_6: 9f1af5
+md5_6_alpha: 67hmd

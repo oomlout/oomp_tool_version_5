@@ -1,0 +1,86 @@
+classification: stationery
+color: ''
+description_extra: ''
+description_main: patterned
+distributors: []
+holder_profile:
+- h: 140
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 6
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_marker_patterned_thick_1_place_3x5x14
+  layout: 1_place
+  quantity: 1
+  source_id: tool_marker_patterned_thicker
+- id: oobb_part_holder_tool_marker_patterned_thick_6_place_8x5x14
+  layout: 6_place
+  quantity: 6
+  source_id: tool_marker_patterned_thicker_x6
+key: tool_marker_patterned_thicker
+manufacturer: ''
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: stationery_felt_tip_pen_thick_patterned
+name_proper: Thick patterned marker
+name_space: stationery felt tip pen thick patterned
+name_upper: THICK PATTERNED MARKER
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 140
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 6
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: stationery_felt_tip_pen_thick_patterned
+part_number: ''
+size: thick
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: stationery
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: felt_tip_pen
+taxonomy_3: thick
+taxonomy_4: ''
+taxonomy_5: patterned
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Thick patterned marker
+type: felt_tip_pen
+id: stationery_felt_tip_pen_thick_patterned
+directory: parts/stationery_felt_tip_pen_thick_patterned
+md5: 9456a792bc4d2608a59d9f328498b8c7
+md5_6: 9456a7
+md5_6_alpha: 5sd5z

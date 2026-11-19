@@ -1,0 +1,77 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: tdpb
+distributors: []
+holder_profile:
+- h: 100
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 1.8
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_drill_cleaner_tdpb_m3_1_place_3x5x17
+  layout: 1_place
+  quantity: 1
+  source_id: tool_tdpb_drill_cleaner_m3
+key: tool_tdpb_drill_cleaner_m3
+manufacturer: ''
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: tool_drill_cleaner_m3_tdpb
+name_proper: TDPB M3 drill cleaner
+name_space: tool drill cleaner m3 tdpb
+name_upper: TDPB M3 DRILL CLEANER
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 100
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 1.8
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_drill_cleaner_m3_tdpb
+part_number: ''
+size: m3
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: drill_cleaner
+taxonomy_3: m3
+taxonomy_4: ''
+taxonomy_5: tdpb
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: TDPB M3 drill cleaner
+type: drill_cleaner

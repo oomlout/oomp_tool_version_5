@@ -1,0 +1,94 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: 80_mm_diameter_30_mm_depth_black
+distributors:
+- name: Amazon UK
+  part_number: B07VNWZCZH
+  source: Archived OOMP record
+  url: https://www.amazon.co.uk/gp/product/B07VNWZCZH
+holder_profile:
+- h: 32
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 41
+  rot:
+  - 0
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_timer_round_80mm_1_place_7x3x34
+  layout: 1_place
+  quantity: 1
+  source_id: tool_timer_80_mm_diameter_30_mm_depth_black
+key: tool_timer_80_mm_diameter_30_mm_depth_black
+legacy_id: tool_timer_80_mm_diameter_30_mm_depth_black
+manufacturer: ''
+model_kind: disc
+model_note: External body envelope from the OOMP timer record. The holder has clearance
+  around both faces and the rim.
+name: tool_timer_80_mm_diameter_30_mm_depth_black
+name_proper: Round black timer, 80 × 30 mm
+name_space: tool timer 80 mm diameter 30 mm depth black
+name_upper: ROUND BLACK TIMER, 80 × 30 MM
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - facets: 64
+    h: 30
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 40.0
+    r2: 40.0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_timer_80_mm_diameter_30_mm_depth_black
+parameters:
+  depth_mm: 30
+  diameter_mm: 80
+part_number: ''
+size: ''
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+- supports: Legacy taxonomy, identity and archived sourcing fields.
+  title: Archived OOMP part
+  url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_timer_80_mm_diameter_30_mm_depth_black
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: timer
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: 80_mm_diameter_30_mm_depth_black
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Round black timer, 80 × 30 mm
+type: timer
+id: tool_timer_80_mm_diameter_30_mm_depth_black
+directory: parts/tool_timer_80_mm_diameter_30_mm_depth_black
+md5: 3613853f6b4f2dc754e5905a82a48350
+md5_6: '361385'
+md5_6_alpha: 23yit

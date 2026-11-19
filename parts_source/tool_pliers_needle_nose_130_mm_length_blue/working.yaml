@@ -1,0 +1,113 @@
+classification: tool
+color: blue
+description_extra: ''
+description_main: ''
+distributors: []
+holder_profile:
+- h: 10
+  points:
+  - - -17
+    - 0
+  - - -17
+    - 54
+  - - -46
+    - 93
+  - - -50
+    - 125
+  - - 50
+    - 125
+  - - 46
+    - 93
+  - - 17
+    - 54
+  - - 17
+    - 0
+  pos:
+  - 0
+  - 0
+  - 0
+  rot:
+  - 0
+  - 0
+  - 0
+  shape: polygon
+holders:
+- id: oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66
+  layout: bench
+  quantity: 1
+  source_id: tool_holder_basic
+- id: oobb_part_holder_tool_pliers_needle_nose_130mm_1_place_5x5x12
+  layout: 1_place
+  quantity: 1
+  source_id: tool_pliers_needlenose_generic_130_mm_blue
+key: tool_pliers_needlenose_generic_130_mm_blue
+manufacturer: ''
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: tool_pliers_needle_nose_130_mm_length_blue
+name_proper: Blue needle-nose pliers, 130 mm
+name_space: tool pliers needle nose 130 mm length blue
+name_upper: BLUE NEEDLE-NOSE PLIERS, 130 MM
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 10
+    points:
+    - - -17
+      - 0
+    - - -17
+      - 54
+    - - -46
+      - 93
+    - - -50
+      - 125
+    - - 50
+      - 125
+    - - 46
+      - 93
+    - - 17
+      - 54
+    - - 17
+      - 0
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_pliers_needle_nose_130_mm_length_blue
+part_number: ''
+size: 130_mm_length
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: pliers_needle_nose
+taxonomy_3: 130_mm_length
+taxonomy_4: blue
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Blue needle-nose pliers, 130 mm
+type: pliers_needle_nose

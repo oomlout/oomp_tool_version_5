@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="494" viewBox="0 0 960 494" role="img">
+<title>Round black timer, 80 × 30 mm — External tool reference</title>
+<desc>Orthographic drawing in millimetres. Plan and side share a scale. The end view is enlarged independently.</desc>
+<style>
+text {font-family:Arial,sans-serif;fill:#173735}
+.title {font-size:25px;font-weight:600}
+.label {font-size:14px;font-weight:600}
+.detail {font-size:17px}
+.panel {stroke:#ccdad6;fill:none}
+.object {stroke:#164f50;stroke-width:1.35;fill:#a7d4c8;fill-opacity:.84;stroke-linejoin:round}
+.dim {fill:none;stroke:#587674;stroke-width:1}
+.measure {font-size:12px;text-anchor:middle;paint-order:stroke;stroke:white;stroke-width:4}
+</style>
+<rect width="960" height="494" fill="white"/>
+<text x="26" y="39" class="title">Round black timer, 80 × 30 mm</text>
+<text x="27" y="69" class="detail">External tool reference · millimetres</text>
+<text x="40" y="121" class="label">Plan  ·  Y × X</text>
+<rect x="26" y="98" width="610" height="190" rx="4" class="panel"/>
+<polygon points="336.489,248.730 341.925,247.924 347.256,246.589 352.430,244.737 357.398,242.388 362.112,239.562 366.526,236.289 370.598,232.598 374.289,228.526 377.562,224.112 380.388,219.398 382.737,214.430 384.589,209.256 385.924,203.925 386.730,198.489 387.000,193.000 386.730,187.511 385.924,182.075 384.589,176.744 382.737,171.570 380.388,166.602 377.562,161.888 374.289,157.474 370.598,153.402 366.526,149.711 362.112,146.438 357.398,143.612 352.430,141.263 347.256,139.411 341.925,138.076 336.489,137.270 331.000,137.000 325.511,137.270 320.075,138.076 314.744,139.411 309.570,141.263 304.602,143.612 299.888,146.438 295.474,149.711 291.402,153.402 287.711,157.474 284.438,161.888 281.612,166.602 279.263,171.570 277.411,176.744 276.076,182.075 275.270,187.511 275.000,193.000 275.270,198.489 276.076,203.925 277.411,209.256 279.263,214.430 281.612,219.398 284.438,224.112 287.711,228.526 291.402,232.598 295.474,236.289 299.888,239.562 304.602,242.388 309.570,244.737 314.744,246.589 320.075,247.924 325.511,248.730 331.000,249.000" class="object"/>
+<path d="M275 268v8 m0 -4 H387 m0 -4 v8" class="dim"/>
+<text x="331" y="267" class="measure">80 mm</text>
+<text x="40" y="323" class="label">Side  ·  Y × Z</text>
+<rect x="26" y="300" width="610" height="170" rx="4" class="panel"/>
+<polygon points="387.000,364.000 275.000,364.000 275.000,406.000 387.000,406.000" class="object"/>
+<path d="M275 450v8 m0 -4 H387 m0 -4 v8" class="dim"/>
+<text x="331" y="449" class="measure">80 mm</text>
+<text x="662" y="121" class="label">End  ·  X × Z</text>
+<rect x="648" y="98" width="286" height="190" rx="4" class="panel"/>
+<polygon points="896.000,153.625 686.000,153.625 686.000,232.375 896.000,232.375" class="object"/>
+<path d="M686 268v8 m0 -4 H896 m0 -4 v8" class="dim"/>
+<text x="791" y="267" class="measure">80 mm</text>
+<text x="664" y="337" class="label">Overall model dimensions</text>
+<text x="664" y="373" class="detail">X   80 mm</text>
+<text x="664" y="404" class="detail">Y   80 mm</text>
+<text x="664" y="435" class="detail">Z   30 mm</text>
+</svg>

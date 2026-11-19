@@ -1,0 +1,104 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: ''
+distributors: []
+holder_profile:
+- h: 100
+  pos:
+  - 0
+  - 0
+  - 0
+  r: 4
+  rot:
+  - -90
+  - 0
+  - 0
+  shape: cylinder
+holders:
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_7_place_9x3x12
+  layout: 7_place
+  quantity: 7
+  source_id: oobb_part_tool_holder_vertical_9_width_3_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_7_multiple_extra
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_7_place_9x4x12
+  layout: 7_place
+  quantity: 7
+  source_id: oobb_part_tool_holder_vertical_9_width_4_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_7_multiple_extra
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_8_place_9x3x12
+  layout: 8_place
+  quantity: 8
+  source_id: oobb_part_tool_holder_vertical_9_width_3_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_extra
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_8_place_9x4x12
+  layout: 8_place
+  quantity: 8
+  source_id: oobb_part_tool_holder_vertical_9_width_4_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_extra
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_8_plus_7_layered_9x3x12
+  layout: 8_plus_7_layered
+  quantity: 15
+  source_id: oobb_part_tool_holder_vertical_9_width_3_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_layered_extra
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_8_plus_7_layered_9x4x12
+  layout: 8_plus_7_layered
+  quantity: 15
+  source_id: oobb_part_tool_holder_vertical_9_width_4_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_layered_extra
+key: quarter_inch
+manufacturer: ''
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: tool_screwdriver_bit_quarter_inch_drive
+name_proper: Quarter-inch drive bit
+name_space: tool screwdriver bit quarter inch drive
+name_upper: QUARTER-INCH DRIVE BIT
+note: The drive size is 6.35 mm. The holder uses a round 8 × 100 mm clearance profile
+  for bits with unspecified length and head.
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 100
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 4
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_screwdriver_bit_quarter_inch_drive
+part_number: ''
+size: quarter_inch_drive
+sources:
+- supports: Original vertical holder tool selection and pocket dimensions.
+  title: OOBB vertical holder recipe
+  url: https://github.com/oomlout/oomlout_oobb_part_tool_holder_vertical/blob/93a962a09e0c275c3cfa62187182ac3203bde1b2/scad.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: screwdriver_bit
+taxonomy_3: quarter_inch_drive
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: Quarter-inch drive bit
+type: screwdriver_bit
+id: tool_screwdriver_bit_quarter_inch_drive
+directory: parts/tool_screwdriver_bit_quarter_inch_drive
+md5: 3355be01e5bd24da4fe1b1d70c8d8dc8
+md5_6: 3355be
+md5_6_alpha: 203we

@@ -1,0 +1,102 @@
+classification: tool
+color: ''
+description_extra: ''
+description_main: ''
+distributors: []
+holder_profile:
+- h: 4.5
+  points:
+  - - -8
+    - 0
+  - - -8
+    - 110
+  - - 8
+    - 110
+  - - 8
+    - 0
+  pos:
+  - 0
+  - 0.0
+  - 0
+  rot:
+  - 0
+  - 0
+  - 0
+  shape: polygon
+holders:
+- id: oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66
+  layout: bench
+  quantity: 1
+  source_id: tool_holder_basic
+- id: oobb_part_holder_tool_wrench_m7_1_place_3x5x6d5
+  layout: 1_place
+  quantity: 1
+  source_id: tool_wrench_m7
+key: tool_wrench_m7
+manufacturer: ''
+model_kind: holder_envelope
+model_note: Geometry follows the holder clearance profile. Its dimensions describe
+  the pocket used in the source design. Physical tool dimensions and fit have yet
+  to be measured.
+name: tool_wrench_m7
+name_proper: M7 wrench
+name_space: tool wrench m7
+name_upper: M7 WRENCH
+oobb_details:
+  oobb_type: tool_reference
+  run_scad: true
+  run_solidcraft: false
+  segments:
+  - h: 4.5
+    points:
+    - - -8
+      - 0
+    - - -8
+      - 110
+    - - 8
+      - 110
+    - - 8
+      - 0
+    pos:
+    - 0
+    - 0.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  units: mm
+oobb_type: tool_reference
+oomp_id: tool_wrench_m7
+part_number: ''
+size: m7
+sources:
+- supports: Upstream tool naming and clearance geometry used in the holder migration.
+  title: OOBB v4 tool shapes
+  url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
+svg_details:
+  svg_name: tool_reference
+  units: mm
+taxonomy_1: tool
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: wrench
+taxonomy_3: m7
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+title: M7 wrench
+type: wrench
+id: tool_wrench_m7
+directory: parts/tool_wrench_m7
+md5: 3ceb3137d85ea40f1fde9913048099f3
+md5_6: 3ceb31
+md5_6_alpha: 2dkj5
