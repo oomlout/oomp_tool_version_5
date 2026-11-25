@@ -23,9 +23,10 @@ holders:
 key: tool_knife_utility_blade_disposal_can_olfa_dc_3
 legacy_id: tool_knife_utility_blade_disposal_can_olfa_dc_3
 manufacturer: olfa
-model_kind: disc
-model_note: Round body approximation using OLFA's overall length and thickness. The
-  sliding door and rim details are omitted.
+model_kind: olfa_can
+model_note: Round yellow body and red face approximation using OLFA's overall length
+  and thickness and product photograph. The sliding door, lettering and rim details
+  are omitted.
 name: tool_knife_utility_blade_disposal_can_olfa_dc_3
 name_proper: OLFA DC-3 blade disposal can
 name_space: tool knife utility blade disposal can olfa dc 3
@@ -36,13 +37,30 @@ oobb_details:
   run_solidcraft: false
   segments:
   - facets: 64
-    h: 24
+    h: 23.6
+    material: yellow
+    name: Body
     pos:
     - 0
     - 0
     - 0
     r: 33.5
     r2: 33.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 0.4
+    material: red vinyl
+    name: Red face
+    pos:
+    - 0
+    - 0
+    - 23.6
+    r: 32.0
+    r2: 32.0
     rot:
     - 0
     - 0

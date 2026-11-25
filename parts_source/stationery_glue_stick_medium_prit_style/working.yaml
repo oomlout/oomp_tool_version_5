@@ -26,10 +26,10 @@ holders:
   source_id: tool_tdpb_glue_stick_prit_medium_knife
 key: tool_tdpb_glue_stick_prit_medium
 manufacturer: ''
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: pritt_stick
+model_note: Representative PLUS Pritt medium NS-702, approximately 20 g and 26 × 95
+  mm. The red closed body and dark twist base are simplified, with estimated cap and
+  base lengths. The workshop specimen has not been measured.
 name: stationery_glue_stick_medium_prit_style
 name_proper: Medium Prit glue stick
 name_space: stationery glue stick medium prit style
@@ -39,12 +39,46 @@ oobb_details:
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 96
+  - facets: 64
+    h: 6
+    material: charcoal
+    name: Twist base
     pos:
     - 0
     - 0
     - 0
-    r: 14
+    r: 12.219999999999999
+    r2: 12.219999999999999
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 61
+    material: red vinyl
+    name: Glue stick body
+    pos:
+    - 0
+    - 6
+    - 0
+    r: 12.48
+    r2: 12.48
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 64
+    h: 28
+    material: red vinyl
+    name: Closed cap
+    pos:
+    - 0
+    - 67
+    - 0
+    r: 13.0
+    r2: 13.0
     rot:
     - -90
     - 0
@@ -53,9 +87,18 @@ oobb_details:
   units: mm
 oobb_type: tool_reference
 oomp_id: stationery_glue_stick_medium_prit_style
+parameters:
+  base_length_mm: 6
+  cap_length_mm: 28
+  diameter_mm: 26
+  length_mm: 95
 part_number: ''
 size: medium
 sources:
+- supports: Manufacturer lists medium, approximately 20 g, 26 mm diameter and 95 mm
+    overall height.
+  title: PLUS Pritt medium NS-702
+  url: https://itemplus.plus.co.jp/catalog/DispDetail.do?itemID=t000100000385&volumeName=00016
 - supports: Upstream tool naming and clearance geometry used in the holder migration.
   title: OOBB v4 tool shapes
   url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py

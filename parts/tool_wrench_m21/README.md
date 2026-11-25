@@ -1,5 +1,5 @@
 <!-- oomp-tools:start -->
-# M21 wrench
+# M21 spanner
 
 [Tool catalogue](../../README.md) / [wrench](../../navigation_oomp/tool/wrench/README.md)
 
@@ -15,7 +15,7 @@
 
 [Dimension drawing](working.svg)
 
-![Orthographic drawing of M21 wrench](working.svg)
+![Orthographic drawing of M21 spanner](working.svg)
 
 ## Sourcing and documentation
 
@@ -25,9 +25,9 @@
 
 | Layout | Places for this tool |
 | --- | ---: |
-| [wrench m21 1 place 5x5x12](../../HOLDERS.md#oobb_part_holder_tool_wrench_m21_1_place_5x5x12) | 1 |
+| [spanner m21 1 place 5x5x12](../../HOLDERS.md#oobb_part_holder_tool_spanner_m21_1_place_5x5x12) | 1 |
 
-![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_wrench_m21_1_place_5x5x12.jpg)
+![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_spanner_m21_1_place_5x5x12.jpg)
 
-Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_wrench_m21_1_place_5x5x12).
+Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_spanner_m21_1_place_5x5x12).
 <!-- oomp-tools:end -->

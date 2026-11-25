@@ -1,5 +1,5 @@
 <!-- oomp-tools:start -->
-# Wera 2054 Micro hex screwdriver, 2.5 × 60 mm
+# Tall precision hex screwdriver, 2.5 × 60 mm
 
 [Tool catalogue](../../README.md) / [screw driver precision](../../navigation_oomp/tool/screw_driver_precision/README.md)
 
@@ -15,7 +15,7 @@
 
 [Dimension drawing](working.svg) · [Holder clearance drawing](holder_profile.svg)
 
-![Orthographic drawing of Wera 2054 Micro hex screwdriver, 2.5 × 60 mm](working.svg)
+![Orthographic drawing of Tall precision hex screwdriver, 2.5 × 60 mm](working.svg)
 
 ## Sourcing and documentation
 
@@ -30,12 +30,14 @@
 | Layout | Places for this tool |
 | --- | ---: |
 | [mixed tools basic stand bench 7x10x66](../../HOLDERS.md#oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66) | 1 |
-| [screwdriver wera hex 60mm m2d5 1 place 3x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_1_place_3x5x20) | 1 |
-| [screwdriver wera hex 60mm m2d5 2 place 5x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_2_place_5x5x20) | 2 |
-| [screwdriver wera hex 60mm m2d5 4 place 7x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_4_place_7x5x20) | 4 |
-| [screwdriver wera hex 60mm m2d5 5 place 9x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_5_place_9x5x20) | 5 |
+| [screwdriver precision tall hex 60mm m2d5 1 place 3x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20) | 1 |
+| [screwdriver precision tall hex 60mm m2d5 2 place 5x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_2_place_5x5x20) | 2 |
+| [screwdriver precision tall hex 60mm m2d5 4 place 7x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_4_place_7x5x20) | 4 |
+| [screwdriver precision tall hex 60mm m2d5 5 place 9x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_5_place_9x5x20) | 5 |
 
-![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_1_place_3x5x20.jpg)
+[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20/README.md#assembly)
 
-Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_1_place_3x5x20).
+Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20/README.md#assembly).
+
+[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20.pdf)
 <!-- oomp-tools:end -->

@@ -60,6 +60,6 @@ def records(**kwargs):
 def cli_options():
     parser = argparse.ArgumentParser(description="Build the OOMP tool catalogue")
     parser.add_argument("--filter", default="", help="Substring of a tool's OOMP ID")
-    parser.add_argument("--render-blender", action="store_true", help="Render photo references after building their meshes")
+    parser.add_argument("--render-blender", action="store_true", help="Render supported studio models after building their meshes")
     return vars(parser.parse_args())
 

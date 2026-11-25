@@ -96,8 +96,7 @@ def part_page(**kwargs):
         name = identifier.removeprefix("oobb_part_holder_tool_").replace("_", " ")
         lines.append(f'| [{name}](../../HOLDERS.md#{identifier}) | {holder["quantity"]} |')
     guide = next((holder for holder in part["holders"] if
-                  (folder.parents[1] / "source_file/tool_references/holders" / (holder["id"] + ".pdf")).is_file()
-                  and holder["layout"] == "1_place"), None)
+                  (folder.parents[1] / "source_file/tool_references/holders" / (holder["id"] + ".pdf")).is_file()), None)
     example = next((holder for holder in part["holders"] if "mixed_tools" not in holder["id"]), part["holders"][0])
     identifier = (guide or example)["id"]
     picture = f"../../source_file/tool_references/holders/{identifier}.jpg"
@@ -186,9 +185,9 @@ def indexes(**kwargs):
         if (root / "parts/PHOTO_MODELS.md").is_file():
             lines.append("[Photographs, dimensions and modelling notes](parts/PHOTO_MODELS.md)")
     guides = [(part, holder["id"]) for part in rendered_tools for holder in part["holders"]
-              if holder["layout"] == "1_place" and (root / "source_file/tool_references/holders" / (holder["id"]+".pdf")).is_file()]
+              if (root / "source_file/tool_references/holders" / (holder["id"]+".pdf")).is_file()]
     if guides:
-        lines.extend(["", "## Tools in their holders", "", "The illustrated booklets show how the two printed halves meet on the wall and how each tool drops into the top opening.", ""])
+        lines.extend(["", "## Tools in their holders", "", "The illustrated booklets show the printed holders and how the tools fit into their openings.", ""])
         for part, identifier in guides:
             lines.append(f'- [{part["title"]} holder README]({holder_readme(identifier)}) · [Print booklet (PDF)](source_file/tool_references/holders/{identifier}.pdf)')
     lines.extend(["", "## Catalogue", "",

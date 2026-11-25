@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="494" viewBox="0 0 960 494" role="img">
+<title>Stanley 1-30-696 tape measure, 5 m — Holder clearance profile</title>
+<desc>Orthographic drawing in millimetres. Plan and side share a scale. The end view is enlarged independently.</desc>
+<style>
+text {font-family:Arial,sans-serif;fill:#173735}
+.title {font-size:25px;font-weight:600}
+.label {font-size:14px;font-weight:600}
+.detail {font-size:17px}
+.panel {stroke:#ccdad6;fill:none}
+.object {stroke:#164f50;stroke-width:1.35;fill:#a7d4c8;fill-opacity:.84;stroke-linejoin:round}
+.dim {fill:none;stroke:#587674;stroke-width:1}
+.measure {font-size:12px;text-anchor:middle;paint-order:stroke;stroke:white;stroke-width:4}
+</style>
+<rect width="960" height="494" fill="white"/>
+<text x="26" y="39" class="title">Stanley 1-30-696 tape measure, 5 m</text>
+<text x="27" y="69" class="detail">Holder clearance profile · millimetres</text>
+<text x="40" y="121" class="label">Plan  ·  Y × X</text>
+<rect x="26" y="98" width="610" height="190" rx="4" class="panel"/>
+<polygon points="384.128,137.000 277.872,137.000 277.872,249.000 384.128,249.000" class="object"/>
+<path d="M277.872 268v8 m0 -4 H384.128 m0 -4 v8" class="dim"/>
+<text x="331" y="267" class="measure">74 mm</text>
+<text x="40" y="323" class="label">Side  ·  Y × Z</text>
+<rect x="26" y="300" width="610" height="170" rx="4" class="panel"/>
+<polygon points="384.128,354.846 277.872,354.846 277.872,415.154 384.128,415.154" class="object"/>
+<path d="M277.872 450v8 m0 -4 H384.128 m0 -4 v8" class="dim"/>
+<text x="331" y="449" class="measure">74 mm</text>
+<text x="662" y="121" class="label">End  ·  X × Z</text>
+<rect x="648" y="98" width="286" height="190" rx="4" class="panel"/>
+<polygon points="887.571,141.000 694.429,141.000 694.429,245.000 887.571,245.000" class="object"/>
+<path d="M694.429 268v8 m0 -4 H887.571 m0 -4 v8" class="dim"/>
+<text x="791" y="267" class="measure">78 mm</text>
+<text x="664" y="337" class="label">Overall model dimensions</text>
+<text x="664" y="373" class="detail">X   78 mm</text>
+<text x="664" y="404" class="detail">Y   74 mm</text>
+<text x="664" y="435" class="detail">Z   42 mm</text>
+</svg>

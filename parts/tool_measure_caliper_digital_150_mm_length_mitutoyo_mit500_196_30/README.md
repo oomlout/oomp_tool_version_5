@@ -31,7 +31,9 @@
 | --- | ---: |
 | [caliper mitutoyo 500 196 30 1 place 7x6x18](../../HOLDERS.md#oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18) | 1 |
 
-![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18.jpg)
+[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18/README.md#assembly)
 
-Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18).
+Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18/README.md#assembly).
+
+[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_caliper_mitutoyo_500_196_30_1_place_7x6x18.pdf)
 <!-- oomp-tools:end -->

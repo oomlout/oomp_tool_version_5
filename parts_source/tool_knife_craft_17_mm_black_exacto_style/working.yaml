@@ -28,10 +28,10 @@ holders:
   layout: with_knife
   quantity: 1
   source_id: tool_tdpb_glue_stick_prit_medium_knife
-- id: oobb_part_holder_tool_knife_exacto_17mm_1_place_3x5x29d5
+- id: oobb_part_holder_tool_knife_utility_17mm_1_place_3x5x29d5
   layout: 1_place
   quantity: 1
-  source_id: tool_knife_exacto_17mm_black
+  source_id: tool_knife_utility_17_mm_blade
 - id: oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66
   layout: bench
   quantity: 1
@@ -46,9 +46,9 @@ model_kind: photo_reference
 model_note: Closed exterior based on the photo and a provisional 165 mm STANLEY 0-10-151
   reference. The 17 mm OOMP label is retained. Size variant awaits measurement.
 name: tool_knife_craft_17_mm_black_exacto_style
-name_proper: Black Exacto-style craft knife, 17 mm
+name_proper: Closed utility knife, 17 mm
 name_space: tool knife craft 17 mm black exacto style
-name_upper: BLACK EXACTO-STYLE CRAFT KNIFE, 17 MM
+name_upper: CLOSED UTILITY KNIFE, 17 MM
 note: Exacto is the holder project's spelling. The source gives no manufacturer article
   number.
 oobb_details:
@@ -952,5 +952,5 @@ taxonomy_6: ''
 taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
-title: Black Exacto-style craft knife, 17 mm
+title: Closed utility knife, 17 mm
 type: knife_craft

@@ -1,4 +1,4 @@
-# Black Exacto-style craft knife, 17 mm — photo measurements
+# Closed utility knife, 17 mm — photo measurements
 
 [Individual workshop photograph](PXL_20261119_134702730.jpg) · [Photo with CAD outline](photo_overlay.svg) · [Identification and catalogue sources](research_2026-11-19.md)
 

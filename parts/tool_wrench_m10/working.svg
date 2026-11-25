@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="494" viewBox="0 0 960 494" role="img">
-<title>M10 wrench — Holder clearance profile</title>
+<title>M10 spanner — External tool reference</title>
 <desc>Orthographic drawing in millimetres. Plan and side share a scale. The end view is enlarged independently.</desc>
 <style>
 text {font-family:Arial,sans-serif;fill:#173735}
@@ -12,25 +12,31 @@ text {font-family:Arial,sans-serif;fill:#173735}
 .measure {font-size:12px;text-anchor:middle;paint-order:stroke;stroke:white;stroke-width:4}
 </style>
 <rect width="960" height="494" fill="white"/>
-<text x="26" y="39" class="title">M10 wrench</text>
-<text x="27" y="69" class="detail">Holder clearance profile · millimetres</text>
+<text x="26" y="39" class="title">M10 spanner</text>
+<text x="27" y="69" class="detail">External tool reference · millimetres</text>
 <text x="40" y="121" class="label">Plan  ·  Y × X</text>
 <rect x="26" y="98" width="610" height="190" rx="4" class="panel"/>
-<polygon points="593.000,149.957 69.000,149.957 69.000,236.043 593.000,236.043" class="object"/>
+<path d="M 79.371,203.505 79.371,182.495 97.565,171.991 115.760,182.495 115.760,203.505 97.565,214.009 Z M 100.365,221.428 103.138,221.016 105.857,220.335 108.497,219.391 111.031,218.192 113.435,216.751 115.687,215.081 117.764,213.199 119.647,211.122 121.316,208.870 122.758,206.466 123.956,203.931 124.901,201.292 125.582,198.573 125.993,195.800 126.131,193.000 125.993,190.200 125.582,187.427 124.901,184.708 123.956,182.069 122.758,179.534 121.316,177.130 119.647,174.878 117.764,172.801 115.687,170.919 113.435,169.249 111.031,167.808 108.497,166.609 105.857,165.665 103.138,164.984 100.365,164.572 97.565,164.435 94.765,164.572 91.992,164.984 89.273,165.665 86.634,166.609 84.100,167.808 81.695,169.249 79.444,170.919 77.367,172.801 75.484,174.878 73.814,177.130 72.373,179.534 71.174,182.069 70.230,184.708 69.549,187.427 69.138,190.200 69.000,193.000 69.138,195.800 69.549,198.573 70.230,201.292 71.174,203.931 72.373,206.466 73.814,208.870 75.484,211.122 77.367,213.199 79.444,215.081 81.695,216.751 84.100,218.192 86.634,219.391 89.273,220.335 91.992,221.016 94.765,221.428 97.565,221.565 Z" fill-rule="evenodd" class="object"/>
+<polygon points="522.169,177.535 346.720,179.391 120.989,177.535 120.989,208.465 346.720,206.609 522.169,208.465" class="object"/>
+<polygon points="577.167,232.165 593.000,211.194 557.168,211.194 546.335,193.000 557.168,174.806 593.000,174.806 577.167,153.835 553.418,151.335 531.752,158.001 515.919,177.535 515.919,208.465 531.752,227.999 553.418,234.665" class="object"/>
 <path d="M69 268v8 m0 -4 H593 m0 -4 v8" class="dim"/>
-<text x="331" y="267" class="measure">140 mm</text>
+<text x="331" y="267" class="measure">144 mm</text>
 <text x="40" y="323" class="label">Side  ·  Y × Z</text>
 <rect x="26" y="300" width="610" height="170" rx="4" class="panel"/>
-<polygon points="593.000,371.900 69.000,371.900 69.000,398.100 593.000,398.100" class="object"/>
+<polygon points="126.131,373.174 69.000,373.174 69.000,396.826 126.131,396.826" class="object"/>
+<polygon points="522.169,377.577 120.989,377.577 120.989,392.423 522.169,392.423" class="object"/>
+<polygon points="593.000,375.721 515.919,375.721 515.919,394.279 593.000,394.279" class="object"/>
 <path d="M69 450v8 m0 -4 H593 m0 -4 v8" class="dim"/>
-<text x="331" y="449" class="measure">140 mm</text>
+<text x="331" y="449" class="measure">144 mm</text>
 <text x="662" y="121" class="label">End  ·  X × Z</text>
 <rect x="648" y="98" width="286" height="190" rx="4" class="panel"/>
-<polygon points="896.000,161.043 686.000,161.043 686.000,224.957 896.000,224.957" class="object"/>
+<polygon points="862.987,163.197 719.013,163.197 719.013,222.803 862.987,222.803" class="object"/>
+<polygon points="829.974,174.293 752.026,174.293 752.026,211.707 829.974,211.707" class="object"/>
+<polygon points="896.000,169.616 686.000,169.616 686.000,216.384 896.000,216.384" class="object"/>
 <path d="M686 268v8 m0 -4 H896 m0 -4 v8" class="dim"/>
-<text x="791" y="267" class="measure">23 mm</text>
+<text x="791" y="267" class="measure">22.9 mm</text>
 <text x="664" y="337" class="label">Overall model dimensions</text>
-<text x="664" y="373" class="detail">X   23 mm</text>
-<text x="664" y="404" class="detail">Y   140 mm</text>
-<text x="664" y="435" class="detail">Z   7 mm</text>
+<text x="664" y="373" class="detail">X   22.9 mm</text>
+<text x="664" y="404" class="detail">Y   144 mm</text>
+<text x="664" y="435" class="detail">Z   6.5 mm</text>
 </svg>

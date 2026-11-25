@@ -3,9 +3,9 @@
 
 | Tool | Geometry |
 | --- | --- |
-| [M10 wrench](../../../parts/tool_wrench_m10/README.md) | Holder clearance profile |
-| [M13 wrench](../../../parts/tool_wrench_m13/README.md) | Holder clearance profile |
-| [M21 wrench](../../../parts/tool_wrench_m21/README.md) | Holder clearance profile |
-| [M7 wrench](../../../parts/tool_wrench_m7/README.md) | Holder clearance profile |
-| [M8 wrench](../../../parts/tool_wrench_m8/README.md) | Holder clearance profile |
+| [M10 spanner](../../../parts/tool_wrench_m10/README.md) | External tool reference |
+| [M13 spanner](../../../parts/tool_wrench_m13/README.md) | External tool reference |
+| [M21 spanner](../../../parts/tool_wrench_m21/README.md) | Holder clearance profile |
+| [M7 spanner](../../../parts/tool_wrench_m7/README.md) | External tool reference |
+| [M8 spanner](../../../parts/tool_wrench_m8/README.md) | External tool reference |
 <!-- oomp-tools:end -->

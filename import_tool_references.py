@@ -12,12 +12,15 @@ def collect_holders(**kwargs):
     source = Path(kwargs.get("holder_root", ROOT.parent / "oomlout_oobb_part_holder_tool_version_5"))
     target = Path(kwargs.get("reference_root", ROOT / "source_file" / "tool_references"))
     preview_size = kwargs.get("preview_size", (720, 540))
+    include_previews = kwargs.get("include_previews", True)
     profiles = {}
     layouts = {}
     manifest = source / "parts_source" / "catalogue.txt"
     for identifier in manifest.read_text(encoding="utf-8").splitlines():
         record = read_yaml(source / "parts_source" / identifier / "working.yaml")
         profile = record["profile"]
+        # Match new holder taxonomy to the original OOMP tool record keys.
+        profile = profile.replace("tool_spanner_", "tool_wrench_").replace("_precision_tall_60_mm", "_wera_60_mm")
         geometry = record["oobb_details"]["profile"]
         if profiles.setdefault(profile, geometry) != geometry:
             raise ValueError(f"Inconsistent profile {profile} in {identifier}")
@@ -27,8 +30,12 @@ def collect_holders(**kwargs):
             "layout": record["layout"],
             "count": record["count"] if "count" in record else 1,
             "layered": record.get("layered", False),
-            "source_id": record["source_id"],
+            "source_id": record.get("source_id", identifier),
         }
+        if "row_count" in record:
+            layouts[identifier]["row_count"] = record["row_count"]
+        if not include_previews:
+            continue
         with Image.open(source / "parts" / identifier / "3dpr_presentation.png") as image:
             image.thumbnail(preview_size, Image.Resampling.LANCZOS)
             output = BytesIO()

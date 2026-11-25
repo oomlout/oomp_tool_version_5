@@ -35,10 +35,11 @@ holders:
 key: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
 legacy_id: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
 manufacturer: stanley
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: tape_measure
+model_note: Retracted Stanley Tylon 1-30-696, modelled with a 69 × 72 × 40 mm case
+  from a distributor listing. The outline and coloured face follow the manufacturer
+  photograph. The lock, hook and belt clip are simplified or omitted; dimensions and
+  physical fit require confirmation on the actual tool.
 name: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
 name_proper: Stanley 1-30-696 tape measure, 5 m
 name_space: tool measure tape measure 5000 mm length stanley 1 30 696
@@ -48,16 +49,26 @@ oobb_details:
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 42
+  - h: 39.4
+    material: yellow
+    name: Yellow case
     points:
-    - - -39
+    - - -22.5
       - 0
-    - - -39
-      - 74
-    - - 39
-      - 74
-    - - 39
+    - - 22.5
       - 0
+    - - 34.5
+      - 12
+    - - 34.5
+      - 60
+    - - 22.5
+      - 72
+    - - -22.5
+      - 72
+    - - -34.5
+      - 60
+    - - -34.5
+      - 12
     pos:
     - 0
     - 0
@@ -67,12 +78,58 @@ oobb_details:
     - 0
     - 0
     shape: polygon
+  - h: 0.6
+    material: charcoal
+    name: Dark front panel
+    points:
+    - - -25.5
+      - 10
+    - - 25.5
+      - 10
+    - - 29.5
+      - 17
+    - - 29.5
+      - 56
+    - - 19.5
+      - 65
+    - - -19.5
+      - 65
+    - - -29.5
+      - 56
+    - - -29.5
+      - 17
+    pos:
+    - 0
+    - 0
+    - 39.4
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
   units: mm
 oobb_type: tool_reference
 oomp_id: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
+parameters:
+  corner_mm: 12
+  depth_mm: 40
+  face_depth_mm: 0.6
+  height_mm: 72
+  width_mm: 69
 part_number: '1_30_696'
 size: 5000_mm_length
 sources:
+- file: stanley_1-30-696.jpg
+  part_file: image.jpg
+  supports: Product identity, 5 m tape, 19 mm blade and case photograph.
+  title: Stanley Tylon 1-30-696
+  url: https://www.stanleytools.co.uk/en-gb/product/1-30-696/tylon-16-ft5m-19mm-wide-tape-measure-12-pk
+- supports: Distributor lists 69 mm width, 72 mm height and 40 mm depth.
+  title: Arcmaster Tylon 1-30-696 dimensions
+  url: https://arcmaster.uk.com/product/stanley-tylon-pocket-tape-measure-5m-16ft/
+- supports: Independent distributor lists approximately 70 × 41 × 71 mm.
+  title: L&S 1-30-696 size
+  url: https://www.lsengineers.co.uk/pocket-tape-5m-16ft-width-19mm-loose-by-stanley-1-30-696.html
 - supports: Upstream tool naming and clearance geometry used in the holder migration.
   title: OOBB v4 tool shapes
   url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py

@@ -3,6 +3,8 @@
 // Units: mm
 $fn = 64;
 union() {
+    // Body
+    color([0.1843, 0.1804, 0.1961])
     translate([0, 0, 0]) rotate([0, 0, 0])
         cylinder(h=30, r1=40.0, r2=40.0, $fn=64);
 }

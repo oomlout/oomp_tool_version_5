@@ -24,39 +24,243 @@ holder_profile:
   - 0
   shape: polygon
 holders:
-- id: oobb_part_holder_tool_wrench_m13_1_place_3x5x10
+- id: oobb_part_holder_tool_spanner_m13_1_place_3x5x10
   layout: 1_place
   quantity: 1
-  source_id: tool_wrench_m13
+  source_id: oobb_part_holder_tool_spanner_m13_1_place_3x5x10
+- id: oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10
+  layout: 4_place
+  quantity: 1
+  source_id: oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10
 key: tool_wrench_m13
 manufacturer: ''
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: combination_spanner
+model_note: Generic 13 mm combination spanner using the Bahco 111M-13 as a dimensional
+  reference. Length and head widths and thicknesses follow the catalogue. The straight
+  shank, jaw outline and six-point ring are simplified. The workshop specimen has
+  not been measured.
 name: tool_wrench_m13
-name_proper: M13 wrench
+name_proper: M13 spanner
 name_space: tool wrench m13
-name_upper: M13 WRENCH
+name_upper: M13 SPANNER
 oobb_details:
   oobb_type: tool_reference
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 8
+  - h: 7.6
+    holes:
+    - - - 7.505553499465135
+        - 9.85
+      - - 3.7527767497325684
+        - 3.3499999999999996
+      - - -3.7527767497325657
+        - 3.3499999999999988
+      - - -7.505553499465135
+        - 9.849999999999998
+      - - -3.752776749732571
+        - 16.349999999999998
+      - - 3.7527767497325684
+        - 16.35
+    material: bright steel
+    name: Ring end
     points:
-    - - -14
-      - 0
-    - - -14
-      - 160
-    - - 14
-      - 160
-    - - 14
-      - 0
+    - - 9.85
+      - 9.85
+    - - 9.802569557721139
+      - 10.815468832246172
+    - - 9.66073501197182
+      - 11.771639671858862
+    - - 9.425862306962257
+      - 12.709304070956453
+    - - 9.100213395236175
+      - 13.619431808796135
+    - - 8.686924453831297
+      - 14.493257857736078
+    - - 8.189975681180071
+      - 15.32236679524308
+    - - 7.614152965622959
+      - 16.09877384901191
+    - - 6.965001794687494
+      - 16.815001794687493
+    - - 6.248773849011908
+      - 17.464152965622958
+    - - 5.472366795243082
+      - 18.03997568118007
+    - - 4.643257857736078
+      - 18.536924453831297
+    - - 3.769431808796135
+      - 18.950213395236172
+    - - 2.859304070956454
+      - 19.27586230696226
+    - - 1.921639671858864
+      - 19.510735011971818
+    - - 0.9654688322461735
+      - 19.652569557721137
+    - - 6.031385485800714e-16
+      - 19.7
+    - - -0.9654688322461723
+      - 19.65256955772114
+    - - -1.9216396718588626
+      - 19.510735011971818
+    - - -2.859304070956452
+      - 19.27586230696226
+    - - -3.7694318087961336
+      - 18.950213395236172
+    - - -4.643257857736077
+      - 18.536924453831297
+    - - -5.4723667952430795
+      - 18.03997568118007
+    - - -6.248773849011907
+      - 17.46415296562296
+    - - -6.965001794687492
+      - 16.815001794687493
+    - - -7.614152965622959
+      - 16.09877384901191
+    - - -8.189975681180071
+      - 15.32236679524308
+    - - -8.686924453831296
+      - 14.49325785773608
+    - - -9.100213395236175
+      - 13.619431808796135
+    - - -9.425862306962257
+      - 12.709304070956454
+    - - -9.66073501197182
+      - 11.771639671858866
+    - - -9.802569557721139
+      - 10.815468832246175
+    - - -9.85
+      - 9.850000000000001
+    - - -9.802569557721139
+      - 8.884531167753828
+    - - -9.66073501197182
+      - 7.928360328141135
+    - - -9.425862306962257
+      - 6.990695929043548
+    - - -9.100213395236175
+      - 6.080568191203867
+    - - -8.686924453831297
+      - 5.206742142263923
+    - - -8.189975681180073
+      - 4.37763320475692
+    - - -7.61415296562296
+      - 3.601226150988094
+    - - -6.9650017946874945
+      - 2.8849982053125074
+    - - -6.248773849011912
+      - 2.235847034377044
+    - - -5.472366795243081
+      - 1.6600243188199293
+    - - -4.643257857736079
+      - 1.163075546168704
+    - - -3.76943180879614
+      - 0.7497866047638277
+    - - -2.859304070956455
+      - 0.42413769303774307
+    - - -1.9216396718588673
+      - 0.18926498802818134
+    - - -0.9654688322461704
+      - 0.04743044227886025
+    - - -1.8094156457402143e-15
+      - 0.0
+    - - 0.9654688322461669
+      - 0.04743044227886025
+    - - 1.9216396718588638
+      - 0.18926498802818026
+    - - 2.8593040709564512
+      - 0.42413769303774196
+    - - 3.7694318087961363
+      - 0.7497866047638267
+    - - 4.643257857736076
+      - 1.1630755461687028
+    - - 5.472366795243078
+      - 1.6600243188199273
+    - - 6.248773849011909
+      - 2.235847034377042
+    - - 6.965001794687491
+      - 2.884998205312505
+    - - 7.614152965622955
+      - 3.6012261509880874
+    - - 8.189975681180071
+      - 4.377633204756918
+    - - 8.686924453831296
+      - 5.20674214226392
+    - - 9.100213395236171
+      - 6.080568191203859
+    - - 9.425862306962257
+      - 6.990695929043544
+    - - 9.660735011971818
+      - 7.928360328141132
+    - - 9.802569557721139
+      - 8.884531167753828
     pos:
     - 0
     - 0
+    - -3.8
+    rot:
     - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 4.64
+    material: ground steel
+    name: Shank
+    points:
+    - - -5.5249999999999995
+      - 17.927
+    - - 5.5249999999999995
+      - 17.927
+    - - 4.861999999999999
+      - 89.57000000000001
+    - - 5.5249999999999995
+      - 144.18
+    - - -5.5249999999999995
+      - 144.18
+    - - -4.861999999999999
+      - 89.57000000000001
+    pos:
+    - 0
+    - 0
+    - -2.32
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 5.8
+    material: bright steel
+    name: Open jaw
+    points:
+    - - -5.5249999999999995
+      - -27.01
+    - - 5.5249999999999995
+      - -27.01
+    - - 12.264
+      - -21.462
+    - - 14.6
+      - -13.87
+    - - 13.723999999999998
+      - -5.548
+    - - 6.5
+      - 0
+    - - 6.5
+      - -12.556
+    - - 0
+      - -16.352
+    - - -6.5
+      - -12.556
+    - - -6.5
+      - 0
+    - - -13.723999999999998
+      - -5.548
+    - - -14.6
+      - -13.87
+    - - -12.264
+      - -21.462
+    pos:
+    - 0
+    - 169
+    - -2.9
     rot:
     - 0
     - 0
@@ -65,9 +269,19 @@ oobb_details:
   units: mm
 oobb_type: tool_reference
 oomp_id: tool_wrench_m13
+parameters:
+  across_flats_mm: 13
+  jaw_thickness_mm: 5.8
+  jaw_width_mm: 29.2
+  length_mm: 169
+  ring_thickness_mm: 7.6
+  ring_width_mm: 19.7
 part_number: ''
 size: m13
 sources:
+- supports: 111M-13 across-flats size, length, two head widths and two head thicknesses.
+  title: Bahco 111M metric flat combination spanners
+  url: https://www.bahco.com/int_en/metric-flat-combination-wrenches-with-chrome-finish-pb_111m_.html
 - supports: Upstream tool naming and clearance geometry used in the holder migration.
   title: OOBB v4 tool shapes
   url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
@@ -89,7 +303,7 @@ taxonomy_6: ''
 taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
-title: M13 wrench
+title: M13 spanner
 type: wrench
 id: tool_wrench_m13
 directory: parts/tool_wrench_m13

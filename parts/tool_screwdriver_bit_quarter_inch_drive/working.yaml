@@ -40,12 +40,23 @@ holders:
   layout: 8_plus_7_layered
   quantity: 15
   source_id: oobb_part_tool_holder_vertical_9_width_4_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_layered_extra
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_block_3_rows_9x3x24
+  layout: block_3_rows
+  quantity: 23
+  source_id: oobb_part_holder_tool_driver_bit_quarter_inch_block_3_rows_9x3x24
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_block_5_rows_9x3x36
+  layout: block_5_rows
+  quantity: 38
+  source_id: oobb_part_holder_tool_driver_bit_quarter_inch_block_5_rows_9x3x36
+- id: oobb_part_holder_tool_driver_bit_quarter_inch_block_7_rows_9x3x48
+  layout: block_7_rows
+  quantity: 53
+  source_id: oobb_part_holder_tool_driver_bit_quarter_inch_block_7_rows_9x3x48
 key: quarter_inch
 manufacturer: ''
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: long_driver_bit
+model_note: Representative Wera 851/4 Z PH2 bit, 89 mm long with a quarter-inch drive.
+  The tapered tip is simplified and its length and end diameter are estimated.
 name: tool_screwdriver_bit_quarter_inch_drive
 name_proper: Quarter-inch drive bit
 name_space: tool screwdriver bit quarter inch drive
@@ -57,12 +68,31 @@ oobb_details:
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 100
+  - facets: 6
+    h: 81
+    material: bright steel
+    name: Hexagonal shank
     pos:
     - 0
     - 0
     - 0
-    r: 4
+    r: 3.6661742093541236
+    r2: 3.6661742093541236
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 6
+    h: 8
+    material: ground steel
+    name: Phillips tip
+    pos:
+    - 0
+    - 81
+    - 0
+    r: 3.6661742093541236
+    r2: 1.6
     rot:
     - -90
     - 0
@@ -71,9 +101,19 @@ oobb_details:
   units: mm
 oobb_type: tool_reference
 oomp_id: tool_screwdriver_bit_quarter_inch_drive
+parameters:
+  across_flats_mm: 6.35
+  length_mm: 89
+  tip_diameter_mm: 3.2
+  tip_length_mm: 8
 part_number: ''
 size: quarter_inch_drive
 sources:
+- file: wera_05059775001.pdf
+  part_file: datasheet.pdf
+  supports: 89 mm length, PH2 tip and quarter-inch drive.
+  title: Wera 851/4 Z PH2 datasheet
+  url: https://hybris-media.wera.de/download/pdfgenerator-datasheets/en/05059775001.pdf
 - supports: Original vertical holder tool selection and pocket dimensions.
   title: OOBB vertical holder recipe
   url: https://github.com/oomlout/oomlout_oobb_part_tool_holder_vertical/blob/93a962a09e0c275c3cfa62187182ac3203bde1b2/scad.py

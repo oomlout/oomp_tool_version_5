@@ -32,7 +32,9 @@
 | [marker sharpie style 13mm 4 place 7x5x17](../../HOLDERS.md#oobb_part_holder_tool_marker_sharpie_style_13mm_4_place_7x5x17) | 4 |
 | [marker sharpie style 13mm 5 place 8x5x17](../../HOLDERS.md#oobb_part_holder_tool_marker_sharpie_style_13mm_5_place_8x5x17) | 5 |
 
-![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17.jpg)
+[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17/README.md#assembly)
 
-Holder preview from [OOBB part holder v5](../../HOLDERS.md#oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17).
+Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17/README.md#assembly).
+
+[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_marker_sharpie_style_13mm_1_place_3x1x17.pdf)
 <!-- oomp-tools:end -->

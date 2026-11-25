@@ -1,8 +1,18 @@
 // Medium Prit glue stick
-// Geometry follows the holder clearance profile. Its dimensions describe the pocket used in the source design. Physical tool dimensions and fit have yet to be measured.
+// Representative PLUS Pritt medium NS-702, approximately 20 g and 26 × 95 mm. The red closed body and dark twist base are simplified, with estimated cap and base lengths. The workshop specimen has not been measured.
 // Units: mm
 $fn = 64;
 union() {
+    // Twist base
+    color([0.1843, 0.1804, 0.1961])
     translate([0, 0, 0]) rotate([-90, 0, 0])
-        cylinder(h=96, r1=14, r2=14, $fn=64);
+        cylinder(h=6, r1=12.219999999999999, r2=12.219999999999999, $fn=64);
+    // Glue stick body
+    color([0.6863, 0.1059, 0.1569])
+    translate([0, 6, 0]) rotate([-90, 0, 0])
+        cylinder(h=61, r1=12.48, r2=12.48, $fn=64);
+    // Closed cap
+    color([0.6863, 0.1059, 0.1569])
+    translate([0, 67, 0]) rotate([-90, 0, 0])
+        cylinder(h=28, r1=13.0, r2=13.0, $fn=64);
 }

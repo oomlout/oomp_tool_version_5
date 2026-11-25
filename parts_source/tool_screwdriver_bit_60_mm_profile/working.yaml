@@ -34,10 +34,10 @@ holders:
   source_id: tool_screwdriver_driver_bit_x8
 key: tool_screwdriver_driver_bit
 manufacturer: ''
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: double_ended_bit
+model_note: Representative 60 mm quarter-inch double-ended PH2/PZ2 bit. Length and
+  drive size follow the HiKOKI product. The tapered hexagonal tips are simplified
+  and their length and end diameter are estimates.
 name: tool_screwdriver_bit_60_mm_profile
 name_proper: Driver bit, 60 mm profile
 name_space: tool screwdriver bit 60 mm profile
@@ -47,12 +47,46 @@ oobb_details:
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 60
+  - facets: 6
+    h: 8
+    material: ground steel
+    name: Lower tip
     pos:
     - 0
     - 0
     - 0
-    r: 4
+    r: 1.6
+    r2: 3.6661742093541236
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 6
+    h: 44
+    material: bright steel
+    name: Hexagonal shank
+    pos:
+    - 0
+    - 8
+    - 0
+    r: 3.6661742093541236
+    r2: 3.6661742093541236
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - facets: 6
+    h: 8
+    material: ground steel
+    name: Upper tip
+    pos:
+    - 0
+    - 52
+    - 0
+    r: 3.6661742093541236
+    r2: 1.6
     rot:
     - -90
     - 0
@@ -61,9 +95,17 @@ oobb_details:
   units: mm
 oobb_type: tool_reference
 oomp_id: tool_screwdriver_bit_60_mm_profile
+parameters:
+  across_flats_mm: 6.35
+  length_mm: 60
+  tip_diameter_mm: 3.2
+  tip_length_mm: 8
 part_number: ''
 size: 60_mm_profile
 sources:
+- supports: Overall length, quarter-inch drive and PH2/PZ2 ends.
+  title: HiKOKI 60 mm double-ended PH/PZ bits
+  url: https://hikoki-powertools.eu/uk/en/machines-accessories/3-bits-1-4-double-ended-phillips-pozidrive-ph1-pz1-ph2-pz2-ph3-pz3-60mm/
 - supports: Upstream tool naming and clearance geometry used in the holder migration.
   title: OOBB v4 tool shapes
   url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py

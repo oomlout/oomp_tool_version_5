@@ -141,7 +141,7 @@ def main(**kwargs):
                 [0, -.001, 0, 0],
                 [0, 0, 0, 1],
             ])
-            if part["model_kind"] == "photo_reference":
+            if all("material" in section for section in options["segments"]):
                 exchange = coloured_scene(transform=transform, **options)
             else:
                 mesh.apply_transform(transform)

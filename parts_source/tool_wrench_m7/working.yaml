@@ -28,39 +28,77 @@ holders:
   layout: bench
   quantity: 1
   source_id: tool_holder_basic
-- id: oobb_part_holder_tool_wrench_m7_1_place_3x5x6d5
+- id: oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10
+  layout: 4_place
+  quantity: 1
+  source_id: oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10
+- id: oobb_part_holder_tool_spanner_m7_1_place_3x5x6d5
   layout: 1_place
   quantity: 1
-  source_id: tool_wrench_m7
+  source_id: oobb_part_holder_tool_spanner_m7_1_place_3x5x6d5
 key: tool_wrench_m7
 manufacturer: ''
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: open_spanner
+model_note: Generic 7 mm open-end spanner using the FACOM 34.7 as a dimensional reference.
+  Length, maximum head width and thickness follow the catalogue. The square-on jaws
+  and shank are simplified, and the workshop specimen has not been measured.
 name: tool_wrench_m7
-name_proper: M7 wrench
+name_proper: M7 spanner
 name_space: tool wrench m7
-name_upper: M7 WRENCH
+name_upper: M7 SPANNER
 oobb_details:
   oobb_type: tool_reference
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 4.5
+  - h: 2.7
+    material: bright steel
+    name: Open spanner
     points:
-    - - -8
+    - - -7.5
       - 0
-    - - -8
-      - 110
-    - - 8
-      - 110
-    - - 8
+    - - -3.5
       - 0
+    - - -3.5
+      - 7.5
+    - - 3.5
+      - 7.5
+    - - 3.5
+      - 0
+    - - 7.5
+      - 0
+    - - 7.5
+      - 8.25
+    - - 3.0
+      - 18.75
+    - - 3.0
+      - 61.25
+    - - 7.5
+      - 71.75
+    - - 7.5
+      - 80
+    - - 3.5
+      - 80
+    - - 3.5
+      - 72.5
+    - - -3.5
+      - 72.5
+    - - -3.5
+      - 80
+    - - -7.5
+      - 80
+    - - -7.5
+      - 71.75
+    - - -3.0
+      - 61.25
+    - - -3.0
+      - 18.75
+    - - -7.5
+      - 8.25
     pos:
     - 0
-    - 0.0
     - 0
+    - -1.35
     rot:
     - 0
     - 0
@@ -69,9 +107,18 @@ oobb_details:
   units: mm
 oobb_type: tool_reference
 oomp_id: tool_wrench_m7
+parameters:
+  across_flats_mm: 7
+  head_width_mm: 15
+  length_mm: 80
+  shank_width_mm: 6
+  thickness_mm: 2.7
 part_number: ''
 size: m7
 sources:
+- supports: 34.7 nominal jaw size, overall length, head width and thickness.
+  title: FACOM 34 metric open-end spanners
+  url: https://facom.eu/products/34-midget-double-open-end-wrenches-metric
 - supports: Upstream tool naming and clearance geometry used in the holder migration.
   title: OOBB v4 tool shapes
   url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
@@ -93,5 +140,5 @@ taxonomy_6: ''
 taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
-title: M7 wrench
+title: M7 spanner
 type: wrench

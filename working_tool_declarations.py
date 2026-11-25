@@ -43,7 +43,7 @@ def get_tools(**kwargs):
         },
         {
             "key": "tool_screwdriver_hex_m1d5_wera_60_mm",
-            "title": "Wera 2054 Micro hex screwdriver, 1.5 × 60 mm",
+            "title": "Tall precision hex screwdriver, 1.5 × 60 mm",
             "legacy_id": "tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_1_5_mm_wera_2054_series_05118066001",
             "model_kind": "wera",
             "parameters": {
@@ -66,7 +66,7 @@ def get_tools(**kwargs):
         },
         {
             "key": "tool_screwdriver_hex_m2_wera_60_mm",
-            "title": "Wera 2054 Micro hex screwdriver, 2 × 60 mm",
+            "title": "Tall precision hex screwdriver, 2 × 60 mm",
             "legacy_id": "tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_mm_wera_2054_series_05118068001",
             "model_kind": "wera",
             "parameters": {
@@ -89,7 +89,7 @@ def get_tools(**kwargs):
         },
         {
             "key": "tool_screwdriver_hex_m2d5_wera_60_mm",
-            "title": "Wera 2054 Micro hex screwdriver, 2.5 × 60 mm",
+            "title": "Tall precision hex screwdriver, 2.5 × 60 mm",
             "legacy_id": "tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001",
             "model_kind": "wera",
             "parameters": {
@@ -114,7 +114,7 @@ def get_tools(**kwargs):
             "key": "tool_timer_80_mm_diameter_30_mm_depth_black",
             "title": "Round black timer, 80 × 30 mm",
             "legacy_id": "tool_timer_80_mm_diameter_30_mm_depth_black",
-            "model_kind": "disc",
+            "model_kind": "timer_disc",
             "parameters": {
                 "diameter_mm": 80,
                 "depth_mm": 30,
@@ -125,12 +125,12 @@ def get_tools(**kwargs):
             "key": "tool_knife_utility_blade_disposal_can_olfa_dc_3",
             "title": "OLFA DC-3 blade disposal can",
             "legacy_id": "tool_knife_utility_blade_disposal_can_olfa_dc_3",
-            "model_kind": "disc",
+            "model_kind": "olfa_can",
             "parameters": {
                 "diameter_mm": 67,
                 "depth_mm": 24,
             },
-            "model_note": "Round body approximation using OLFA's overall length and thickness. The sliding door and rim details are omitted.",
+            "model_note": "Round yellow body and red face approximation using OLFA's overall length and thickness and product photograph. The sliding door, lettering and rim details are omitted.",
             "sources": [
                 {
                     "title": "OLFA Corporation DC-3 dimensions",
@@ -153,6 +153,33 @@ def get_tools(**kwargs):
         {
             "key": "tool_measure_tape_measure_5000_mm_length_stanley_1_30_696",
             "title": "Stanley 1-30-696 tape measure, 5 m",
+            "model_kind": "tape_measure",
+            "parameters": {
+                "width_mm": 69,
+                "height_mm": 72,
+                "depth_mm": 40,
+                "corner_mm": 12,
+                "face_depth_mm": 0.6,
+            },
+            "model_note": "Retracted Stanley Tylon 1-30-696, modelled with a 69 × 72 × 40 mm case from a distributor listing. The outline and coloured face follow the manufacturer photograph. The lock, hook and belt clip are simplified or omitted; dimensions and physical fit require confirmation on the actual tool.",
+            "sources": [
+                {
+                    "title": "Stanley Tylon 1-30-696",
+                    "url": "https://www.stanleytools.co.uk/en-gb/product/1-30-696/tylon-16-ft5m-19mm-wide-tape-measure-12-pk",
+                    "file": "stanley_1-30-696.jpg",
+                    "supports": "Product identity, 5 m tape, 19 mm blade and case photograph.",
+                },
+                {
+                    "title": "Arcmaster Tylon 1-30-696 dimensions",
+                    "url": "https://arcmaster.uk.com/product/stanley-tylon-pocket-tape-measure-5m-16ft/",
+                    "supports": "Distributor lists 69 mm width, 72 mm height and 40 mm depth.",
+                },
+                {
+                    "title": "L&S 1-30-696 size",
+                    "url": "https://www.lsengineers.co.uk/pocket-tape-5m-16ft-width-19mm-loose-by-stanley-1-30-696.html",
+                    "supports": "Independent distributor lists approximately 70 × 41 × 71 mm.",
+                },
+            ],
             "legacy_id": "tool_measure_tape_measure_5000_mm_length_stanley_1_30_696",
         },
         {
@@ -172,7 +199,7 @@ def get_tools(**kwargs):
                 "scale_path_px": [[112.5,60],[142.7,409.7]],
                 "axis_px": [0.045,1],
             },
-            "title": "Black Exacto-style craft knife, 17 mm",
+            "title": "Closed utility knife, 17 mm",
             "classification": "tool",
             "type": "knife_craft",
             "size": "17_mm",
@@ -218,6 +245,21 @@ def get_tools(**kwargs):
         {
             "key": "tool_screwdriver_driver_bit",
             "title": "Driver bit, 60 mm profile",
+            "model_kind": "double_ended_bit",
+            "parameters": {
+                "length_mm": 60,
+                "across_flats_mm": 6.35,
+                "tip_length_mm": 8,
+                "tip_diameter_mm": 3.2,
+            },
+            "model_note": "Representative 60 mm quarter-inch double-ended PH2/PZ2 bit. Length and drive size follow the HiKOKI product. The tapered hexagonal tips are simplified and their length and end diameter are estimates.",
+            "sources": [
+                {
+                    "title": "HiKOKI 60 mm double-ended PH/PZ bits",
+                    "url": "https://hikoki-powertools.eu/uk/en/machines-accessories/3-bits-1-4-double-ended-phillips-pozidrive-ph1-pz1-ph2-pz2-ph3-pz3-60mm/",
+                    "supports": "Overall length, quarter-inch drive and PH2/PZ2 ends.",
+                },
+            ],
             "classification": "tool",
             "type": "screwdriver_bit",
             "size": "60_mm_profile",
@@ -229,6 +271,22 @@ def get_tools(**kwargs):
         {
             "key": "quarter_inch",
             "title": "Quarter-inch drive bit",
+            "model_kind": "long_driver_bit",
+            "parameters": {
+                "length_mm": 89,
+                "across_flats_mm": 6.35,
+                "tip_length_mm": 8,
+                "tip_diameter_mm": 3.2,
+            },
+            "model_note": "Representative Wera 851/4 Z PH2 bit, 89 mm long with a quarter-inch drive. The tapered tip is simplified and its length and end diameter are estimated.",
+            "sources": [
+                {
+                    "title": "Wera 851/4 Z PH2 datasheet",
+                    "url": "https://hybris-media.wera.de/download/pdfgenerator-datasheets/en/05059775001.pdf",
+                    "file": "wera_05059775001.pdf",
+                    "supports": "89 mm length, PH2 tip and quarter-inch drive.",
+                },
+            ],
             "classification": "tool",
             "type": "screwdriver_bit",
             "size": "quarter_inch_drive",
@@ -251,6 +309,21 @@ def get_tools(**kwargs):
         {
             "key": "tool_tdpb_glue_stick_prit_medium",
             "title": "Medium Prit glue stick",
+            "model_kind": "pritt_stick",
+            "parameters": {
+                "diameter_mm": 26,
+                "length_mm": 95,
+                "base_length_mm": 6,
+                "cap_length_mm": 28,
+            },
+            "model_note": "Representative PLUS Pritt medium NS-702, approximately 20 g and 26 × 95 mm. The red closed body and dark twist base are simplified, with estimated cap and base lengths. The workshop specimen has not been measured.",
+            "sources": [
+                {
+                    "title": "PLUS Pritt medium NS-702",
+                    "url": "https://itemplus.plus.co.jp/catalog/DispDetail.do?itemID=t000100000385&volumeName=00016",
+                    "supports": "Manufacturer lists medium, approximately 20 g, 26 mm diameter and 95 mm overall height.",
+                },
+            ],
             "classification": "stationery",
             "type": "glue_stick",
             "size": "medium",
@@ -403,7 +476,23 @@ def get_tools(**kwargs):
         },
         {
             "key": "tool_wrench_m7",
-            "title": "M7 wrench",
+            "title": "M7 spanner",
+            "model_kind": "open_spanner",
+            "parameters": {
+                "across_flats_mm": 7,
+                "length_mm": 80,
+                "head_width_mm": 15,
+                "thickness_mm": 2.7,
+                "shank_width_mm": 6,
+            },
+            "model_note": "Generic 7 mm open-end spanner using the FACOM 34.7 as a dimensional reference. Length, maximum head width and thickness follow the catalogue. The square-on jaws and shank are simplified, and the workshop specimen has not been measured.",
+            "sources": [
+                {
+                    "title": "FACOM 34 metric open-end spanners",
+                    "url": "https://facom.eu/products/34-midget-double-open-end-wrenches-metric",
+                    "supports": "34.7 nominal jaw size, overall length, head width and thickness.",
+                },
+            ],
             "classification": "tool",
             "type": "wrench",
             "size": "m7",
@@ -414,7 +503,29 @@ def get_tools(**kwargs):
         },
         {
             "key": "tool_wrench_m8",
-            "title": "M8 wrench",
+            "title": "M8 spanner",
+            "model_kind": "combination_spanner",
+            "parameters": {
+                "across_flats_mm": 8,
+                "length_mm": 145,
+                "ring_width_mm": 12.1,
+                "jaw_width_mm": 17.5,
+                "ring_thickness_mm": 7,
+                "jaw_thickness_mm": 5,
+            },
+            "model_note": "Generic 8 mm combination spanner using Stahlwille OPEN BOX 14 article 40100808 as a dimensional reference. Length and both head widths and thicknesses follow the catalogue. The straight body, head outlines and ring offset are simplified. The workshop specimen has not been measured.",
+            "sources": [
+                {
+                    "title": "Stahlwille OPEN BOX 14 article 40100808",
+                    "url": "https://stahlwille.com/en_gb/products/detail/874570",
+                    "supports": "8 mm jaw, 145 mm length, 17.5 mm open head width, 12.1 mm ring width, and 5 mm and 7 mm head thicknesses.",
+                },
+                {
+                    "title": "FACOM 34 metric open-end spanners",
+                    "url": "https://facom.eu/products/34-midget-double-open-end-wrenches-metric",
+                    "supports": "Alternative FACOM 34.8 has an 18.5 mm head, wider than the 18 mm single-holder pocket.",
+                },
+            ],
             "classification": "tool",
             "type": "wrench",
             "size": "m8",
@@ -425,7 +536,24 @@ def get_tools(**kwargs):
         },
         {
             "key": "tool_wrench_m10",
-            "title": "M10 wrench",
+            "title": "M10 spanner",
+            "model_kind": "combination_spanner",
+            "parameters": {
+                "across_flats_mm": 10,
+                "length_mm": 144,
+                "ring_width_mm": 15.7,
+                "jaw_width_mm": 22.9,
+                "ring_thickness_mm": 6.5,
+                "jaw_thickness_mm": 5.1,
+            },
+            "model_note": "Generic 10 mm combination spanner using the Bahco 111M-10 as a dimensional reference. Length and head widths and thicknesses follow the catalogue. The straight shank, jaw outline and six-point ring are simplified. The workshop specimen has not been measured.",
+            "sources": [
+                {
+                    "title": "Bahco 111M metric flat combination spanners",
+                    "url": "https://www.bahco.com/int_en/metric-flat-combination-wrenches-with-chrome-finish-pb_111m_.html",
+                    "supports": "111M-10 across-flats size, length, two head widths and two head thicknesses.",
+                },
+            ],
             "classification": "tool",
             "type": "wrench",
             "size": "m10",
@@ -436,7 +564,24 @@ def get_tools(**kwargs):
         },
         {
             "key": "tool_wrench_m13",
-            "title": "M13 wrench",
+            "title": "M13 spanner",
+            "model_kind": "combination_spanner",
+            "parameters": {
+                "across_flats_mm": 13,
+                "length_mm": 169,
+                "ring_width_mm": 19.7,
+                "jaw_width_mm": 29.2,
+                "ring_thickness_mm": 7.6,
+                "jaw_thickness_mm": 5.8,
+            },
+            "model_note": "Generic 13 mm combination spanner using the Bahco 111M-13 as a dimensional reference. Length and head widths and thicknesses follow the catalogue. The straight shank, jaw outline and six-point ring are simplified. The workshop specimen has not been measured.",
+            "sources": [
+                {
+                    "title": "Bahco 111M metric flat combination spanners",
+                    "url": "https://www.bahco.com/int_en/metric-flat-combination-wrenches-with-chrome-finish-pb_111m_.html",
+                    "supports": "111M-13 across-flats size, length, two head widths and two head thicknesses.",
+                },
+            ],
             "classification": "tool",
             "type": "wrench",
             "size": "m13",
@@ -447,7 +592,24 @@ def get_tools(**kwargs):
         },
         {
             "key": "tool_wrench_m21",
-            "title": "M21 wrench",
+            "title": "M21 spanner",
+            "model_kind": "combination_spanner",
+            "parameters": {
+                "across_flats_mm": 21,
+                "length_mm": 280,
+                "ring_width_mm": 29.8,
+                "jaw_width_mm": 43,
+                "ring_thickness_mm": 13,
+                "jaw_thickness_mm": 8.5,
+            },
+            "model_note": "Generic 21 mm combination spanner using Stahlwille OPEN BOX 14 article 40102121 as a dimensional reference. Length and both head widths and thicknesses follow the catalogue. The straight body, head outlines and ring offset are simplified. The workshop specimen has not been measured.",
+            "sources": [
+                {
+                    "title": "Stahlwille OPEN BOX 14 article 40102121",
+                    "url": "https://stahlwille.com/en_gb/products/detail/874650",
+                    "supports": "21 mm jaw, 280 mm length, 43 mm open head width, 29.8 mm ring width, and 8.5 mm and 13 mm head thicknesses.",
+                },
+            ],
             "classification": "tool",
             "type": "wrench",
             "size": "m21",

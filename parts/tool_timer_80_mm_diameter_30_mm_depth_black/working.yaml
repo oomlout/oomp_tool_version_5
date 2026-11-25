@@ -27,7 +27,7 @@ holders:
 key: tool_timer_80_mm_diameter_30_mm_depth_black
 legacy_id: tool_timer_80_mm_diameter_30_mm_depth_black
 manufacturer: ''
-model_kind: disc
+model_kind: timer_disc
 model_note: External body envelope from the OOMP timer record. The holder has clearance
   around both faces and the rim.
 name: tool_timer_80_mm_diameter_30_mm_depth_black
@@ -41,6 +41,8 @@ oobb_details:
   segments:
   - facets: 64
     h: 30
+    material: charcoal
+    name: Body
     pos:
     - 0
     - 0

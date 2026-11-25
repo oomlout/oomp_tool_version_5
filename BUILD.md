@@ -26,7 +26,7 @@ Each stage accepts the same `--filter` option. The global indexes include every 
 
 ## Editing a tool
 
-For the four tools traced from workshop photos, run `python working.py --filter tool_side_cutters_110 --render-blender` to rebuild a single model, or `python working_blender.py` to render the four existing GLBs. Blender 5.2 was used for the two PNG views and editable scene. Each photo model also has a measurement sheet and an outline registered to the original image. [Measurements, renders and photo capture notes](parts/PHOTO_MODELS.md)
+Run `python working.py --filter tool_side_cutters_110 --render-blender` for a photographed tool or `python working.py --filter tool_wrench_m10 --render-blender` for a dimensioned spanner. Run `python working_blender.py` to render all supported studio models. Blender produces two PNG views and an editable scene. Each photo model also has a measurement sheet and an outline registered to the original image. [Measurements and photo capture notes](parts/PHOTO_MODELS.md) · [Holder modelling queue](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/tree/main/presentation/tool-model-handoff)
 
 Edit the multiline dictionaries in [working_tool_declarations.py](working_tool_declarations.py). Each declaration names a source profile and either specifies the OOMP identity fields or selects a legacy identity. Add dimensions under `parameters`, explain what they describe under `model_note`, and list the documents that support them under `sources`. The shape builders and their defaults live in [working_tool_geometry.py](working_tool_geometry.py).
 

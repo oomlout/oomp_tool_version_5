@@ -20,6 +20,19 @@ def holder_members(**kwargs):
     profile = kwargs["profile"]
     count = kwargs.get("count", 1)
     layered = kwargs.get("layered", False)
+    row_count = kwargs.get("row_count", 1)
+    if profile == "four_spanners":
+        return {
+            "tool_wrench_m13": 1,
+            "tool_wrench_m10": 1,
+            "tool_wrench_m8": 1,
+            "tool_wrench_m7": 1,
+        }
+    if profile == "tool_knife_utility_17_mm_blade":
+        return {
+            "tool_knife_utility_17_mm_blade": 1,
+            "tool_knife_exacto_17mm_black": 1,
+        }
     if profile == "basic_bench_stand":
         return {
             "tool_side_cutters_generic_110_mm_red": 1,
@@ -54,6 +67,8 @@ def holder_members(**kwargs):
         }
     if layered:
         count += count - 1
+    elif row_count > 1:
+        count = row_count * count - row_count // 2
     return {
         profile: count,
     }
@@ -64,6 +79,8 @@ def single_profile(**kwargs):
     profiles = kwargs["profiles"]
     if key in HEX_KEYS:
         segments = [profiles["tool_screwdriver_hex_key_set_small"][HEX_KEYS.index(key)]]
+    elif key == "tool_knife_exacto_17mm_black" and key not in profiles:
+        segments = profiles["tool_knife_utility_17_mm_blade"]
     elif key == "tool_screwdriver_multi_quikpik_200_mm_knife":
         segments = profiles[key][1:]  # First cutter belongs to the companion knife.
     else:

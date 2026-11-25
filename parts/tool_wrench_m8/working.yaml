@@ -28,39 +28,243 @@ holders:
   layout: bench
   quantity: 1
   source_id: tool_holder_basic
-- id: oobb_part_holder_tool_wrench_m8_1_place_3x5x7d5
+- id: oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10
+  layout: 4_place
+  quantity: 1
+  source_id: oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10
+- id: oobb_part_holder_tool_spanner_m8_1_place_3x5x7d5
   layout: 1_place
   quantity: 1
-  source_id: tool_wrench_m8
+  source_id: oobb_part_holder_tool_spanner_m8_1_place_3x5x7d5
 key: tool_wrench_m8
 manufacturer: ''
-model_kind: holder_envelope
-model_note: Geometry follows the holder clearance profile. Its dimensions describe
-  the pocket used in the source design. Physical tool dimensions and fit have yet
-  to be measured.
+model_kind: combination_spanner
+model_note: Generic 8 mm combination spanner using Stahlwille OPEN BOX 14 article
+  40100808 as a dimensional reference. Length and both head widths and thicknesses
+  follow the catalogue. The straight body, head outlines and ring offset are simplified.
+  The workshop specimen has not been measured.
 name: tool_wrench_m8
-name_proper: M8 wrench
+name_proper: M8 spanner
 name_space: tool wrench m8
-name_upper: M8 WRENCH
+name_upper: M8 SPANNER
 oobb_details:
   oobb_type: tool_reference
   run_scad: true
   run_solidcraft: false
   segments:
-  - h: 5.5
+  - h: 7
+    holes:
+    - - - 4.618802153517007
+        - 6.05
+      - - 2.309401076758504
+        - 2.05
+      - - -2.3094010767585025
+        - 2.049999999999999
+      - - -4.618802153517007
+        - 6.049999999999999
+      - - -2.3094010767585056
+        - 10.05
+      - - 2.309401076758504
+        - 10.05
+    material: bright steel
+    name: Ring end
     points:
-    - - -9
-      - 0
-    - - -9
-      - 120
-    - - 9
-      - 120
-    - - 9
-      - 0
+    - - 6.05
+      - 6.05
+    - - 6.0208675963667915
+      - 6.643003698993842
+    - - 5.933750946439544
+      - 7.230296448197575
+    - - 5.789489031179863
+      - 7.806222297389496
+    - - 5.589471171693285
+      - 8.365234765808793
+    - - 5.335623649307548
+      - 8.901950257797285
+    - - 5.030391154430399
+      - 9.411199909768593
+    - - 4.676713242844559
+      - 9.888079369190056
+    - - 4.277996026178613
+      - 10.327996026178612
+    - - 3.838079369190055
+      - 10.726713242844557
+    - - 3.361199909768594
+      - 11.0803911544304
+    - - 2.8519502577972866
+      - 11.385623649307547
+    - - 2.3152347658087935
+      - 11.639471171693284
+    - - 1.756222297389497
+      - 11.839489031179864
+    - - 1.1802964481975764
+      - 11.983750946439544
+    - - 0.5930036989938426
+      - 12.07086759636679
+    - - 3.7045565674207433e-16
+      - 12.1
+    - - -0.5930036989938419
+      - 12.07086759636679
+    - - -1.1802964481975755
+      - 11.983750946439544
+    - - -1.756222297389496
+      - 11.839489031179864
+    - - -2.3152347658087926
+      - 11.639471171693284
+    - - -2.851950257797286
+      - 11.385623649307547
+    - - -3.3611999097685916
+      - 11.0803911544304
+    - - -3.8380793691900545
+      - 10.726713242844559
+    - - -4.277996026178612
+      - 10.327996026178612
+    - - -4.676713242844559
+      - 9.888079369190056
+    - - -5.030391154430399
+      - 9.411199909768593
+    - - -5.335623649307547
+      - 8.901950257797287
+    - - -5.589471171693285
+      - 8.365234765808793
+    - - -5.789489031179863
+      - 7.806222297389498
+    - - -5.933750946439544
+      - 7.230296448197578
+    - - -6.020867596366791
+      - 6.6430036989938435
+    - - -6.05
+      - 6.050000000000002
+    - - -6.0208675963667915
+      - 5.456996301006159
+    - - -5.933750946439544
+      - 4.869703551802423
+    - - -5.789489031179864
+      - 4.293777702610504
+    - - -5.589471171693285
+      - 3.7347652341912077
+    - - -5.335623649307548
+      - 3.1980497422027137
+    - - -5.0303911544304
+      - 2.688800090231408
+    - - -4.676713242844559
+      - 2.211920630809946
+    - - -4.277996026178613
+      - 1.7720039738213877
+    - - -3.8380793691900577
+      - 1.3732867571554432
+    - - -3.361199909768593
+      - 1.0196088455696013
+    - - -2.851950257797287
+      - 0.7143763506924526
+    - - -2.3152347658087966
+      - 0.46052882830671654
+    - - -1.7562222973894976
+      - 0.2605109688201366
+    - - -1.1802964481975784
+      - 0.11624905356045656
+    - - -0.5930036989938408
+      - 0.02913240363320858
+    - - -1.111366970226223e-15
+      - 0.0
+    - - 0.5930036989938385
+      - 0.02913240363320858
+    - - 1.1802964481975762
+      - 0.1162490535604559
+    - - 1.7562222973894954
+      - 0.2605109688201359
+    - - 2.3152347658087944
+      - 0.4605288283067159
+    - - 2.8519502577972853
+      - 0.714376350692452
+    - - 3.361199909768591
+      - 1.0196088455696
+    - - 3.838079369190056
+      - 1.373286757155442
+    - - 4.277996026178611
+      - 1.7720039738213864
+    - - 4.676713242844556
+      - 2.211920630809942
+    - - 5.030391154430399
+      - 2.688800090231407
+    - - 5.335623649307546
+      - 3.1980497422027123
+    - - 5.589471171693283
+      - 3.734765234191203
+    - - 5.789489031179863
+      - 4.293777702610502
+    - - 5.9337509464395435
+      - 4.869703551802421
+    - - 6.0208675963667915
+      - 5.456996301006159
     pos:
     - 0
-    - 0.0
     - 0
+    - -3.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 4.0
+    material: ground steel
+    name: Shank
+    points:
+    - - -3.4
+      - 11.011
+    - - 3.4
+      - 11.011
+    - - 2.992
+      - 76.85000000000001
+    - - 3.4
+      - 130.125
+    - - -3.4
+      - 130.125
+    - - -2.992
+      - 76.85000000000001
+    pos:
+    - 0
+    - 0
+    - -2.0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 5
+    material: bright steel
+    name: Open jaw
+    points:
+    - - -3.4
+      - -16.1875
+    - - 3.4
+      - -16.1875
+    - - 7.35
+      - -12.862499999999999
+    - - 8.75
+      - -8.3125
+    - - 8.225
+      - -3.325
+    - - 4.0
+      - 0
+    - - 4.0
+      - -7.5249999999999995
+    - - 0
+      - -9.8
+    - - -4.0
+      - -7.5249999999999995
+    - - -4.0
+      - 0
+    - - -8.225
+      - -3.325
+    - - -8.75
+      - -8.3125
+    - - -7.35
+      - -12.862499999999999
+    pos:
+    - 0
+    - 145
+    - -2.5
     rot:
     - 0
     - 0
@@ -69,9 +273,24 @@ oobb_details:
   units: mm
 oobb_type: tool_reference
 oomp_id: tool_wrench_m8
+parameters:
+  across_flats_mm: 8
+  jaw_thickness_mm: 5
+  jaw_width_mm: 17.5
+  length_mm: 145
+  ring_thickness_mm: 7
+  ring_width_mm: 12.1
 part_number: ''
 size: m8
 sources:
+- supports: 8 mm jaw, 145 mm length, 17.5 mm open head width, 12.1 mm ring width,
+    and 5 mm and 7 mm head thicknesses.
+  title: Stahlwille OPEN BOX 14 article 40100808
+  url: https://stahlwille.com/en_gb/products/detail/874570
+- supports: Alternative FACOM 34.8 has an 18.5 mm head, wider than the 18 mm single-holder
+    pocket.
+  title: FACOM 34 metric open-end spanners
+  url: https://facom.eu/products/34-midget-double-open-end-wrenches-metric
 - supports: Upstream tool naming and clearance geometry used in the holder migration.
   title: OOBB v4 tool shapes
   url: https://github.com/oomlout/oomlout_oobb_version_4/blob/41f5386997faef4473c959dfb8c929864d7bf697/oobb_get_items_base_old.py
@@ -93,7 +312,7 @@ taxonomy_6: ''
 taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
-title: M8 wrench
+title: M8 spanner
 type: wrench
 id: tool_wrench_m8
 directory: parts/tool_wrench_m8

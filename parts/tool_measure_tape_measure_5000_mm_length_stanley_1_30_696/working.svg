@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="494" viewBox="0 0 960 494" role="img">
-<title>Stanley 1-30-696 tape measure, 5 m — Holder clearance profile</title>
+<title>Stanley 1-30-696 tape measure, 5 m — External tool reference</title>
 <desc>Orthographic drawing in millimetres. Plan and side share a scale. The end view is enlarged independently.</desc>
 <style>
 text {font-family:Arial,sans-serif;fill:#173735}
@@ -13,24 +13,27 @@ text {font-family:Arial,sans-serif;fill:#173735}
 </style>
 <rect width="960" height="494" fill="white"/>
 <text x="26" y="39" class="title">Stanley 1-30-696 tape measure, 5 m</text>
-<text x="27" y="69" class="detail">Holder clearance profile · millimetres</text>
+<text x="27" y="69" class="detail">External tool reference · millimetres</text>
 <text x="40" y="121" class="label">Plan  ·  Y × X</text>
 <rect x="26" y="98" width="610" height="190" rx="4" class="panel"/>
-<polygon points="384.128,137.000 277.872,137.000 277.872,249.000 384.128,249.000" class="object"/>
-<path d="M277.872 268v8 m0 -4 H384.128 m0 -4 v8" class="dim"/>
-<text x="331" y="267" class="measure">74 mm</text>
+<polygon points="389.435,229.522 389.435,156.478 369.957,137.000 292.043,137.000 272.565,156.478 272.565,229.522 292.043,249.000 369.957,249.000" class="object"/>
+<polygon points="378.072,224.652 378.072,161.348 363.464,145.116 300.159,145.116 288.797,151.609 288.797,234.391 300.159,240.884 363.464,240.884" class="object"/>
+<path d="M272.565 268v8 m0 -4 H389.435 m0 -4 v8" class="dim"/>
+<text x="331" y="267" class="measure">72 mm</text>
 <text x="40" y="323" class="label">Side  ·  Y × Z</text>
 <rect x="26" y="300" width="610" height="170" rx="4" class="panel"/>
-<polygon points="384.128,354.846 277.872,354.846 277.872,415.154 384.128,415.154" class="object"/>
-<path d="M277.872 450v8 m0 -4 H384.128 m0 -4 v8" class="dim"/>
-<text x="331" y="449" class="measure">74 mm</text>
+<polygon points="389.435,352.536 272.565,352.536 272.565,416.490 389.435,416.490" class="object"/>
+<polygon points="378.072,416.490 288.797,416.490 288.797,417.464 378.072,417.464" class="object"/>
+<path d="M272.565 450v8 m0 -4 H389.435 m0 -4 v8" class="dim"/>
+<text x="331" y="449" class="measure">72 mm</text>
 <text x="662" y="121" class="label">End  ·  X × Z</text>
 <rect x="648" y="98" width="286" height="190" rx="4" class="panel"/>
-<polygon points="887.571,141.000 694.429,141.000 694.429,245.000 887.571,245.000" class="object"/>
-<path d="M694.429 268v8 m0 -4 H887.571 m0 -4 v8" class="dim"/>
-<text x="791" y="267" class="measure">78 mm</text>
+<polygon points="880.700,141.000 701.300,141.000 701.300,243.440 880.700,243.440" class="object"/>
+<polygon points="867.700,243.440 714.300,243.440 714.300,245.000 867.700,245.000" class="object"/>
+<path d="M701.3 268v8 m0 -4 H880.7 m0 -4 v8" class="dim"/>
+<text x="791" y="267" class="measure">69 mm</text>
 <text x="664" y="337" class="label">Overall model dimensions</text>
-<text x="664" y="373" class="detail">X   78 mm</text>
-<text x="664" y="404" class="detail">Y   74 mm</text>
-<text x="664" y="435" class="detail">Z   42 mm</text>
+<text x="664" y="373" class="detail">X   69 mm</text>
+<text x="664" y="404" class="detail">Y   72 mm</text>
+<text x="664" y="435" class="detail">Z   40 mm</text>
 </svg>

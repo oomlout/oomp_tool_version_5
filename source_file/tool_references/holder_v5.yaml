@@ -258,26 +258,6 @@ profiles:
     - 0
     - 0
     shape: cylinder
-  tool_knife_exacto_17mm_black:
-  - h: 27.5
-    points:
-    - - -8.5
-      - 0
-    - - -8.5
-      - 160
-    - - 8.5
-      - 160
-    - - 8.5
-      - 0
-    pos:
-    - 0
-    - -23.75
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: polygon
   tool_knife_utility_17_mm_blade:
   - h: 27.5
     points:
@@ -786,70 +766,6 @@ profiles:
     - 0
     - 0
     shape: cylinder
-  tool_screwdriver_multi_quikpik_200_mm_knife:
-  - h: 27.5
-    points:
-    - - -23.5
-      - 0
-    - - -23.5
-      - 160
-    - - -6.5
-      - 160
-    - - -6.5
-      - 0
-    pos:
-    - 0
-    - -23.75
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: polygon
-  - h: 57
-    pos:
-    - 15
-    - -25
-    - 18
-    r: 3.85
-    rot:
-    - -90
-    - 0
-    - 0
-    shape: cylinder
-  - h: 30
-    pos:
-    - 15
-    - 32
-    - 18
-    r: 5.5
-    rot:
-    - -90
-    - 0
-    - 0
-    shape: cylinder
-  - h: 17
-    pos:
-    - 15
-    - 62
-    - 18
-    r: 6.5
-    rot:
-    - -90
-    - 0
-    - 0
-    shape: cylinder
-  - h: 100
-    pos:
-    - 15
-    - 79
-    - 18
-    r: 18
-    rot:
-    - -90
-    - 0
-    - 0
-    shape: cylinder
   tool_screwdriver_hex_m1d5_wera_60_mm:
   - h: 60
     pos:
@@ -919,6 +835,70 @@ profiles:
     - 0
     - 0
     shape: cylinder
+  tool_screwdriver_multi_quikpik_200_mm_knife:
+  - h: 27.5
+    points:
+    - - -23.5
+      - 0
+    - - -23.5
+      - 160
+    - - -6.5
+      - 160
+    - - -6.5
+      - 0
+    pos:
+    - 0
+    - -23.75
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 57
+    pos:
+    - 15
+    - -25
+    - 18
+    r: 3.85
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 30
+    pos:
+    - 15
+    - 32
+    - 18
+    r: 5.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 17
+    pos:
+    - 15
+    - 62
+    - 18
+    r: 6.5
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
+  - h: 100
+    pos:
+    - 15
+    - 79
+    - 18
+    r: 18
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: cylinder
   tool_side_cutters_generic_110_mm_red:
   - h: 11
     points:
@@ -941,6 +921,183 @@ profiles:
     pos:
     - 0
     - -24.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m10:
+  - h: 7
+    points:
+    - - -11.5
+      - 0
+    - - -11.5
+      - 140
+    - - 11.5
+      - 140
+    - - 11.5
+      - 0
+    pos:
+    - 0
+    - -26.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m13:
+  - h: 8
+    points:
+    - - -14
+      - 0
+    - - -14
+      - 160
+    - - 14
+      - 160
+    - - 14
+      - 0
+    pos:
+    - 0
+    - -26
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  four_spanners:
+  - h: 8
+    points:
+    - - -14
+      - 0
+    - - -14
+      - 70
+    - - 14
+      - 70
+    - - 14
+      - 0
+    pos:
+    - -41
+    - -25
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 7
+    points:
+    - - -11.5
+      - 0
+    - - -11.5
+      - 70
+    - - 11.5
+      - 70
+    - - 11.5
+      - 0
+    pos:
+    - -11
+    - -25
+    - 0.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 5.5
+    points:
+    - - -9
+      - 0
+    - - -9
+      - 70
+    - - 9
+      - 70
+    - - 9
+      - 0
+    pos:
+    - 15
+    - -25
+    - 1.25
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  - h: 4.5
+    points:
+    - - -8
+      - 0
+    - - -8
+      - 70
+    - - 8
+      - 70
+    - - 8
+      - 0
+    pos:
+    - 39
+    - -25
+    - 1.75
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m21:
+  - h: 10
+    points:
+    - - -22
+      - 0
+    - - -22
+      - 140
+    - - 22
+      - 140
+    - - 22
+      - 0
+    pos:
+    - 0
+    - -25
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m7:
+  - h: 4.5
+    points:
+    - - -8
+      - 0
+    - - -8
+      - 110
+    - - 8
+      - 110
+    - - 8
+      - 0
+    pos:
+    - 0
+    - -27.75
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+  tool_wrench_m8:
+  - h: 5.5
+    points:
+    - - -9
+      - 0
+    - - -9
+      - 120
+    - - 9
+      - 120
+    - - 9
+      - 0
+    pos:
+    - 0
+    - -27.25
     - 0
     rot:
     - 0
@@ -1001,106 +1158,6 @@ profiles:
     pos:
     - 0
     - -24.5
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: polygon
-  tool_wrench_m10:
-  - h: 7
-    points:
-    - - -11.5
-      - 0
-    - - -11.5
-      - 140
-    - - 11.5
-      - 140
-    - - 11.5
-      - 0
-    pos:
-    - 0
-    - -26.5
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: polygon
-  tool_wrench_m13:
-  - h: 8
-    points:
-    - - -14
-      - 0
-    - - -14
-      - 160
-    - - 14
-      - 160
-    - - 14
-      - 0
-    pos:
-    - 0
-    - -26
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: polygon
-  tool_wrench_m21:
-  - h: 10
-    points:
-    - - -22
-      - 0
-    - - -22
-      - 140
-    - - 22
-      - 140
-    - - 22
-      - 0
-    pos:
-    - 0
-    - -25
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: polygon
-  tool_wrench_m7:
-  - h: 4.5
-    points:
-    - - -8
-      - 0
-    - - -8
-      - 110
-    - - 8
-      - 110
-    - - 8
-      - 0
-    pos:
-    - 0
-    - -27.75
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: polygon
-  tool_wrench_m8:
-  - h: 5.5
-    points:
-    - - -9
-      - 0
-    - - -9
-      - 120
-    - - 9
-      - 120
-    - - 9
-      - 0
-    pos:
-    - 0
-    - -27.25
     - 0
     rot:
     - 0
@@ -1206,6 +1263,30 @@ layouts:
     count: 8
     layered: true
     source_id: oobb_part_tool_holder_vertical_9_width_4_height_12_mm_depth_tool_screwdriver_bit_quarter_inch_drive_tool_8_multiple_layered_extra
+  oobb_part_holder_tool_driver_bit_quarter_inch_block_3_rows_9x3x24:
+    profile: quarter_inch
+    title: Quarter-inch drive bit block, 3 rows
+    layout: block_3_rows
+    count: 8
+    layered: false
+    source_id: oobb_part_holder_tool_driver_bit_quarter_inch_block_3_rows_9x3x24
+    row_count: 3
+  oobb_part_holder_tool_driver_bit_quarter_inch_block_5_rows_9x3x36:
+    profile: quarter_inch
+    title: Quarter-inch drive bit block, 5 rows
+    layout: block_5_rows
+    count: 8
+    layered: false
+    source_id: oobb_part_holder_tool_driver_bit_quarter_inch_block_5_rows_9x3x36
+    row_count: 5
+  oobb_part_holder_tool_driver_bit_quarter_inch_block_7_rows_9x3x48:
+    profile: quarter_inch
+    title: Quarter-inch drive bit block, 7 rows
+    layout: block_7_rows
+    count: 8
+    layered: false
+    source_id: oobb_part_holder_tool_driver_bit_quarter_inch_block_7_rows_9x3x48
+    row_count: 7
   oobb_part_holder_tool_glue_stick_prit_medium_1_place_4x5x30:
     profile: tool_tdpb_glue_stick_prit_medium
     title: Medium Prit glue stick
@@ -1215,7 +1296,7 @@ layouts:
     source_id: tool_tdpb_glue_stick_prit_medium
   oobb_part_holder_tool_glue_stick_prit_medium_with_knife_5x5x30:
     profile: tool_tdpb_glue_stick_prit_medium_knife
-    title: Medium Prit glue stick and craft knife
+    title: Medium Prit glue stick and utility knife
     layout: with_knife
     count: 1
     layered: false
@@ -1234,13 +1315,6 @@ layouts:
     count: 1
     layered: false
     source_id: tool_screwdriver_hex_key_set_small_reverse
-  oobb_part_holder_tool_knife_exacto_17mm_1_place_3x5x29d5:
-    profile: tool_knife_exacto_17mm_black
-    title: Black Exacto craft knife, 17 mm
-    layout: 1_place
-    count: 1
-    layered: false
-    source_id: tool_knife_exacto_17mm_black
   oobb_part_holder_tool_knife_utility_17mm_1_place_3x5x29d5:
     profile: tool_knife_utility_17_mm_blade
     title: Utility knife, 17 mm blade
@@ -1402,55 +1476,55 @@ layouts:
     count: 1
     layered: false
     source_id: oobb_part_tool_holder_vertical_3_width_3_height_31_mm_depth_tool_screw_driver_multi_driver_precision_size_teeny_turner_model_picquic_tool_extra
+  oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m1d5_1_place_3x5x20:
+    profile: tool_screwdriver_hex_m1d5_wera_60_mm
+    title: Tall precision screwdriver, 1.5 mm hex, 60 mm
+    layout: m1d5_1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m1d5_1_place_3x5x20
+  oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2_1_place_3x5x20:
+    profile: tool_screwdriver_hex_m2_wera_60_mm
+    title: Tall precision screwdriver, 2 mm hex, 60 mm
+    layout: m2_1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2_1_place_3x5x20
+  oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20:
+    profile: tool_screwdriver_hex_m2d5_wera_60_mm
+    title: Tall precision screwdriver, 2.5 mm hex, 60 mm
+    layout: m2d5_1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20
+  oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_2_place_5x5x20:
+    profile: tool_screwdriver_hex_m2d5_wera_60_mm
+    title: Tall precision screwdriver, 2.5 mm hex, 60 mm
+    layout: m2d5_2_place
+    count: 2
+    layered: false
+    source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_2_place_5x5x20
+  oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_4_place_7x5x20:
+    profile: tool_screwdriver_hex_m2d5_wera_60_mm
+    title: Tall precision screwdriver, 2.5 mm hex, 60 mm
+    layout: m2d5_4_place
+    count: 4
+    layered: false
+    source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_4_place_7x5x20
+  oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_5_place_9x5x20:
+    profile: tool_screwdriver_hex_m2d5_wera_60_mm
+    title: Tall precision screwdriver, 2.5 mm hex, 60 mm
+    layout: m2d5_5_place
+    count: 5
+    layered: false
+    source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_5_place_9x5x20
   oobb_part_holder_tool_screwdriver_quikpik_200mm_with_knife_5x5x38:
     profile: tool_screwdriver_multi_quikpik_200_mm_knife
-    title: Quikpik 200 mm multi-driver and craft knife
+    title: Quikpik 200 mm multi-driver and utility knife
     layout: with_knife
     count: 1
     layered: false
     source_id: tool_screwdriver_multi_quikpik_200_mm_knife
-  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m1d5_1_place_3x5x20:
-    profile: tool_screwdriver_hex_m1d5_wera_60_mm
-    title: Wera 1.5 mm hex screwdriver, 60 mm
-    layout: m1d5_1_place
-    count: 1
-    layered: false
-    source_id: tool_screwdriver_hex_m1d5_wera_60_mm
-  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2_1_place_3x5x20:
-    profile: tool_screwdriver_hex_m2_wera_60_mm
-    title: Wera 2 mm hex screwdriver, 60 mm
-    layout: m2_1_place
-    count: 1
-    layered: false
-    source_id: tool_screwdriver_hex_m2_wera_60_mm
-  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_1_place_3x5x20:
-    profile: tool_screwdriver_hex_m2d5_wera_60_mm
-    title: Wera 2.5 mm hex screwdriver, 60 mm
-    layout: m2d5_1_place
-    count: 1
-    layered: false
-    source_id: tool_screwdriver_hex_m2d5_wera_60_mm
-  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_2_place_5x5x20:
-    profile: tool_screwdriver_hex_m2d5_wera_60_mm
-    title: Wera 2.5 mm hex screwdriver, 60 mm
-    layout: m2d5_2_place
-    count: 2
-    layered: false
-    source_id: tool_screwdriver_hex_wera_60_mm_x2
-  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_4_place_7x5x20:
-    profile: tool_screwdriver_hex_m2d5_wera_60_mm
-    title: Wera 2.5 mm hex screwdriver, 60 mm
-    layout: m2d5_4_place
-    count: 4
-    layered: false
-    source_id: tool_screwdriver_hex_wera_60_mm_x4
-  oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_5_place_9x5x20:
-    profile: tool_screwdriver_hex_m2d5_wera_60_mm
-    title: Wera 2.5 mm hex screwdriver, 60 mm
-    layout: m2d5_5_place
-    count: 5
-    layered: false
-    source_id: tool_screwdriver_hex_wera_60_mm_x5
   oobb_part_holder_tool_side_cutters_generic_110mm_1_place_5x5x13:
     profile: tool_side_cutters_generic_110_mm_red
     title: Red side cutters, 110 mm
@@ -1458,6 +1532,69 @@ layouts:
     count: 1
     layered: false
     source_id: tool_side_cutters_generic_110_mm_red
+  oobb_part_holder_tool_spanner_m10_1_place_3x5x9:
+    profile: tool_wrench_m10
+    title: M10 spanner
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m10_1_place_3x5x9
+  oobb_part_holder_tool_spanner_m10_2_place_5x5x9:
+    profile: tool_wrench_m10
+    title: M10 spanner
+    layout: 2_place
+    count: 2
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m10_2_place_5x5x9
+  oobb_part_holder_tool_spanner_m10_3_place_7x5x9:
+    profile: tool_wrench_m10
+    title: M10 spanner
+    layout: 3_place
+    count: 3
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m10_3_place_7x5x9
+  oobb_part_holder_tool_spanner_m10_4_place_9x5x9:
+    profile: tool_wrench_m10
+    title: M10 spanner
+    layout: 4_place
+    count: 4
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m10_4_place_9x5x9
+  oobb_part_holder_tool_spanner_m13_1_place_3x5x10:
+    profile: tool_wrench_m13
+    title: M13 spanner
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m13_1_place_3x5x10
+  oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10:
+    profile: four_spanners
+    title: M13, M10, M8 and M7 spanners
+    layout: 4_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10
+  oobb_part_holder_tool_spanner_m21_1_place_5x5x12:
+    profile: tool_wrench_m21
+    title: M21 spanner
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m21_1_place_5x5x12
+  oobb_part_holder_tool_spanner_m7_1_place_3x5x6d5:
+    profile: tool_wrench_m7
+    title: M7 spanner
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m7_1_place_3x5x6d5
+  oobb_part_holder_tool_spanner_m8_1_place_3x5x7d5:
+    profile: tool_wrench_m8
+    title: M8 spanner
+    layout: 1_place
+    count: 1
+    layered: false
+    source_id: oobb_part_holder_tool_spanner_m8_1_place_3x5x7d5
   oobb_part_holder_tool_tape_measure_stanley_1_30_696_1_place_7x3x44:
     profile: tool_measure_tape_measure_5000_mm_length_stanley_1_30_696
     title: Stanley 1-30-696 tape measure, 5 m
@@ -1479,59 +1616,3 @@ layouts:
     count: 1
     layered: false
     source_id: tool_wire_strippers_generic_120_red
-  oobb_part_holder_tool_wrench_m10_1_place_3x5x9:
-    profile: tool_wrench_m10
-    title: M10 wrench
-    layout: 1_place
-    count: 1
-    layered: false
-    source_id: tool_wrench_m10
-  oobb_part_holder_tool_wrench_m10_2_place_5x5x9:
-    profile: tool_wrench_m10
-    title: M10 wrench
-    layout: 2_place
-    count: 2
-    layered: false
-    source_id: tool_wrench_m10_x2
-  oobb_part_holder_tool_wrench_m10_3_place_7x5x9:
-    profile: tool_wrench_m10
-    title: M10 wrench
-    layout: 3_place
-    count: 3
-    layered: false
-    source_id: tool_wrench_m10_x3
-  oobb_part_holder_tool_wrench_m10_4_place_9x5x9:
-    profile: tool_wrench_m10
-    title: M10 wrench
-    layout: 4_place
-    count: 4
-    layered: false
-    source_id: tool_wrench_m10_x4
-  oobb_part_holder_tool_wrench_m13_1_place_3x5x10:
-    profile: tool_wrench_m13
-    title: M13 wrench
-    layout: 1_place
-    count: 1
-    layered: false
-    source_id: tool_wrench_m13
-  oobb_part_holder_tool_wrench_m21_1_place_5x5x12:
-    profile: tool_wrench_m21
-    title: M21 wrench
-    layout: 1_place
-    count: 1
-    layered: false
-    source_id: tool_wrench_m21
-  oobb_part_holder_tool_wrench_m7_1_place_3x5x6d5:
-    profile: tool_wrench_m7
-    title: M7 wrench
-    layout: 1_place
-    count: 1
-    layered: false
-    source_id: tool_wrench_m7
-  oobb_part_holder_tool_wrench_m8_1_place_3x5x7d5:
-    profile: tool_wrench_m8
-    title: M8 wrench
-    layout: 1_place
-    count: 1
-    layered: false
-    source_id: tool_wrench_m8

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="494" viewBox="0 0 960 494" role="img">
-<title>Driver bit, 60 mm profile — Holder clearance profile</title>
+<title>Driver bit, 60 mm profile — External tool reference</title>
 <desc>Orthographic drawing in millimetres. Plan and side share a scale. The end view is enlarged independently.</desc>
 <style>
 text {font-family:Arial,sans-serif;fill:#173735}
@@ -13,24 +13,30 @@ text {font-family:Arial,sans-serif;fill:#173735}
 </style>
 <rect width="960" height="494" fill="white"/>
 <text x="26" y="39" class="title">Driver bit, 60 mm profile</text>
-<text x="27" y="69" class="detail">Holder clearance profile · millimetres</text>
+<text x="27" y="69" class="detail">External tool reference · millimetres</text>
 <text x="40" y="121" class="label">Plan  ·  Y × X</text>
 <rect x="26" y="98" width="610" height="190" rx="4" class="panel"/>
-<polygon points="593.000,158.067 69.000,158.067 69.000,227.933 593.000,227.933" class="object"/>
+<polygon points="138.867,160.982 69.000,179.027 69.000,206.973 138.867,225.018" class="object"/>
+<polygon points="523.133,160.982 138.867,160.982 138.867,225.018 523.133,225.018" class="object"/>
+<polygon points="593.000,206.973 593.000,179.027 523.133,160.982 523.133,225.018" class="object"/>
 <path d="M69 268v8 m0 -4 H593 m0 -4 v8" class="dim"/>
 <text x="331" y="267" class="measure">60 mm</text>
 <text x="40" y="323" class="label">Side  ·  Y × Z</text>
 <rect x="26" y="300" width="610" height="170" rx="4" class="panel"/>
-<polygon points="593.000,350.067 69.000,350.067 69.000,419.933 593.000,419.933" class="object"/>
+<polygon points="138.867,357.272 69.000,372.899 69.000,397.101 138.867,412.728" class="object"/>
+<polygon points="523.133,357.272 138.867,357.272 138.867,412.728 523.133,412.728" class="object"/>
+<polygon points="593.000,397.101 593.000,372.899 523.133,357.272 523.133,412.728" class="object"/>
 <path d="M69 450v8 m0 -4 H593 m0 -4 v8" class="dim"/>
 <text x="331" y="449" class="measure">60 mm</text>
 <text x="662" y="121" class="label">End  ·  X × Z</text>
 <rect x="648" y="98" width="286" height="190" rx="4" class="panel"/>
-<polygon points="796.097,244.750 801.145,244.001 806.095,242.761 810.900,241.042 815.513,238.860 819.890,236.236 823.988,233.197 827.770,229.770 831.197,225.988 834.236,221.890 836.860,217.513 839.042,212.900 840.761,208.095 842.001,203.145 842.750,198.097 843.000,193.000 842.750,187.903 842.001,182.855 840.761,177.905 839.042,173.100 836.860,168.487 834.236,164.110 831.197,160.012 827.770,156.230 823.988,152.803 819.890,149.764 815.513,147.140 810.900,144.958 806.095,143.239 801.145,141.999 796.097,141.250 791.000,141.000 785.903,141.250 780.855,141.999 775.905,143.239 771.100,144.958 766.487,147.140 762.110,149.764 758.012,152.803 754.230,156.230 750.803,160.012 747.764,164.110 745.140,168.487 742.958,173.100 741.239,177.905 739.999,182.855 739.250,187.903 739.000,193.000 739.250,198.097 739.999,203.145 741.239,208.095 742.958,212.900 745.140,217.513 747.764,221.890 750.803,225.988 754.230,229.770 758.012,233.197 762.110,236.236 766.487,238.860 771.100,241.042 775.905,242.761 780.855,244.001 785.903,244.750 791.000,245.000" class="object"/>
-<path d="M739 268v8 m0 -4 H843 m0 -4 v8" class="dim"/>
-<text x="791" y="267" class="measure">8 mm</text>
+<polygon points="851.044,193.000 821.022,141.000 760.978,141.000 730.956,193.000 760.978,245.000 821.022,245.000" class="object"/>
+<polygon points="851.044,193.000 821.022,141.000 760.978,141.000 730.956,193.000 760.978,245.000 821.022,245.000" class="object"/>
+<polygon points="851.044,193.000 821.022,141.000 760.978,141.000 730.956,193.000 760.978,245.000 821.022,245.000" class="object"/>
+<path d="M730.956 268v8 m0 -4 H851.044 m0 -4 v8" class="dim"/>
+<text x="791" y="267" class="measure">7.33235 mm</text>
 <text x="664" y="337" class="label">Overall model dimensions</text>
-<text x="664" y="373" class="detail">X   8 mm</text>
+<text x="664" y="373" class="detail">X   7.33235 mm</text>
 <text x="664" y="404" class="detail">Y   60 mm</text>
-<text x="664" y="435" class="detail">Z   8 mm</text>
+<text x="664" y="435" class="detail">Z   6.35 mm</text>
 </svg>

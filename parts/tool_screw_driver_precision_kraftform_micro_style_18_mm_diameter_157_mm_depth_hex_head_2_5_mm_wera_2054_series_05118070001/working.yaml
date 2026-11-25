@@ -31,22 +31,22 @@ holders:
   layout: bench
   quantity: 1
   source_id: tool_holder_basic
-- id: oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_1_place_3x5x20
+- id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20
   layout: m2d5_1_place
   quantity: 1
-  source_id: tool_screwdriver_hex_m2d5_wera_60_mm
-- id: oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_2_place_5x5x20
+  source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20
+- id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_2_place_5x5x20
   layout: m2d5_2_place
   quantity: 2
-  source_id: tool_screwdriver_hex_wera_60_mm_x2
-- id: oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_4_place_7x5x20
+  source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_2_place_5x5x20
+- id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_4_place_7x5x20
   layout: m2d5_4_place
   quantity: 4
-  source_id: tool_screwdriver_hex_wera_60_mm_x4
-- id: oobb_part_holder_tool_screwdriver_wera_hex_60mm_m2d5_5_place_9x5x20
+  source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_4_place_7x5x20
+- id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_5_place_9x5x20
   layout: m2d5_5_place
   quantity: 5
-  source_id: tool_screwdriver_hex_wera_60_mm_x5
+  source_id: oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_5_place_9x5x20
 key: tool_screwdriver_hex_m2d5_wera_60_mm
 legacy_id: tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
 manufacturer: wera
@@ -55,10 +55,10 @@ model_note: Wera specifies the shaft diameter, shaft length and handle length. T
   archived OOMP record supplies the 18 mm handle envelope. Grip taper, cap and tip
   transition are illustrative.
 name: tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
-name_proper: Wera 2054 Micro hex screwdriver, 2.5 × 60 mm
+name_proper: Tall precision hex screwdriver, 2.5 × 60 mm
 name_space: tool screw driver precision kraftform micro style 18 mm diameter 157 mm
   depth hex head 2 5 mm wera 2054 series 05118070001
-name_upper: WERA 2054 MICRO HEX SCREWDRIVER, 2.5 × 60 MM
+name_upper: TALL PRECISION HEX SCREWDRIVER, 2.5 × 60 MM
 oobb_details:
   oobb_type: tool_reference
   run_scad: true
@@ -198,7 +198,7 @@ taxonomy_6: ''
 taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
-title: Wera 2054 Micro hex screwdriver, 2.5 × 60 mm
+title: Tall precision hex screwdriver, 2.5 × 60 mm
 type: screw_driver_precision
 id: tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
 directory: parts/tool_screw_driver_precision_kraftform_micro_style_18_mm_diameter_157_mm_depth_hex_head_2_5_mm_wera_2054_series_05118070001
