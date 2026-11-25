@@ -32,9 +32,9 @@
 | [mixed tools basic stand bench 7x10x66](../../HOLDERS.md#oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66) | 1 |
 | [screwdriver precision tall hex 60mm m2 1 place 3x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2_1_place_3x5x20) | 1 |
 
-[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2_1_place_3x5x20.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2_1_place_3x5x20/README.md#assembly)
+[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly)
 
-Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2_1_place_3x5x20/README.md#assembly).
+Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly).
 
-[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2_1_place_3x5x20/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2_1_place_3x5x20.pdf)
+[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66.pdf)
 <!-- oomp-tools:end -->

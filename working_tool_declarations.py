@@ -298,6 +298,36 @@ def get_tools(**kwargs):
         {
             "key": "tool_screwdriver_multi_quikpik_200_mm_knife",
             "title": "Quikpik multi-driver, 200 mm",
+            "model_kind": "picquic_sixpac",
+            "parameters": {
+                "overall_length_mm": 200,
+                "handle_diameter_mm": 32,
+                "exposed_bit_length_mm": 57,
+                "bit_across_flats_mm": 6.35,
+                "shank_diameter_mm": 10,
+                "shank_length_mm": 30,
+                "bolster_across_flats_mm": 11.1125,
+                "bolster_length_mm": 17,
+            },
+            "model_note": "Representative Picquic SIXPAC Plus, 200 mm overall and 32 mm handle diameter from a distributor listing. Picquic specifies 3-inch quarter-inch bits and a 7/16-inch hex bolster. Exposed bit, shank and bolster lengths are estimates for the stored-bit pose. The handle contour, stored bits and workshop specimen have not been measured.",
+            "sources": [
+                {
+                    "title": "Picquic SIXPAC Plus",
+                    "url": "https://picquic.ca/sixpac-plus/",
+                    "supports": "Manufacturer identifies three-inch quarter-inch bits and a 7/16-inch hex bolster.",
+                },
+                {
+                    "title": "Picquic SIXPAC Plus dimensions",
+                    "url": "https://www.harrant.cz/zbozi/picquic-sroubovak-s-vymennymi-bity-sixpac-plus-2/?parameterValueId=3122",
+                    "supports": "Distributor lists 200 mm overall length, 32 mm diameter and 76.2 mm bits.",
+                },
+                {
+                    "title": "Picquic SIXPAC Plus product photograph",
+                    "url": "https://hardwickandsons.com/products/picquic-sixpac-plus-multi-bit-screwdriver",
+                    "file": "picquic_sixpac_black.jpg",
+                    "supports": "Reference view of handle, shank and bit storage.",
+                },
+            ],
             "classification": "tool",
             "type": "screw_driver_multi_driver",
             "size": "200_mm",

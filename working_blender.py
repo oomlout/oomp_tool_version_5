@@ -9,7 +9,7 @@ def main(**kwargs):
     from tool_catalogue import records
     blender = kwargs.get("blender", "blender")
     folders = [folder / "three_d_model" for folder, part in records(**kwargs)
-               if part["model_kind"] in ("photo_reference", "combination_spanner", "double_ended_bit", "long_driver_bit", "olfa_can", "timer_disc", "tape_measure", "open_spanner", "pritt_stick")]
+               if part["model_kind"] in ("photo_reference", "combination_spanner", "double_ended_bit", "long_driver_bit", "olfa_can", "timer_disc", "tape_measure", "open_spanner", "pritt_stick", "picquic_sixpac")]
     if folders:
         binary = shutil.which(blender)
         if not binary:

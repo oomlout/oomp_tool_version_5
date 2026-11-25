@@ -35,9 +35,9 @@
 | [screwdriver precision tall hex 60mm m2d5 4 place 7x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_4_place_7x5x20) | 4 |
 | [screwdriver precision tall hex 60mm m2d5 5 place 9x5x20](../../HOLDERS.md#oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_5_place_9x5x20) | 5 |
 
-[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20/README.md#assembly)
+[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly)
 
-Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20/README.md#assembly).
+Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly).
 
-[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_screwdriver_precision_tall_hex_60mm_m2d5_1_place_3x5x20.pdf)
+[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66.pdf)
 <!-- oomp-tools:end -->

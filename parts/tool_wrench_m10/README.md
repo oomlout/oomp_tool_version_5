@@ -35,9 +35,9 @@
 | [spanner m10 4 place 9x5x9](../../HOLDERS.md#oobb_part_holder_tool_spanner_m10_4_place_9x5x9) | 4 |
 | [spanner m13 m10 m8 m7 4 place 9x5x10](../../HOLDERS.md#oobb_part_holder_tool_spanner_m13_m10_m8_m7_4_place_9x5x10) | 1 |
 
-[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_spanner_m10_1_place_3x5x9.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_spanner_m10_1_place_3x5x9/README.md#assembly)
+[![Source holder CAD preview](../../source_file/tool_references/holders/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66.jpg)](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly)
 
-Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_spanner_m10_1_place_3x5x9/README.md#assembly).
+Holder preview from [OOBB part holder v5](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly).
 
-[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_spanner_m10_1_place_3x5x9/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_spanner_m10_1_place_3x5x9.pdf)
+[Holder README and assembly instructions](https://github.com/oomlout/oomlout_oobb_part_holder_tool_version_5/blob/main/parts/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66/README.md#assembly) · [Print booklet (PDF)](../../source_file/tool_references/holders/oobb_part_holder_tool_mixed_tools_basic_stand_bench_7x10x66.pdf)
 <!-- oomp-tools:end -->

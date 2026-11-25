@@ -383,6 +383,59 @@ def pritt_stick(**kwargs):
     return result
 
 
+def picquic_sixpac(**kwargs):
+    length = kwargs.get("overall_length_mm", 200)
+    handle = kwargs.get("handle_diameter_mm", 32)
+    bit_length = kwargs.get("exposed_bit_length_mm", 57)
+    bit_flats = kwargs.get("bit_across_flats_mm", 6.35)
+    shank_diameter = kwargs.get("shank_diameter_mm", 10)
+    shank_length = kwargs.get("shank_length_mm", 30)
+    bolster_flats = kwargs.get("bolster_across_flats_mm", 11.1125)
+    bolster_length = kwargs.get("bolster_length_mm", 17)
+    handle_start = bit_length + shank_length + bolster_length
+    sections = [
+        {
+            "name": "Exposed bit",
+            "material": "ground steel",
+            "diameter_mm": 2 * bit_flats / sqrt(3),
+            "length_mm": bit_length,
+            "facets": 6,
+            "pos": [0, 0, 0],
+        },
+        {
+            "name": "Shank",
+            "material": "bright steel",
+            "diameter_mm": shank_diameter,
+            "length_mm": shank_length,
+            "pos": [0, bit_length, 0],
+        },
+        {
+            "name": "Hex bolster",
+            "material": "bright steel",
+            "diameter_mm": 2 * bolster_flats / sqrt(3),
+            "length_mm": bolster_length,
+            "facets": 6,
+            "pos": [0, bit_length + shank_length, 0],
+        },
+        {
+            "name": "Handle",
+            "material": "charcoal",
+            "diameter_mm": handle,
+            "length_mm": length - handle_start,
+            "pos": [0, handle_start, 0],
+        },
+    ]
+    result = []
+    for section in sections:
+        name = section.pop("name")
+        material = section.pop("material")
+        geometry = cylinder(**section)
+        geometry["name"] = name
+        geometry["material"] = material
+        result.append(geometry)
+    return result
+
+
 def model_segments(**kwargs):
     kind = kwargs.get("model_kind", "holder_envelope")
     parameters = kwargs.get("parameters", {})
@@ -409,6 +462,7 @@ def model_segments(**kwargs):
             lengths_mm=[length * .04, length * .68, length * .24, length * .04],
         )
     builders = {
+        "picquic_sixpac": picquic_sixpac,
         "pritt_stick": pritt_stick,
         "open_spanner": open_spanner,
         "tape_measure": tape_measure,
